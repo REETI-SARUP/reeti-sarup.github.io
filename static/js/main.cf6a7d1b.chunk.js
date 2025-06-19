@@ -201,6 +201,77 @@
                       children: [
                         Object(i.jsx)("div", {
                           className: "three columns",
+                          children: Object(i.jsxs)("div", {
+                            style: {
+                              display: "grid",
+                              gridTemplateColumns: "1fr 1fr",
+                              gap: "10px",
+                            },
+                            children: [
+                              Object(i.jsx)("img", {
+                                src: "images/georgia-tech-reeti-graduation-pic-1.jpeg",
+                                alt: "georgia-tech-reeti-graduation-pic-1",
+                                style: { width: "100%", height: "auto" },
+                              }),
+                              Object(i.jsx)("img", {
+                                src: "images/georgia-tech-reeti-graduation-pic-2.jpeg",
+                                alt: "georgia-tech-reeti-graduation-pic-2",
+                                style: { width: "100%", height: "auto" },
+                              }),
+                              Object(i.jsx)("img", {
+                                src: "images/georgia-tech-reeti-graduation-pic-3.jpeg",
+                                alt: "georgia-tech-reeti-graduation-pic-3",
+                                style: { width: "100%", height: "auto" },
+                              }),
+                              Object(i.jsx)("img", {
+                                src: "images/georgia-tech-reeti-graduation-pic-4.jpeg",
+                                alt: "georgia-tech-reeti-graduation-pic-4",
+                                style: { width: "100%", height: "auto" },
+                              }),
+                            ],
+                          }),
+                        }),
+                        Object(i.jsxs)("div", {
+                          className: "nine columns",
+                          children: [
+                            Object(i.jsx)("h3", {
+                              children: "Georgia Institute of Technology, USA",
+                            }),
+                            Object(i.jsxs)("p", {
+                              className: "info",
+                              children: [
+                                "MS Computer Science (ML Specialization)",
+                                Object(i.jsx)("span", { children: "\u2022" }),
+                                " ",
+                                Object(i.jsx)("em", {
+                                  className: "date",
+                                  children: "Aug 2021 - Aug 2023",
+                                }),
+                              ],
+                            }),
+                            Object(i.jsxs)("p", {
+                              className: "info",
+                              children: [
+                                Object(i.jsx)("span", { children: "\u2022" }),
+                                " Grade: 4.0 / 4.0 GPA",
+                                Object(i.jsx)("br", {}),
+                                " ",
+                                Object(i.jsx)("span", { children: "\u2022" }),
+                                " Completed MS in Computer Science Degree with Specialization in Machine Learning from Georgia Tech university, Atlanta, USA (in a flexible schedule designed for working professionals)",
+                              ],
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    Object(i.jsx)("br", {}),
+                    " ",
+                    Object(i.jsx)("br", {}),
+                    Object(i.jsxs)("div", {
+                      className: "row item",
+                      children: [
+                        Object(i.jsx)("div", {
+                          className: "three columns",
                           children: Object(i.jsx)("img", {
                             src: "images/igdtuw-graduation.jpeg",
                             alt: "igdtuw-graduation-image",
@@ -316,23 +387,22 @@
                 Object(i.jsxs)("div", {
                   className: "twelve columns main-col",
                   children: [
+                    // New Block 1: Senior Software Engineer AI/ML Builder
                     Object(i.jsxs)("div", {
                       className: "row item",
                       children: [
-                        Object(i.jsx)("div", {
-                          className: "three columns",
-                          children: Object(i.jsx)("img", {
-                            src: "images/intuit-picture.jpeg",
-                          }),
-                        }),
+                        // Removed three columns image div for full width content
                         Object(i.jsxs)("div", {
-                          className: "nine columns",
+                          className: "twelve columns",
                           children: [
                             Object(i.jsx)("h3", { children: "Intuit" }),
                             Object(i.jsxs)("p", {
                               className: "info",
                               children: [
-                                "Senior Software Engineer AI/ML Builder (Intuit AI Team - AI Sciences & AI Smart Products Team)",
+                                Object(i.jsx)("strong", {
+                                  children:
+                                    "Senior Software Engineer AI/ML Builder (Intuit AI Team - AI Sciences & AI Smart Products Team)",
+                                }),
                                 Object(i.jsx)("span", { children: "\u2022" }),
                                 " ",
                                 Object(i.jsx)("em", {
@@ -341,9 +411,13 @@
                                 }),
                               ],
                             }),
-                            Object(i.jsx)("p", {
-                              children:
-                                "Senior Software Engineer, AI/ML Builder @ Intuit AI Team - AI Sciences & AI Smart Products Team in the A2D (AI, Data & Analytics) Org",
+                            Object(i.jsxs)("ul", {
+                              children: [
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Senior Software Engineer, AI/ML Builder @ Intuit AI Team - AI Sciences & AI Smart Products Team in the A2D (AI, Data & Analytics) Org",
+                                }),
+                              ],
                             }),
                           ],
                         }),
@@ -352,20 +426,17 @@
                     Object(i.jsxs)("div", {
                       className: "row item",
                       children: [
-                        Object(i.jsx)("div", {
-                          className: "three columns",
-                          children: Object(i.jsx)("img", {
-                            src: "images/intuit-picture.jpeg",
-                          }),
-                        }),
                         Object(i.jsxs)("div", {
-                          className: "nine columns",
+                          className: "twelve columns",
                           children: [
                             Object(i.jsx)("h3", { children: "Intuit" }),
                             Object(i.jsxs)("p", {
                               className: "info",
                               children: [
-                                "Senior Software Engineer (Mid-Market AI GBSG Product Development Team)",
+                                Object(i.jsx)("strong", {
+                                  children:
+                                    "Senior Software Engineer (Mid-Market AI GBSG Product Development Team)",
+                                }),
                                 Object(i.jsx)("span", { children: "\u2022" }),
                                 " ",
                                 Object(i.jsx)("em", {
@@ -374,36 +445,49 @@
                                 }),
                               ],
                             }),
-                            Object(i.jsxs)("p", {
+                            Object(i.jsxs)("ul", {
                               children: [
-                                "Senior Software Engineer, Mid-Market AI Mission Team, Business Intelligence / Business Strategy, GBSG (Global Business Solutions Group) Org.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                "Building AI powered platform and AI native done for you experiences for the newly launched AI powered Intuit Enterprise Suite (IES) product.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Developing AI & GenAI powered impactful experiences across mid-market use-cases for QuickBooks Advanced and Intuit Enterprise Suite (IES) customers.",
-                                Object(i.jsx)("br", {}),
-                                " Launched Management Report AI Summary for ~800 Beta customers.",
-                                Object(i.jsx)("br", {}),
-                                " Launching Project Profitability with QB AI Goals and Insights for IES. Building AI Agents and Done-for-you Agentic Experiences",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Took immersive experience in Adopt a Small Business Program by working first-hand with a QBO Advanced customer over ~2 months gaining both product & non-product insights of running a mid-market scale business using QBO Advanced. Identified & resolved key customer pain points and helped the customer through various flows in the product.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Building, innovating & experimenting AI-native QBO platform that provides increased efficiency to the users while still keeping them in control of approving / dismissing the AI recommended personalized decisions & actions. Creating a RAG based LLM-powered solution along with a Knowledge Graph for representing the various entities. Launched Project Profitability Goals use-case.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Drove building a novel Personalized Self-Learning & Feedback platform consisting of online Reinforcement Learning model (including Multi-Armed Bandits) based Scoring Technique and Data Pipelines along with Redis Cache integration to provide Hyper-Personalized Top-K Ranked AI Generated Insights Recommendations based on financial KPIs and continuous real-time User Feedbacks & Engagements (User journey in product)",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Building AI Agents and Done-for-you Agentic AI Experiences and Agents Platform for providing increased efficiency, productivity and profitability to customers.",
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Senior Software Engineer, Mid-Market AI Mission Team, Business Intelligence / Business Strategy, GBSG (Global Business Solutions Group) Org.",
+                                }),
+                                Object(i.jsxs)("li", {
+                                  children: [
+                                    "Building AI powered platform and AI native done for you experiences for the newly launched AI powered Intuit Enterprise Suite (IES) product.",
+                                    Object(i.jsxs)("ul", {
+                                      children: [
+                                        Object(i.jsx)("li", {
+                                          children:
+                                            "Developing AI & GenAI powered impactful experiences across mid-market use-cases for QuickBooks Advanced and Intuit Enterprise Suite (IES) customers.",
+                                        }),
+                                        Object(i.jsx)("li", {
+                                          children:
+                                            "Launched Management Report AI Summary for ~800 Beta customers.",
+                                        }),
+                                        Object(i.jsx)("li", {
+                                          children:
+                                            "Launching Project Profitability with QB AI Goals and Insights for IES. Building AI Agents and Done-for-you Agentic Experiences",
+                                        }),
+                                      ],
+                                    }),
+                                  ],
+                                }),
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Took immersive experience in Adopt a Small Business Program by working first-hand with a QBO Advanced customer over ~2 months gaining both product & non-product insights of running a mid-market scale business using QBO Advanced. Identified & resolved key customer pain points and helped the customer through various flows in the product.",
+                                }),
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Building, innovating & experimenting AI-native QBO platform that provides increased efficiency to the users while still keeping them in control of approving / dismissing the AI recommended personalized decisions & actions. Creating a RAG based LLM-powered solution along with a Knowledge Graph for representing the various entities. Launched Project Profitability Goals use-case.",
+                                }),
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Drove building a novel Personalized Self-Learning & Feedback platform consisting of online Reinforcement Learning model (including Multi-Armed Bandits) based Scoring Technique and Data Pipelines along with Redis Cache integration to provide Hyper-Personalized Top-K Ranked AI Generated Insights Recommendations based on financial KPIs and continuous real-time User Feedbacks & Engagements (User journey in product)",
+                                }),
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Building AI Agents and Done-for-you Agentic AI Experiences and Agents Platform for providing increased efficiency, productivity and profitability to customers.",
+                                }),
                               ],
                             }),
                           ],
@@ -413,20 +497,16 @@
                     Object(i.jsxs)("div", {
                       className: "row item",
                       children: [
-                        Object(i.jsx)("div", {
-                          className: "three columns",
-                          children: Object(i.jsx)("img", {
-                            src: "images/intuit-picture.jpeg",
-                          }),
-                        }),
                         Object(i.jsxs)("div", {
-                          className: "nine columns",
+                          className: "twelve columns",
                           children: [
                             Object(i.jsx)("h3", { children: "Intuit" }),
                             Object(i.jsxs)("p", {
                               className: "info",
                               children: [
-                                "Software Engineer 2",
+                                Object(i.jsx)("strong", {
+                                  children: "Software Engineer 2",
+                                }),
                                 Object(i.jsx)("span", { children: "\u2022" }),
                                 " ",
                                 Object(i.jsx)("em", {
@@ -435,12 +515,16 @@
                                 }),
                               ],
                             }),
-                            Object(i.jsxs)("p", {
+                            Object(i.jsxs)("ul", {
                               children: [
-                                "Launched key customer-centric features such as Recurring Tasks, Attachments in Tasks, In-App Task Notifications, Data Import in QBO, Smart Suggestions: Anomaly Detection to catch Financial data entry errors using AI (Financial Error Detection Service), Personalized First-Time User Onboarding Experience and more for QuickBooks Online Advanced. Contributed to Operational Excellence initiatives also.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                "Led & Contributed in creating a new customized Mid-Market Advanced GTKM (Get-to-Know-me) Onboarding Upgrader Flow for enabling smoother onboarding for users; Smart Suggestions Financial Error Detection (Anomaly Detection) in the new Rethink experience of Transactions like Invoices in QBO Advanced; Tech tracks like migration to a consolidated global setting key for smart suggestions feature on both Classic & new Rethink transactions and more for QuickBooks Online Advanced Product.",
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Launched key customer-centric features such as Recurring Tasks, Attachments in Tasks, In-App Task Notifications, Data Import in QBO, Smart Suggestions: Anomaly Detection to catch Financial data entry errors using AI (Financial Error Detection Service), Personalized First-Time User Onboarding Experience and more for QuickBooks Online Advanced. Contributed to Operational Excellence initiatives also.",
+                                }),
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Led & Contributed in creating a new customized Mid-Market Advanced GTKM (Get-to-Know-me) Onboarding Upgrader Flow for enabling smoother onboarding for users; Smart Suggestions Financial Error Detection (Anomaly Detection) in the new Rethink experience of Transactions like Invoices in QBO Advanced; Tech tracks like migration to a consolidated global setting key for smart suggestions feature on both Classic & new Rethink transactions and more for QuickBooks Online Advanced Product.",
+                                }),
                               ],
                             }),
                           ],
@@ -463,7 +547,9 @@
                             Object(i.jsxs)("p", {
                               className: "info",
                               children: [
-                                "Software Engineer 1",
+                                Object(i.jsx)("strong", {
+                                  children: "Software Engineer 1",
+                                }),
                                 Object(i.jsx)("span", { children: "\u2022" }),
                                 " ",
                                 Object(i.jsx)("em", {
@@ -477,20 +563,26 @@
                                 "Software Engineer in the Product Development Core Team for QuickBooks Online Advanced: a complete cloud-based accounting software for mid-market businesses. Full-stack product development with expertise in client-side technologies like HTML, CSS, JavaScript, React, TypeScript, GraphQL, Apollo Client along with web accessibility, proper analytics & code coverage and web performance optimizations.",
                                 Object(i.jsx)("br", {}),
                                 Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Analyzed & Optimized Web Performance for Top Accounting workflows resulting in ~30% improvement in page load time (TP99) & more.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Developed new power-tools for QBO Advanced power-users from the very initial phase. It includes Batch Transactions (Batch Invoices; Batch Sales Receipts; Support for Automatic Sales Tax; Reclassify Transactions; Batch CSV Import etc.) for efficiently creating & updating bulk transactions.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Did the initial Beta Launch of new Smart Automated Custom Workflow Templates Feature to enable users to customize & automate repetitive manual tasks.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("span", { children: "\u2022" }),
-                                " Worked on Workflow Recommendations using AI to suggest personalized workflow templates to customers.",
+                                Object(i.jsxs)("ul", {
+                                  children: [
+                                    Object(i.jsx)("li", {
+                                      children:
+                                        "Analyzed & Optimized Web Performance for Top Accounting workflows resulting in ~30% improvement in page load time (TP99) & more.",
+                                    }),
+                                    Object(i.jsx)("li", {
+                                      children:
+                                        "Developed new power-tools for QBO Advanced power-users from the very initial phase. It includes Batch Transactions (Batch Invoices; Batch Sales Receipts; Support for Automatic Sales Tax; Reclassify Transactions; Batch CSV Import etc.) for efficiently creating & updating bulk transactions.",
+                                    }),
+                                    Object(i.jsx)("li", {
+                                      children:
+                                        "Did the initial Beta Launch of new Smart Automated Custom Workflow Templates Feature to enable users to customize & automate repetitive manual tasks.",
+                                    }),
+                                    Object(i.jsx)("li", {
+                                      children:
+                                        "Worked on Workflow Recommendations using AI to suggest personalized workflow templates to customers.",
+                                    }),
+                                  ],
+                                }),
                               ],
                             }),
                           ],
@@ -513,7 +605,10 @@
                             Object(i.jsxs)("p", {
                               className: "info",
                               children: [
-                                "Software Engineering Intern ",
+                                Object(i.jsx)("strong", {
+                                  children: "Software Engineering Intern",
+                                }),
+                                " ",
                                 Object(i.jsx)("span", { children: "\u2022" }),
                                 " ",
                                 Object(i.jsx)("em", {
@@ -522,9 +617,13 @@
                                 }),
                               ],
                             }),
-                            Object(i.jsx)("p", {
-                              children:
-                                "Integrated publish-subscribe messaging system- Kafka with existing Logit service to decompose monolith application.",
+                            Object(i.jsxs)("ul", {
+                              children: [
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Integrated publish-subscribe messaging system- Kafka with existing Logit service to decompose monolith application.",
+                                }),
+                              ],
                             }),
                           ],
                         }),
@@ -549,7 +648,10 @@
                             Object(i.jsxs)("p", {
                               className: "info",
                               children: [
-                                "Problem Setter & Curator (Intern) ",
+                                Object(i.jsx)("strong", {
+                                  children: "Problem Setter & Curator (Intern)",
+                                }),
+                                " ",
                                 Object(i.jsx)("span", { children: "\u2022" }),
                                 " ",
                                 Object(i.jsx)("em", {
@@ -558,9 +660,13 @@
                                 }),
                               ],
                             }),
-                            Object(i.jsx)("p", {
-                              children:
-                                "Built problem statements with solutions in C++ & Java for online coding platform.",
+                            Object(i.jsxs)("ul", {
+                              children: [
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Built problem statements with solutions in C++ & Java for online coding platform.",
+                                }),
+                              ],
                             }),
                           ],
                         }),
@@ -585,7 +691,10 @@
                             Object(i.jsxs)("p", {
                               className: "info",
                               children: [
-                                "Summer Industrial Project Trainee ",
+                                Object(i.jsx)("strong", {
+                                  children: "Summer Industrial Project Trainee",
+                                }),
+                                " ",
                                 Object(i.jsx)("span", { children: "\u2022" }),
                                 " ",
                                 Object(i.jsx)("em", {
@@ -594,9 +703,13 @@
                                 }),
                               ],
                             }),
-                            Object(i.jsx)("p", {
-                              children:
-                                "Built a sample Web-Application using HTML, CSS, Java, JSP, Servlets & SQL for Flight Schedule Information at Indira Gandhi International (IGI) Airport, Delhi.",
+                            Object(i.jsxs)("ul", {
+                              children: [
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Built a sample Web-Application using HTML, CSS, Java, JSP, Servlets & SQL for Flight Schedule Information at Indira Gandhi International (IGI) Airport, Delhi.",
+                                }),
+                              ],
                             }),
                           ],
                         }),
