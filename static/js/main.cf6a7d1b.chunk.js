@@ -209,22 +209,22 @@
                             },
                             children: [
                               Object(i.jsx)("img", {
-                                src: "images/georgia-tech-reeti-graduation-pic-1.jpeg",
+                                src: "images/georgia-tech-reeti-graduation-pic-1.jpg",
                                 alt: "georgia-tech-reeti-graduation-pic-1",
                                 style: { width: "100%", height: "auto" },
                               }),
                               Object(i.jsx)("img", {
-                                src: "images/georgia-tech-reeti-graduation-pic-2.jpeg",
+                                src: "images/georgia-tech-reeti-graduation-pic-2.jpg",
                                 alt: "georgia-tech-reeti-graduation-pic-2",
                                 style: { width: "100%", height: "auto" },
                               }),
                               Object(i.jsx)("img", {
-                                src: "images/georgia-tech-reeti-graduation-pic-3.jpeg",
+                                src: "images/georgia-tech-reeti-graduation-pic-3.jpg",
                                 alt: "georgia-tech-reeti-graduation-pic-3",
                                 style: { width: "100%", height: "auto" },
                               }),
                               Object(i.jsx)("img", {
-                                src: "images/georgia-tech-reeti-graduation-pic-4.jpeg",
+                                src: "images/georgia-tech-reeti-graduation-pic-4.jpg",
                                 alt: "georgia-tech-reeti-graduation-pic-4",
                                 style: { width: "100%", height: "auto" },
                               }),
@@ -558,30 +558,28 @@
                                 }),
                               ],
                             }),
-                            Object(i.jsxs)("p", {
-                              children: [
+                            Object(i.jsx)("p", {
+                              children:
                                 "Software Engineer in the Product Development Core Team for QuickBooks Online Advanced: a complete cloud-based accounting software for mid-market businesses. Full-stack product development with expertise in client-side technologies like HTML, CSS, JavaScript, React, TypeScript, GraphQL, Apollo Client along with web accessibility, proper analytics & code coverage and web performance optimizations.",
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsx)("br", {}),
-                                Object(i.jsxs)("ul", {
-                                  children: [
-                                    Object(i.jsx)("li", {
-                                      children:
-                                        "Analyzed & Optimized Web Performance for Top Accounting workflows resulting in ~30% improvement in page load time (TP99) & more.",
-                                    }),
-                                    Object(i.jsx)("li", {
-                                      children:
-                                        "Developed new power-tools for QBO Advanced power-users from the very initial phase. It includes Batch Transactions (Batch Invoices; Batch Sales Receipts; Support for Automatic Sales Tax; Reclassify Transactions; Batch CSV Import etc.) for efficiently creating & updating bulk transactions.",
-                                    }),
-                                    Object(i.jsx)("li", {
-                                      children:
-                                        "Did the initial Beta Launch of new Smart Automated Custom Workflow Templates Feature to enable users to customize & automate repetitive manual tasks.",
-                                    }),
-                                    Object(i.jsx)("li", {
-                                      children:
-                                        "Worked on Workflow Recommendations using AI to suggest personalized workflow templates to customers.",
-                                    }),
-                                  ],
+                            }),
+                            Object(i.jsxs)("ul", {
+                              style: { marginTop: "10px", lineHeight: "1.6em" },
+                              children: [
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Analyzed & Optimized Web Performance for Top Accounting workflows resulting in ~30% improvement in page load time (TP99) & more.",
+                                }),
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Developed new power-tools for QBO Advanced power-users from the very initial phase. It includes Batch Transactions (Batch Invoices; Batch Sales Receipts; Support for Automatic Sales Tax; Reclassify Transactions; Batch CSV Import etc.) for efficiently creating & updating bulk transactions.",
+                                }),
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Did the initial Beta Launch of new Smart Automated Custom Workflow Templates Feature to enable users to customize & automate repetitive manual tasks.",
+                                }),
+                                Object(i.jsx)("li", {
+                                  children:
+                                    "Worked on Workflow Recommendations using AI to suggest personalized workflow templates to customers.",
                                 }),
                               ],
                             }),
@@ -618,6 +616,7 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
+                              style: { marginTop: "10px", lineHeight: "1.6em" },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -661,6 +660,7 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
+                              style: { marginTop: "10px", lineHeight: "1.6em" },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -704,6 +704,7 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
+                              style: { marginTop: "10px", lineHeight: "1.6em" },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -776,4 +777,3 @@
   },
   [[10, 1, 2]],
 ]);
-//# sourceMappingURL=main.cf6a7d1b.chunk.js.map
