@@ -387,11 +387,9 @@
                 Object(i.jsxs)("div", {
                   className: "twelve columns main-col",
                   children: [
-                    // New Block 1: Senior Software Engineer AI/ML Builder
                     Object(i.jsxs)("div", {
                       className: "row item",
                       children: [
-                        // Removed three columns image div for full width content
                         Object(i.jsxs)("div", {
                           className: "twelve columns",
                           children: [
@@ -412,6 +410,12 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
+                              style: {
+                                listStyleType: "disc",
+                                paddingLeft: "20px",
+                                marginTop: "10px",
+                                lineHeight: "1.6em",
+                              },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -446,6 +450,12 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
+                              style: {
+                                listStyleType: "disc",
+                                paddingLeft: "20px",
+                                marginTop: "10px",
+                                lineHeight: "1.6em",
+                              },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -455,6 +465,12 @@
                                   children: [
                                     "Building AI powered platform and AI native done for you experiences for the newly launched AI powered Intuit Enterprise Suite (IES) product.",
                                     Object(i.jsxs)("ul", {
+                                      style: {
+                                        listStyleType: "circle",
+                                        paddingLeft: "20px",
+                                        marginTop: "5px",
+                                        lineHeight: "1.6em",
+                                      },
                                       children: [
                                         Object(i.jsx)("li", {
                                           children:
@@ -496,6 +512,7 @@
                     }),
                     Object(i.jsxs)("div", {
                       className: "row item",
+                      style: { marginBottom: "30px" },
                       children: [
                         Object(i.jsxs)("div", {
                           className: "twelve columns",
@@ -516,6 +533,12 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
+                              style: {
+                                listStyleType: "disc",
+                                paddingLeft: "20px",
+                                marginTop: "10px",
+                                lineHeight: "1.6em",
+                              },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -563,7 +586,12 @@
                                 "Software Engineer in the Product Development Core Team for QuickBooks Online Advanced: a complete cloud-based accounting software for mid-market businesses. Full-stack product development with expertise in client-side technologies like HTML, CSS, JavaScript, React, TypeScript, GraphQL, Apollo Client along with web accessibility, proper analytics & code coverage and web performance optimizations.",
                             }),
                             Object(i.jsxs)("ul", {
-                              style: { marginTop: "10px", lineHeight: "1.6em" },
+                              style: {
+                                listStyleType: "disc",
+                                paddingLeft: "20px",
+                                marginTop: "10px",
+                                lineHeight: "1.6em",
+                              },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -616,7 +644,12 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
-                              style: { marginTop: "10px", lineHeight: "1.6em" },
+                              style: {
+                                listStyleType: "disc",
+                                paddingLeft: "20px",
+                                marginTop: "10px",
+                                lineHeight: "1.6em",
+                              },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -660,7 +693,12 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
-                              style: { marginTop: "10px", lineHeight: "1.6em" },
+                              style: {
+                                listStyleType: "disc",
+                                paddingLeft: "20px",
+                                marginTop: "10px",
+                                lineHeight: "1.6em",
+                              },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
@@ -704,7 +742,12 @@
                               ],
                             }),
                             Object(i.jsxs)("ul", {
-                              style: { marginTop: "10px", lineHeight: "1.6em" },
+                              style: {
+                                listStyleType: "disc",
+                                paddingLeft: "20px",
+                                marginTop: "10px",
+                                lineHeight: "1.6em",
+                              },
                               children: [
                                 Object(i.jsx)("li", {
                                   children:
