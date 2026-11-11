@@ -8,6 +8,7 @@ const TILE_CONTENT = Object.freeze({
   [PAGE.EDUCATION]: { text: 'MS CS (ML) at Georgia Tech, 4.0 GPA. Gold Medalist at IGDTUW.', image: 'images/georgia-tech-reeti-graduation-pic-1.jpg' },
   [PAGE.PROJECTS]: { text: 'Production AI systems, research and hackathon projects.', image: 'images/linkedin/ies-launch.webp' },
   [PAGE.RECOGNITION]: { text: 'Top awards and 100+ Spotlights, year by year.', image: 'images/awards/trophies/superstar-fy24q4.webp', position: 'center 30%' },
+  [PAGE.FEATURED]: { text: 'Featured by Intuit.', image: 'images/linkedin/careers-feature.webp', position: 'center' },
   [PAGE.PUBLICATIONS]: { text: 'Best Industry Paper, a patent, GHC stages and tech webinars.', image: 'images/linkedin/ghc25-session.webp', position: 'center' },
   [PAGE.BLOGS]: { text: 'Tech blogs on engineering, AI and building great products.', image: 'images/intuit-internship-picture.jpeg', position: 'center' },
   [PAGE.SKILLS]: { text: 'From LLM agents and RL to React and GraphQL.', icon: 'code' },

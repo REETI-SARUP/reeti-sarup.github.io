@@ -6,6 +6,7 @@ import { renderHome } from './pages/home.js';
 import { renderAbout } from './pages/about.js';
 import { renderExperience } from './pages/experience.js';
 import { renderRecognition } from './pages/recognition.js';
+import { renderFeaturedPage } from './pages/featured.js';
 import { renderPublications } from './pages/publications.js';
 import { renderBlogs } from './pages/blogs.js';
 import { renderProjects } from './pages/projects.js';
@@ -20,6 +21,7 @@ const PAGES = {
   [PAGE.ABOUT]: renderAbout,
   [PAGE.EXPERIENCE]: renderExperience,
   [PAGE.RECOGNITION]: renderRecognition,
+  [PAGE.FEATURED]: renderFeaturedPage,
   [PAGE.PUBLICATIONS]: renderPublications,
   [PAGE.BLOGS]: renderBlogs,
   [PAGE.PROJECTS]: renderProjects,

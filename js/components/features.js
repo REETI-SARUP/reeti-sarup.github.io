@@ -21,12 +21,17 @@ export function FeaturesContent() {
       btn.addEventListener('click', () => lightbox.open(shots, i, btn));
       return btn;
     })),
-    h('div', { class: 'feature-bio reveal' }, C.bio.map((p) => h('p', {}, p))),
+    h('div', { class: 'feature-bio reveal' }, C.bio.map((p) => h('p', {}, p))));
+}
+
+/** The Intuit India career-journey post, as its own section below the Careers page feature. */
+export const JourneyContent = () =>
+  Block({ id: 'journey', wide: false },
+    h('header', { class: 'section__head reveal' },
+      h('p', { class: 'eyebrow' }, 'Featured by Intuit India'), h('h2', { class: 'section__title' }, J.title)),
     h('article', { class: 'webinar webinar--journey reveal' },
       h('div', { class: 'webinar__media' }, h('img', { class: 'webinar__single', src: J.image, alt: '', loading: 'lazy', decoding: 'async' })),
       h('div', { class: 'webinar__body' },
         h('p', { class: 'card__meta' }, 'Intuit India'),
-        h('h3', { class: 'webinar__title' }, J.title),
         h('p', { class: 'webinar__text' }, J.text),
-        h('p', { class: 'webinar__links' }, ExternalLink('Read the feature on LinkedIn ↗', J.href, 'btn btn--ghost')))));
-}
+        h('p', { class: 'webinar__links' }, ExternalLink('Read the feature on LinkedIn \u2197', J.href, 'btn btn--ghost')))));

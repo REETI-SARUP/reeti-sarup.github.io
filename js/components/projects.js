@@ -1,5 +1,5 @@
 import { ICON_PATHS } from '../config/constants.js';
-import { KEY_PROJECTS, RESEARCH_PROJECTS } from '../data/projects.js';
+import { KEY_PROJECTS, PRODUCT_FEATURES, RESEARCH_PROJECTS } from '../data/projects.js';
 import { h, icon } from '../utils/dom.js';
 import { Block } from './page.js';
 import { Chip } from './section.js';
@@ -27,6 +27,7 @@ function ProjectCard(p) {
     h('h3', { class: 'project__title' }, p.title),
     h('p', { class: 'project__org' }, p.org),
     h('p', { class: 'project__text' }, p.text),
+    p.note && h('p', { class: 'project__note' }, h('strong', {}, `${p.note.label}: `), p.note.text),
     p.video && VideoEmbed(p.video),
     h('ul', { class: 'chips', role: 'list' }, p.tech.map((t) => h('li', {}, Chip(t)))));
 }
@@ -35,5 +36,6 @@ const Group = (title, items) => [h('h2', { class: 'subhead reveal' }, title), h(
 
 export const ProjectsContent = () =>
   Block({ id: 'projects', wide: true },
-    Group('Production AI systems', KEY_PROJECTS),
-    Group('Research & hackathon projects', RESEARCH_PROJECTS));
+    Group('Key Recent Production AI systems Delivered', KEY_PROJECTS),
+    Group('More production systems & product features Launched', PRODUCT_FEATURES),
+    Group('More Research & hackathon projects', RESEARCH_PROJECTS));
