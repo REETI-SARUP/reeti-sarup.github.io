@@ -212,3 +212,10 @@
 .pub__authors { margin: 2px 0 8px; font-size: 0.95rem; font-weight: 400; color: var(--c-muted); }
 
 .edu__chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* Blog cards: whole card is clickable (stretched link); the details toggle stays above it. */
+.pub--link { position: relative; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
+.pub--link:hover { transform: translateY(-2px); }
+.pub__cta-row { display: flex; justify-content: flex-end; margin: 10px 0 0; }
+.pub__cta::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius); }
+.pub--link .disclosure { position: relative; z-index: 2; }

@@ -3,7 +3,7 @@ import { HONORS } from '../data/honors.js';
 import { SPOTLIGHTS as ALL_SPOTLIGHTS } from '../data/spotlights.js';
 
 /** Kudoboard notes live in their own sub-section below the Spotlights. */
-const SPOTLIGHTS = ALL_SPOTLIGHTS.filter((s) => s.kind !== 'kudoboard' && s.kind !== 'winners');
+const SPOTLIGHTS = ALL_SPOTLIGHTS.filter((s) => s.kind !== 'kudoboard');
 const WINNER = ALL_SPOTLIGHTS.find((s) => s.kind === 'winners');
 const KUDOS = ALL_SPOTLIGHTS.filter((s) => s.kind === 'kudoboard');
 import { applyFilters, DEFAULT_FILTERS, sanitizeFilters, yearFacets, themeFacets, valueFacets } from '../state/spotlightFilters.js';
@@ -39,14 +39,14 @@ function HonorCard(honor, onOpen) {
 
 export function TopHonors() {
   const dialog = createHonorDialog();
-  const top = HONORS.filter((x) => x.top).sort((a, b) => b.year - a.year);
+  const top = HONORS.filter((x) => x.top);
   const more = HONORS.filter((x) => !x.top);
   return Block({ id: 'top-awards', wide: true },
     h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.trophy, { size: 22 }), 'Top awards'),
     h('div', { class: 'grid grid--3' }, top.map((x) => HonorCard(x, (honor, t) => dialog.open(honor, t)))),
     h('h2', { class: 'subhead reveal' }, 'More Awards & Recognitions'),
     h('ul', { class: 'honors', role: 'list' }, more.map((x) => h('li', { class: 'honor reveal' },
-      h('span', { class: 'honor__year' }, x.year),
+      h('span', { class: 'honor__year' }, x.hideYear ? '' : x.year),
       h('div', {}, h('h3', { class: 'honor__title' }, x.title), h('p', { class: 'honor__org' }, x.org), x.detail && h('p', { class: 'honor__detail' }, x.detail))))));
 }
 
@@ -162,7 +162,7 @@ export function SpotlightArchive(lightbox) {
   renderControls();
   reset();
   return Block({ id: 'all-spotlights', wide: true },
-    h('h2', { class: 'subhead reveal' }, `All Spotlights (${SPOTLIGHTS.length})`),
+    h('h2', { class: 'subhead reveal' }, `All Awards & Spotlights (${SPOTLIGHTS.length})`),
     controls, summary, archive, sentinel);
 }
 
@@ -213,14 +213,14 @@ export function MilestoneSection(lightbox) {
     .map((s, i) => ({ src: cardSrc(s), title: KUDOS_PICKS[i].caption, caption: 'Kudoboard' }));
 
   return Block({ id: 'milestone-5y', tone: 'tint', wide: true },
-    h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.star, { size: 22 }), '5 Years of Tech Excellence Milestone at Intuit'),
+    h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.star, { size: 22 }), '5 Years of Tech Excellence Milestone at Intuit in 2024'),
     h('div', { class: 'milestone__row milestone__row--top reveal' },
       h('article', { class: 'milestone__card' },
         zoomable(MILESTONE_AWARD, '5 Years of Excellence Award', award, 0),
         h('div', { class: 'milestone__body' }, h('h3', {}, '5 Years of Excellence Award'), h('p', {}, 'Recognition for five years of tech excellence and contribution, 2019 to 2024.'))),
       h('article', { class: 'milestone__card' },
         slide.length ? zoomable(slide[0].src, 'Milestone message from the CEO', slide, 0) : null,
-        h('div', { class: 'milestone__body' }, h('h3', {}, 'Message from the CEO'), h('p', { class: 'milestone__quote' }, CEO_MESSAGE)))),
+        h('div', { class: 'milestone__body' }, h('h3', {}, 'Milestone award message'), h('p', { class: 'milestone__quote' }, CEO_MESSAGE)))),
     h('div', { class: 'milestone__row milestone__row--kudos reveal' },
       kudos.map((k, i) => h('figure', { class: 'milestone__card milestone__card--kudos' }, zoomable(k.src, k.title, kudos, i), h('figcaption', {}, `Kudoboard: ${k.title}`)))));
 }

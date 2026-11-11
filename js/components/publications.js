@@ -15,7 +15,9 @@ function PubMedia(item) {
 }
 
 function PubCard(item) {
-  return h('article', { class: 'card pub reveal' },
+  // Blogs: the whole card links to the post and a "Read blog" CTA sits at the bottom right, even before expanding details.
+  const isBlog = item.type === 'Blog' && item.href;
+  return h('article', { class: `card pub reveal${isBlog ? ' pub--link' : ''}` },
     PubMedia(item),
     h('div', { class: 'pub__top' }, Chip(item.type), item.badge && Chip(item.badge, 'chip--gold')),
     h('h4', { class: 'card__title' }, item.title),
@@ -23,10 +25,11 @@ function PubCard(item) {
     item.authors && h('p', { class: 'pub__authors' }, `Authors: ${item.authors}`),
     item.highlight && h('p', { class: 'pub__highlight' }, h('strong', {}, item.highlight.value), ` ${item.highlight.label}`),
     h('p', { class: 'card__text' }, item.summary),
-    (item.details?.length || item.href) &&
+    (item.details?.length || (item.href && !isBlog)) &&
       Disclosure({ label: 'More details' },
         item.details?.length > 0 && h('ul', { class: 'bullets' }, item.details.map((d) => h('li', {}, d))),
-        item.href && ExternalLink('Open ↗', item.href)));
+        item.href && !isBlog && ExternalLink('Open ↗', item.href)),
+    isBlog && h('p', { class: 'pub__cta-row' }, ExternalLink('Read blog \u2197', item.href, 'btn btn--ghost pub__cta')));
 }
 
 const Group = (title, items) => [h('h2', { class: 'subhead reveal' }, title), h('div', { class: 'grid grid--2' }, items.map(PubCard))];
@@ -39,5 +42,5 @@ export const TalksContent = () => Block({ id: 'talks', tone: 'tint', wide: true 
 
 export const BlogsContent = () =>
   Block({ id: 'posts', wide: true },
-    Group('Blogs on Medium', BLOGS),
+    Group('Tech Blogs', BLOGS),
     h('p', { class: 'center reveal' }, ExternalLink('Read all posts on Medium \u2197', 'https://reetisarup.medium.com/', 'btn btn--ghost')));

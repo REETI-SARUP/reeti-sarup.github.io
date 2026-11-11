@@ -62,7 +62,7 @@ export const TALKS = Object.freeze([
     image: 'images/linkedin/ghc25-speaker.webp',
     type: 'Conference Talk',
     title: 'Agentic AI Masterclass: Multi-Agent System Development with LangGraph, Memory & Human-in-the-Loop',
-    venue: 'Grace Hopper Celebration (GHC) 2025, Chicago, USA',
+    venue: 'Speaker at global Grace Hopper tech conference (GHC 2025) in Chicago, USA',
     date: '2025-11-07',
     highlight: { value: '300+', label: 'in-person global audience' },
     summary: 'In-person tech presentation selected for the global GHC stage, with a 300+ in-person global audience.',
@@ -83,7 +83,7 @@ export const TALKS = Object.freeze([
     image: 'images/linkedin/ghc24-session.webp',
     type: 'Conference Talk',
     title: 'Building LLM-Powered RAG Chatbots with LangChain & Knowledge Graph',
-    venue: 'Grace Hopper Celebration (GHC) 2024, Philadelphia, USA',
+    venue: 'Speaker at global Grace Hopper tech conference (GHC 2024) in Philadelphia, USA',
     date: '2024-10-10',
     summary: 'In-person AI/GenAI Masterclass workshop for the global GHC audience.',
     details: [
