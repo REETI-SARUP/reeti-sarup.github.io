@@ -17,7 +17,7 @@ export function Hero() {
           NAV_ITEMS.filter((n) => n.id !== PAGE.HOME).map((n) =>
             h('a', { class: 'hero__nav-link', href: n.href }, icon(ICON_PATHS[n.icon], { size: 20 }), h('span', {}, n.heroLabel ?? n.label)))),
         h('div', { class: 'hero__actions' },
-          h('a', { class: 'btn btn--primary', href: PROFILE.resume, download: 'Reeti-Sarup-Resume.pdf' }, icon(ICON_PATHS.download, { size: 18 }), 'Download Resume')),
+          h('a', { class: 'btn btn--primary', href: PROFILE.resume, target: '_blank', rel: 'noopener' }, icon(ICON_PATHS.download, { size: 18 }), 'Download Resume')),
         SocialLinks('social hero__social'))));
 }
 
@@ -46,5 +46,5 @@ export function About() {
         h('p', { class: 'about__more' }, h('a', { class: 'btn btn--ghost', href: 'about.html' }, 'Read my full story \u2192'))),
       h('figure', { class: 'about__figure' },
         h('img', { src: 'images/linkedin/career-journey-ghc.webp', alt: 'Reeti Sarup at Grace Hopper Celebration 2025 beside her Agentic AI masterclass session board', loading: 'lazy', decoding: 'async' }),
-        h('figcaption', {}, 'Speaking at Grace Hopper Celebration 2025'))));
+        h('figcaption', {}, 'Speaker at GHC 2025 conference in Chicago, USA'))));
 }

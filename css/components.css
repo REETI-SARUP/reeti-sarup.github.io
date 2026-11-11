@@ -190,7 +190,7 @@
 .pullquote { margin: 0 0 24px; padding: 28px 32px; border-radius: 20px; border-left: 6px solid var(--c-accent); background: linear-gradient(150deg, var(--c-surface), color-mix(in srgb, var(--c-accent) 9%, var(--c-surface))); box-shadow: var(--shadow); font: 400 clamp(1.1rem, 2.2vw, 1.4rem)/1.7 var(--font-serif); }
 .pullquote footer { margin-top: 12px; font: 700 0.95rem var(--font-sans); color: var(--c-accent-dark); }
 .feature-shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-.feature-shots__item:first-child { grid-column: 1 / -1; }
+.feature-shots__item:first-child { grid-column: 1 / -1; justify-self: center; width: min(100%, 640px); }
 .feature-shots__item:not(:first-child) { height: 420px; background: var(--c-tint); }
 .feature-shots__item:not(:first-child) img { height: 100%; object-fit: contain; }
 .feature-shots__item { padding: 0; border: 0; border-radius: 14px; overflow: hidden; background: var(--c-surface); box-shadow: var(--shadow); cursor: zoom-in; }

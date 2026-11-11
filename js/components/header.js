@@ -13,7 +13,7 @@ export function NavBar(currentPage) {
   const list = h('ul', { class: 'nav__list', id: 'nav-list' },
     NAV_ITEMS.map((n) => h('li', {},
       h('a', { href: n.href, class: `nav__link${n.id === currentPage ? ' is-active' : ''}`, 'aria-current': n.id === currentPage ? 'page' : null, title: n.label }, n.shortLabel ?? n.label))),
-    h('li', { class: 'nav__cta' }, h('a', { class: 'nav__resume', href: PROFILE.resume, download: 'Reeti-Sarup-Resume.pdf' }, icon(ICON_PATHS.download, { size: 15 }), 'Resume')));
+    h('li', { class: 'nav__cta' }, h('a', { class: 'nav__resume', href: PROFILE.resume, target: '_blank', rel: 'noopener' }, icon(ICON_PATHS.download, { size: 15 }), 'Resume')));
 
   const toggle = h('button', { class: 'nav__toggle', type: 'button', 'aria-expanded': 'false', 'aria-controls': 'nav-list' },
     h('span', { class: 'sr-only' }, 'Toggle navigation'), h('span', { class: 'nav__bars', 'aria-hidden': 'true' }));

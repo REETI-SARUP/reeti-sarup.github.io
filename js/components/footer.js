@@ -10,7 +10,7 @@ export function Footer() {
       h('p', { class: 'footer__text' }, 'Always happy to talk about applied AI, agents and building trustworthy products. Join 1,500+ followers on LinkedIn.'),
       h('div', { class: 'hero__actions' },
         h('a', { class: 'btn btn--primary', href: PROFILE.links[0].href, target: '_blank', rel: 'noopener noreferrer' }, 'Connect on LinkedIn'),
-        h('a', { class: 'btn btn--ghost', href: PROFILE.resume, download: 'Reeti-Sarup-Resume.pdf' }, icon(ICON_PATHS.download, { size: 18 }), 'Resume')),
+        h('a', { class: 'btn btn--ghost', href: PROFILE.resume, target: '_blank', rel: 'noopener' }, icon(ICON_PATHS.download, { size: 18 }), 'Resume')),
       SocialLinks('social'),
       h('p', { class: 'footer__copy' }, `© ${new Date().getFullYear()} ${PROFILE.name}`)));
 }
