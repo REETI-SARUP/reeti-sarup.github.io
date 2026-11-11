@@ -6,7 +6,7 @@ const T = 'images/awards/trophies';
 
 export const HONORS = Object.freeze([
   { id: 'best-paper-2026', top: true, year: 2026, icon: 'trophy', image: `${T}/best-paper.webp`, title: 'Best Industry Paper Award', org: 'AI-ML Systems 2026, Lecco (Lake Como), Italy',
-    detail: 'For "Substitutes, Not Complements: Entity Features vs Fine-Tuned Embeddings for Expense Allocation", our industry-track paper on real-world applied ML at the 6th International Conference on AI-ML Systems (an initiative of the COMSNETS Association, in cooperation with ACM, IEEE technical co-sponsor), October 2026. Co-authors: Sourav Karmakar, Deepak Gujraniya, Mithun Ghosh. Proceedings in IEEE Xplore.' },
+    detail: 'For "Substitutes, Not Complements: Entity Features vs Fine-Tuned Embeddings for Expense Allocation", our industry-track paper on real-world applied ML at the 6th International Conference on AI-ML Systems (an initiative of the COMSNETS Association, in cooperation with ACM, IEEE technical co-sponsor), October 2026. Co-authors: Sourav Karmakar, Deepak Gujraniya, Reeti Sarup, Mithun Ghosh. Proceedings in IEEE Xplore.' },
   { id: 'patent-2025', top: true, year: 2025, icon: 'bulb', image: `${T}/patent.webp`, title: 'Patent Filed', org: 'December 2025',
     detail: 'Patent filed for "Deep Research System for Iterative Question Answering and Adaptive Report Generation" (BizQuery: a deep-research QnA agentic system for financial queries).' },
   { id: 'superstar-fy24q4', top: true, year: 2024, icon: 'star', image: `${T}/superstar-fy24q4.webp`, title: 'Intuit India Superstar Award', org: 'FY24 Q4, Customer Obsession (December 2024)',
