@@ -45,9 +45,9 @@ export const PROFILE = Object.freeze({
     { icon: 'doc', value: '2 Published Papers + A Book Chapter', label: 'Published at international AI conferences and in a book on emerging ML trends' },
     { icon: 'cap', value: 'MS CS, Georgia Tech, 4.0/4.0 GPA', label: 'Master of Science in Computer Science with Machine Learning specialization' },
     { icon: 'medal', value: 'Vice-Chancellor\u2019s Gold Medalist', label: 'Gold Medalist, B.Tech IT, IGDTUW Delhi (2015-19)' },
-    { icon: 'star', value: '2\u00d7 Superstar Award', label: '2\u00d7 Star of the Quarter, 5 Years of Excellence, 100K-customer milestone and more' },
+    { icon: 'star', value: '2 x Intuit India Superstar Award and Big Bet-5 Star Award and more', label: 'Star of the Quarter, 5 Years of Excellence, 100K-customer milestone' },
     { icon: 'people', value: '100+ Spotlights Awards', label: 'Multiple Recognitions from leaders and teams' },
-    { icon: 'code', value: 'Hackathon Winner', label: 'Smart India Hackathon 4th place and an Interns Hackathon second runner-up' },
-    { icon: 'mic', value: 'Community Leader', label: 'Co-Lead, Builder Culture Champions; AI Adoption Accelerator trainer' },
+    { icon: 'code', value: 'Hackathons Winner', label: 'Smart India Hackathon (SIH 2018) Protsahan Award Winner and overall 4th prize winner across all teams in India for the DIPP, Ministry of Commerce problem statement; Intuit Hackathon 2nd Runner-up (2018)' },
+    { icon: 'mic', value: 'Tech Communities Leader', label: 'Co-Lead, Builder Culture Champions; AI Adoption Accelerator internal instructor; WiDS Host; Lean In Circle Founder & Core Member; ACM Chapter Secretary and more' },
   ]),
 });

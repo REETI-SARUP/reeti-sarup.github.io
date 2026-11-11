@@ -43,7 +43,7 @@ export function TopHonors() {
   return Block({ id: 'top-awards', wide: true },
     h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.trophy, { size: 22 }), 'Top awards'),
     h('div', { class: 'grid grid--3' }, top.map((x) => HonorCard(x, (honor, t) => dialog.open(honor, t)))),
-    h('h2', { class: 'subhead reveal' }, 'More honors'),
+    h('h2', { class: 'subhead reveal' }, 'More Awards & Recognitions'),
     h('ul', { class: 'honors', role: 'list' }, more.map((x) => h('li', { class: 'honor reveal' },
       h('span', { class: 'honor__year' }, x.year),
       h('div', {}, h('h3', { class: 'honor__title' }, x.title), h('p', { class: 'honor__org' }, x.org), x.detail && h('p', { class: 'honor__detail' }, x.detail))))));
