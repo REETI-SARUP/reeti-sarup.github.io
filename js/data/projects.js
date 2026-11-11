@@ -1,0 +1,40 @@
+/** Key projects showcase: production AI systems first, then research and hackathon projects. */
+
+export const KEY_PROJECTS = Object.freeze([
+  { id: 'bizquery', icon: 'bulb', tag: 'Patent filed', title: 'BizQuery: Deep Research QnA Agent', org: 'Intuit', period: '2025',
+    text: 'Agentic system for iterative question answering and adaptive report generation over structured financial data. Published at AAIML Tokyo 2026.',
+    tech: ['Agentic AI', 'LLMs', 'Deep Think'] },
+  { id: 'cost-allocation', icon: 'trophy', tag: 'Best Industry Paper', title: 'Cost Allocation Predictions', org: 'Intuit', period: '2025 \u2013 2026',
+    text: 'Event-driven, explainable ML system with batch and real-time inference at scale, serving millions of transactions with an optimized retrieval layer.',
+    tech: ['Kubeflow', 'Spark', 'Databricks', 'ANN search'] },
+  { id: 'profitability', icon: 'trend', tag: 'Launched', title: 'Project Profitability', org: 'QB AI Goals & Insights for IES', period: '2024',
+    text: 'AI Goals and Insights for the Intuit Enterprise Suite, with forecasting and budget-overage models. Led front end and back end work.',
+    tech: ['RAG', 'Knowledge Graph', 'React', 'ML'] },
+  { id: 'mr-summary', icon: 'doc', tag: 'Launched', title: 'Management Report AI Summary', org: 'GenAI for QBO Advanced and IES', period: '2023 \u2013 2024',
+    text: 'GenAI-enabled report summaries, in private beta with ~800 customers, built on a reusable summarization pattern.',
+    tech: ['GenAI', 'LLMs', 'TypeScript'] },
+  { id: 'self-learning', icon: 'star', tag: 'Launched', title: 'Self-Learning Personalized Ranking', org: 'Online RL feedback loop', period: '2024 \u2013 2025',
+    text: 'Multi-armed-bandit scoring with Redis and data pipelines, delivering hyper-personalized top-K insights from live user feedback.',
+    tech: ['Reinforcement Learning', 'Redis', 'Pipelines'] },
+  { id: 'agents', icon: 'code', tag: 'Platform', title: 'Mid-Market AI Agents Platform', org: 'Project Management Agent and more', period: '2024 \u2013 Present',
+    text: 'Core contributor from the earliest stages: shared platform, experiments and launches of AI agents for QBO and IES that enabled multiple teams.',
+    tech: ['AI Agents', 'LangGraph', 'LangChain'] },
+  { id: 'fed', icon: 'briefcase', tag: 'Launched', title: 'Financial Error Detection', org: 'QuickBooks Online Advanced', period: '2022 \u2013 2023',
+    text: 'AI anomaly detection that catches data-entry errors in transactions, including the new Rethink experience.',
+    tech: ['Anomaly Detection', 'React', 'GraphQL'] },
+  { id: 'onboarding', icon: 'people', tag: 'Launched', title: 'AI Onboarding (Get-to-Know-Me)', org: 'QuickBooks Online Advanced', period: '2022 \u2013 2023',
+    text: 'Customized onboarding upgrader flow with an AI-based intent picker, built end to end.',
+    tech: ['Personalization', 'React', 'TypeScript'] },
+]);
+
+export const RESEARCH_PROJECTS = Object.freeze([
+  { id: 'landslide', icon: 'cap', tag: 'Georgia Tech', title: 'Landslide Detection', org: 'Computer vision', period: '2023',
+    text: 'Image segmentation over multispectral satellite imagery.', tech: ['Computer Vision', 'Segmentation'],
+    video: { id: '9SsDsM22ZXk', title: 'Landslide Detection project video' } },
+  { id: 'air-quality', icon: 'trend', tag: 'Georgia Tech', title: 'Air Quality Analysis & Forecasting', org: 'Time series', period: '2021',
+    text: 'Time-series forecasting models and analysis of air quality data.', tech: ['Time Series', 'Forecasting'] },
+  { id: 'startup-gauge', icon: 'trophy', tag: 'Smart India Hackathon 2018', title: 'Startup Gauge', org: '4th place, Protsahan Award', period: '2018',
+    text: 'Web app that measures the impact of Indian startups (innovation, jobs, wealth creation); MEAN stack plus Python sentiment analysis.', tech: ['MEAN', 'Python', 'Sentiment Analysis'] },
+  { id: 'news-bias', icon: 'doc', tag: 'IGDTUW final-year project', title: 'Bias in Online News', org: 'Deep learning', period: '2018 \u2013 2019',
+    text: 'Analyzing and quantifying bias in news articles with a multi-classifier deep-learning LSTM model.', tech: ['LSTM', 'NLP'] },
+]);

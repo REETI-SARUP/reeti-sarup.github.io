@@ -11,8 +11,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Global Engineering Days Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your team to deliver impact. That's worth celebrating!"
+    "title": "Global Engineering Days",
+    "text": "Global Engineering Days Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your team to deliver impact. That's worth celebrating!",
+    "headline": "Global Engineering Days",
+    "excerpt": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your team to deliver impact.",
+    "message": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your team to deliver impact. That's worth celebrating!"
   },
   {
     "id": 108,
@@ -25,8 +28,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Al Standard Compliance for the PM Agent Hi Shweta and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit Al standard compliance metrics. This is a huge milestone — i"
+    "title": "AI Standard Compliance for the PM Agent",
+    "text": "AI Standard Compliance for the PM Agent Hi Shweta and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics. This is a huge milestone — i",
+    "headline": "AI Standard Compliance for the PM Agent",
+    "excerpt": "Hi Shweta and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics.",
+    "message": "AI Standard Compliance for the PM Agent Hi Shweta and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics. This is a huge milestone — it is the first customer-facing agent deployed in the field within the Mid-Market BU to achieve 100% compliance. Thank you for your hard work, and keep doing wonders!"
   },
   {
     "id": 107,
@@ -39,8 +45,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "Thank you for contributing to IFRA Thank you for being so generous with your time and expertise during this year's inaugural Intuit Faculty Research Awards (IFRA). You each had a full plate of your own commitments, yet you stepped into what was a new role for at least some of you-carefully evaluatin"
+    "title": "IFRA contribution",
+    "text": "Thank you for contributing to IFRA Thank you for being so generous with your time and expertise during this year's inaugural Intuit Faculty Research Awards (IFRA). You each had a full plate of your own commitments, yet you stepped into what was a new role for at least some of you-carefully evaluatin",
+    "headline": "IFRA contribution",
+    "excerpt": "Thank you for contributing to IFRA Thank you for being so generous with your time and expertise during this year's inaugural Intuit Faculty Research Awards (IFRA).",
+    "message": "Thank you for contributing to IFRA Thank you for being so generous with your time and expertise during this year's inaugural Intuit Faculty Research Awards (IFRA). You each had a full plate of your own commitments, yet you stepped into what was a new role for at least some of you-carefully evaluating academic research proposals and providing thoughtful, rigorous reviews. That took curiosity, judgment, and a willingness to go beyond your day-to-day work. Your contributions helped shape Intuit's $500,000 investment in university research on problems that require deep research expertise and have the potential to improve our products and our customers' experiences. Thank you for helping us get IFRA off the ground. Cheers, Kamalika"
   },
   {
     "id": 105,
@@ -54,8 +63,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": true,
-    "title": "Customer Obsession",
-    "text": "PROJECT MANAGEMENT AGENT v2 launch Appreciate your great work which has helped us launch several enhancements to PM agent skills across QBO Advanced and IES. Keep up the great work!"
+    "title": "PROJECT MANAGEMENT AGENT v2 launch",
+    "text": "PROJECT MANAGEMENT AGENT v2 launch Appreciate your great work which has helped us launch several enhancements to PM agent skills across QBO Advanced and IES. Keep up the great work!",
+    "headline": "PROJECT MANAGEMENT AGENT v2 launch",
+    "excerpt": "Appreciate your great work which has helped us launch several enhancements to PM agent skills across QBO Advanced and IES. Keep up the great work!",
+    "message": "Appreciate your great work which has helped us launch several enhancements to PM agent skills across QBO Advanced and IES. Keep up the great work!"
   },
   {
     "id": 104,
@@ -69,8 +81,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Teach-Learn-Teach Thank you for all your expertise, passion & commitment towards making the India site Al ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is commendable"
+    "title": "Teach-Learn-Teach",
+    "text": "Teach-Learn-Teach Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is commendable",
+    "headline": "Teach-Learn-Teach",
+    "excerpt": "Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program.",
+    "message": "Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is commendable. Congratulations & looking forward to your continued support in helping our India site reach 100% Early AI Adopters. Best, Anshu"
   },
   {
     "id": 103,
@@ -83,8 +98,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Project Budgets for IES - V2 Great job, team, on launching the project budgets for IE customers! This launch truly showcases our commitment to customer learning and iterative development, which will undoubtedly lead to a smoother cost-tracking experience. Keep up the excellent work!"
+    "title": "Project Budgets for IES - V2",
+    "text": "Project Budgets for IES - V2 Great job, team, on launching the project budgets for IE customers! This launch truly showcases our commitment to customer learning and iterative development, which will undoubtedly lead to a smoother cost-tracking experience. Keep up the excellent work!",
+    "headline": "Project Budgets for IES - V2",
+    "excerpt": "Great job, team, on launching the project budgets for IE customers! This launch truly showcases our commitment to customer learning and iterative development, which will undoubtedly lead to a smoother cost-tracking experience. Keep up the excellent work!",
+    "message": "Great job, team, on launching the project budgets for IE customers! This launch truly showcases our commitment to customer learning and iterative development, which will undoubtedly lead to a smoother cost-tracking experience. Keep up the excellent work!"
   },
   {
     "id": 102,
@@ -97,8 +115,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": true,
-    "title": "Stronger Together",
-    "text": "A BIG THANK YOU for IES - July Release ! A huge thank you and congratulations to you for the Intuit Enterprise Suite (IES) July release! Your dedication and hard work has been the key pillar driving remarkable customer value, operational excellence, and so far the biggest feature rich release for IE"
+    "title": "A BIG THANK YOU for IES - July Release",
+    "text": "A BIG THANK YOU for IES - July Release ! A huge thank you and congratulations to you for the Intuit Enterprise Suite (IES) July release! Your dedication and hard work has been the key pillar driving remarkable customer value, operational excellence, and so far the biggest feature rich release for IE",
+    "headline": "A BIG THANK YOU for IES - July Release",
+    "excerpt": "A huge thank you and congratulations to you for the Intuit Enterprise Suite (IES) July release! Your dedication and hard work has been the key pillar driving remarkable customer value, operational excellence, and so far the biggest feature rich release for…",
+    "message": "A huge thank you and congratulations to you for the Intuit Enterprise Suite (IES) July release! Your dedication and hard work has been the key pillar driving remarkable customer value, operational excellence, and so far the biggest feature rich release for IES customers. This release had 80+ features delivered (+4X from Mar release) owned by 35+ teams with 10 weeks of development targeting 70% Sage IntAcct Parity. We achieved 0 PO, P1 and P2 targets along with scale SLAs for this release with your contribution, making it a truly a premium experience for our Enterprise customers. And you did all this while collaborating across teams, functions, and time zones demonstrating high bar and true customer obsession. Your efforts are truly appreciated and we have deep gratitude for your commitment and customer obsession. Thank you again, and well done! - Nidhi Gopal"
   },
   {
     "id": 101,
@@ -111,8 +132,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "A2D Community Contributions Thank you for your outstanding role as EMCEE for our WiDS event! Your energy, professionalism, and seamless facilitation were absolutely instrumental in making the event such a success. You did a fantastic job keeping everything on track and engaging our audience througho"
+    "title": "A2D Community Contributions",
+    "text": "A2D Community Contributions Thank you for your outstanding role as EMCEE for our WiDS event! Your energy, professionalism, and seamless facilitation were absolutely instrumental in making the event such a success. You did a fantastic job keeping everything on track and engaging our audience througho",
+    "headline": "A2D Community Contributions",
+    "excerpt": "Thank you for your outstanding role as EMCEE for our WiDS event! Your energy, professionalism, and seamless facilitation were absolutely instrumental in making the event such a success.",
+    "message": "Thank you for your outstanding role as EMCEE for our WiDS event! Your energy, professionalism, and seamless facilitation were absolutely instrumental in making the event such a success. You did a fantastic job keeping everything on track and engaging our audience throughout the day. We truly appreciate your time and dedication."
   },
   {
     "id": 100,
@@ -125,8 +149,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your team to deliver impact. Thatâ€™s worth celebrating!"
+    "title": "Global Engineering Days",
+    "text": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your team to deliver impact. Thatâ€™s worth celebrating!",
+    "headline": "Global Engineering Days",
+    "excerpt": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your team to deliver impact.",
+    "message": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your team to deliver impact. Thatâ€™s worth celebrating!"
   },
   {
     "id": 99,
@@ -139,8 +166,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": true,
-    "title": "Stronger Together",
-    "text": "Celebrating Your Pivotal Role in the Fusion Launch On July 1, we launched a more powerful QuickBooks on the Intuit platform! This monumental achievement was made possible, in no small part, by your truly exceptional contributions. Your dedication, visionary thinking, and unwavering commitment went f"
+    "title": "Celebrating Your Pivotal Role in the Fusion Launch",
+    "text": "Celebrating Your Pivotal Role in the Fusion Launch On July 1, we launched a more powerful QuickBooks on the Intuit platform! This monumental achievement was made possible, in no small part, by your truly exceptional contributions. Your dedication, visionary thinking, and unwavering commitment went f",
+    "headline": "Celebrating Your Pivotal Role in the Fusion Launch",
+    "excerpt": "On July 1, we launched a more powerful QuickBooks on the Intuit platform! This monumental achievement was made possible, in no small part, by your truly exceptional contributions.",
+    "message": "On July 1, we launched a more powerful QuickBooks on the Intuit platform! This monumental achievement was made possible, in no small part, by your truly exceptional contributions. Your dedication, visionary thinking, and unwavering commitment went far beyond expectations. You not only tackled the complex challenges head-on but directly contributed to bringing this transformative innovation to life, which will fundamentally reshape how we serve our customers. Your work embodies our commitment to powering prosperity around the world as one team. We deeply appreciate your extraordinary effort and impact. Thank you for going above and beyond! Sincerely, Marianna and the GBSG SLT"
   },
   {
     "id": 98,
@@ -153,8 +183,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": true,
-    "title": "Stronger Together",
-    "text": "Thank You! Intuit Tech Stories Hi Radhika, Reeti, Sidharth and Uttam, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India. Your expert insights and tech expertise, along with your commitment to ensure we"
+    "title": "Thank You!",
+    "text": "Thank You! Intuit Tech Stories Hi Radhika, Reeti, Sidharth and Uttam, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India. Your expert insights and tech expertise, along with your commitment to ensure we",
+    "headline": "Thank You!",
+    "excerpt": "Intuit Tech Stories Hi Radhika, Reeti, Sidharth and Uttam, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India.",
+    "message": "Hi Radhika, Reeti, Sidharth and Uttam, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India. Your expert insights and tech expertise, along with your commitment to ensure we deliver an engaging session to our talent community members and external talent pools contribute to our efforts in nurturing and converting top tech talent for current and future opportunities at Intuit! Looking forward to your continued support and contributions! Kiran Rajath, on behalf of Talent Marketing and Talent Acquisition!"
   },
   {
     "id": 97,
@@ -167,8 +200,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "Take a bow, WiDS Emcee Hi Reeti, Thank you for going above and beyond as our emcee for WiDS. Your confidence was commendable and the audience was truly engaged. Kudos and keep up the amazing work."
+    "title": "Take a bow, WiDS Emcee",
+    "text": "Take a bow, WiDS Emcee Hi Reeti, Thank you for going above and beyond as our emcee for WiDS. Your confidence was commendable and the audience was truly engaged. Kudos and keep up the amazing work.",
+    "headline": "Take a bow, WiDS Emcee",
+    "excerpt": "Hi Reeti, Thank you for going above and beyond as our emcee for WiDS. Your confidence was commendable and the audience was truly engaged. Kudos and keep up the amazing work.",
+    "message": "Hi Reeti, Thank you for going above and beyond as our emcee for WiDS. Your confidence was commendable and the audience was truly engaged. Kudos and keep up the amazing work."
   },
   {
     "id": 96,
@@ -181,8 +217,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Enabling Al to integrate with directly with QBO Working without boundaries is a commonplace behaviour with Reeti and Anjaneyulu and I truly appreciate the time and effort spent by them to get the Al team up to speed with running the agentic backend and frontends seamlessly."
+    "title": "Enabling AI to integrate with directly with QBO",
+    "text": "Enabling AI to integrate with directly with QBO Working without boundaries is a commonplace behaviour with Reeti and Anjaneyulu and I truly appreciate the time and effort spent by them to get the AI team up to speed with running the agentic backend and frontends seamlessly.",
+    "headline": "Enabling AI to integrate with directly with QBO",
+    "excerpt": "Working without boundaries is a commonplace behaviour with Reeti and Anjaneyulu and I truly appreciate the time and effort spent by them to get the AI team up to speed with running the agentic backend and frontends seamlessly.",
+    "message": "Enabling AI to integrate with directly with QBO Working without boundaries is a commonplace behaviour with Reeti and Anjaneyulu and I truly appreciate the time and effort spent by them to get the AI team up to speed with running the agentic backend and frontends seamlessly."
   },
   {
     "id": 95,
@@ -195,8 +234,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "Deep-thinking QnA Hello Reeti, Thank you for the speed with which you built the deep-thinking-qna Canvas leveraging Bounded QnA. Please keep up this speed off innovation and building Al for Intuit!"
+    "title": "Deep-thinking QnA",
+    "text": "Deep-thinking QnA Hello Reeti, Thank you for the speed with which you built the deep-thinking-qna Canvas leveraging Bounded QnA. Please keep up this speed off innovation and building AI for Intuit!",
+    "headline": "Deep-thinking QnA",
+    "excerpt": "Hello Reeti, Thank you for the speed with which you built the deep-thinking-qna Canvas leveraging Bounded QnA. Please keep up this speed off innovation and building AI for Intuit!",
+    "message": "Hello Reeti, Thank you for the speed with which you built the deep-thinking-qna Canvas leveraging Bounded QnA. Please keep up this speed off innovation and building AI for Intuit!"
   },
   {
     "id": 94,
@@ -209,8 +251,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Production readiness for PM Agent first iteration Thanking you for the exceptional dedication and hard work that went into successfully building the PM Agent Iteration 1 on schedule. This achievement was made possible by the team's unwavering commitment, often involving significant extra hours. Embr"
+    "title": "Production readiness for PM Agent first iteration",
+    "text": "Production readiness for PM Agent first iteration Thanking you for the exceptional dedication and hard work that went into successfully building the PM Agent Iteration 1 on schedule. This achievement was made possible by the team's unwavering commitment, often involving significant extra hours. Embr",
+    "headline": "Production readiness for PM Agent first iteration",
+    "excerpt": "Thanking you for the exceptional dedication and hard work that went into successfully building the PM Agent Iteration 1 on schedule. This achievement was made possible by the team's unwavering commitment, often involving significant extra hours.",
+    "message": "Thanking you for the exceptional dedication and hard work that went into successfully building the PM Agent Iteration 1 on schedule. This achievement was made possible by the team's unwavering commitment, often involving significant extra hours. Embracing agentic technology, a new frontier for everyone, required rapid learning and adaptability, which you all demonstrated remarkably. Navigating the challenges of an evolving scope and uncertainty, the team consistently pulled together, showcasing remarkable collaboration and problem-solving skills to deliver an outstanding outcome."
   },
   {
     "id": 93,
@@ -224,8 +269,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "M#8 Demo Kudos Thanks team for all the hard work behind the M#8 Demo's. Your dedication in making the demos come to life in E2E within a week and learning a totally new tech in a week is something commendable. This is just the start of our M#8 Journey and solving more Workflows Use-Cases to unlock t"
+    "title": "M#8 Demo Kudos",
+    "text": "M#8 Demo Kudos Thanks team for all the hard work behind the M#8 Demo's. Your dedication in making the demos come to life in E2E within a week and learning a totally new tech in a week is something commendable. This is just the start of our M#8 Journey and solving more Workflows Use-Cases to unlock t",
+    "headline": "M#8 Demo Kudos",
+    "excerpt": "Thanks team for all the hard work behind the M#8 Demo's. Your dedication in making the demos come to life in E2E within a week and learning a totally new tech in a week is something commendable.",
+    "message": "Thanks team for all the hard work behind the M#8 Demo's. Your dedication in making the demos come to life in E2E within a week and learning a totally new tech in a week is something commendable. This is just the start of our M#8 Journey and solving more Workflows Use-Cases to unlock the true power of Agentic Experiences for IES customers. - Uttam"
   },
   {
     "id": 92,
@@ -239,8 +287,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Self Learning Model Personalised Ranking System Thanks Team for the work on the Self Learning Model Personalised Ranking System. This is the first launch in BB5 for Self-Learning Feedback mechanism based on User Preferences in the product. Additionally, this enables other use- cases like Verticaliza"
+    "title": "Self Learning Model Personalised Ranking System",
+    "text": "Self Learning Model Personalised Ranking System Thanks Team for the work on the Self Learning Model Personalised Ranking System. This is the first launch in BB5 for Self-Learning Feedback mechanism based on User Preferences in the product. Additionally, this enables other use- cases like Verticaliza",
+    "headline": "Self Learning Model Personalised Ranking System",
+    "excerpt": "Thanks Team for the work on the Self Learning Model Personalised Ranking System. This is the first launch in BB5 for Self-Learning Feedback mechanism based on User Preferences in the product.",
+    "message": "Thanks Team for the work on the Self Learning Model Personalised Ranking System. This is the first launch in BB5 for Self-Learning Feedback mechanism based on User Preferences in the product. Additionally, this enables other usecases like Verticalization, AI-PCB, Recommendations for IES Customers. Keep up the great work and enable AI first mindset among other engineers in the BB5 organisation."
   },
   {
     "id": 91,
@@ -254,8 +305,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Teach-Learn-Teach Program Thank you for all your expertise, passion & commitment towards making the India site Al ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is com"
+    "title": "Teach-Learn-Teach Program",
+    "text": "Teach-Learn-Teach Program Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is com",
+    "headline": "Teach-Learn-Teach Program",
+    "excerpt": "Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program.",
+    "message": "Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is commendable. Congratulations & looking forward to your continued support in helping our India site reach 100% Early AI Adopters. Best, Anshu"
   },
   {
     "id": 90,
@@ -269,8 +323,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Teach-Learn-Teach Program Thank you for all your expertise, passion & commitment towards making the India site Al ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is com"
+    "title": "Teach-Learn-Teach Program",
+    "text": "Teach-Learn-Teach Program Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is com",
+    "headline": "Teach-Learn-Teach Program",
+    "excerpt": "Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program.",
+    "message": "Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is commendable. Congratulations & looking forward to your continued support in helping our India site reach 100% Early AI Adopters. Best, Anshu"
   },
   {
     "id": 89,
@@ -283,8 +340,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": false,
-    "title": "We Care and Give Back",
-    "text": "Thankyou for helping us with hiring! Your contributions as an interview panelist have helped us hire well so far. Thanks a lot for making time for this and building a strong team."
+    "title": "Hiring support",
+    "text": "Thankyou for helping us with hiring! Your contributions as an interview panelist have helped us hire well so far. Thanks a lot for making time for this and building a strong team.",
+    "headline": "Hiring support",
+    "excerpt": "Thankyou for helping us with hiring! Your contributions as an interview panelist have helped us hire well so far. Thanks a lot for making time for this and building a strong team.",
+    "message": "Thankyou for helping us with hiring! Your contributions as an interview panelist have helped us hire well so far. Thanks a lot for making time for this and building a strong team."
   },
   {
     "id": 88,
@@ -299,8 +359,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "IES Release Milestone Thanks Team for all the contributions towards the successful IES Release. The Customer Obsession mindset for solving for Project Profitability which is a key GBSG goal for FY25 is truly appreciated. Cheers Amit"
+    "title": "IES Release Milestone",
+    "text": "IES Release Milestone Thanks Team for all the contributions towards the successful IES Release. The Customer Obsession mindset for solving for Project Profitability which is a key GBSG goal for FY25 is truly appreciated. Cheers Amit",
+    "headline": "IES Release Milestone",
+    "excerpt": "Thanks Team for all the contributions towards the successful IES Release. The Customer Obsession mindset for solving for Project Profitability which is a key GBSG goal for FY25 is truly appreciated.",
+    "message": "Thanks Team for all the contributions towards the successful IES Release. The Customer Obsession mindset for solving for Project Profitability which is a key GBSG goal for FY25 is truly appreciated. Cheers Amit"
   },
   {
     "id": 87,
@@ -313,36 +376,96 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your teams to deliver impact. That's worth celebrating!"
+    "title": "Global Engineering Days",
+    "text": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your teams to deliver impact. That's worth celebrating!",
+    "headline": "Global Engineering Days",
+    "excerpt": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your teams to deliver impact.",
+    "message": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your teams to deliver impact. That's worth celebrating!"
   },
   {
     "id": 84,
     "image": "084.webp",
     "kind": "kudoboard",
-    "value": null,
+    "value": "5 Year Milestone",
     "giver": null,
     "date": "2024-08-29",
     "themes": [
       "Milestones"
     ],
     "featured": false,
-    "title": "5 Years: Kudoboard from Colleagues",
-    "text": "Kudoboard 10, Invite contributors / Delivery {g3 Settings + Add to board Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan Congratulations on r"
+    "title": "Kudoboard note",
+    "text": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching this incredible milestone, Reeti! Over the past five years, your exceptional UI skills have truly set a new benchmark for design excellence within our team. Your dedication to creating intuitive and visually stunning user interfaces has significantly elevated our projects and delighted our users. Your creativity, attention to detail, and passion for perfection are truly inspiring. Thank you for all your hard work and the countless ways you've contributed to our success. From Arun R Congrats on 5 years, Reeti Dear Reeti, Congratulations on the 5 Years anniversary with Intuit. Very happy to see the journey that you have undertook in these years. You are one of the engineers who uphold a constant learning mindset. Keep up the great work. Wish you many more successful years with Intuit. Regards, Rameez From Rameez Suseelan Congratulations Reeti, on the remarkable 5-year milestone! Wishing you continued success and many more achievements ahead. From bhargav h Many Congratulations Reeti on your 5 year milestone at Intuit Sign In Register • View as recipient Many congratulations Reeti on 5yr milestone, wishing you all the success in future. From durgeshwari Naik kunveno",
+    "headline": "5 Years: Kudoboard from Colleagues",
+    "excerpt": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching thi",
+    "message": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching this incredible milestone, Reeti! Over the past five years, your exceptional UI skills have truly set a new benchmark for design excellence within our team. Your dedication to creating intuitive and visually stunning user interfaces has significantly elevated our projects and delighted our users. Your creativity, attention to detail, and passion for perfection are truly inspiring. Thank you for all your hard work and the countless ways you've contributed to our success. From Arun R Congrats on 5 years, Reeti Dear Reeti, Congratulations on the 5 Years anniversary with Intuit. Very happy to see the journey that you have undertook in these years. You are one of the engineers who uphold a constant learning mindset. Keep up the great work. Wish you many more successful years with Intuit. Regards, Rameez From Rameez Suseelan Congratulations Reeti, on the remarkable 5-year milestone! Wishing you continued success and many more achievements ahead. From bhargav h Many Congratulations Reeti on your 5 year milestone at Intuit Sign In Register • View as recipient Many congratulations Reeti on 5yr milestone, wishing you all the success in future. From durgeshwari Naik kunveno"
   },
   {
     "id": 85,
     "image": "085.webp",
     "kind": "kudoboard",
-    "value": null,
+    "value": "5 Year Milestone",
     "giver": null,
     "date": "2024-08-29",
     "themes": [
       "Milestones"
     ],
     "featured": false,
-    "title": "5 Years: Kudoboard from Colleagues",
-    "text": "Kudoboard Congrats on 5 years, Reeti View Kudoboard"
+    "title": "Kudoboard note",
+    "text": "Colleagues celebrated five years at Intuit with a Kudoboard of congratulations.",
+    "headline": "5 Years: Kudoboard from Colleagues",
+    "excerpt": "Colleagues celebrated five years at Intuit with a Kudoboard of congratulations.",
+    "message": "Colleagues celebrated five years at Intuit with a Kudoboard of congratulations."
+  },
+  {
+    "id": 110,
+    "image": "110.webp",
+    "kind": "kudoboard",
+    "value": "5 Year Milestone",
+    "giver": null,
+    "date": "2024-08-29",
+    "themes": [
+      "Milestones"
+    ],
+    "featured": false,
+    "title": "Kudoboard note",
+    "headline": null,
+    "text": "VU YU LUIGINULLM From Arun R Many Congratulations Reeti on your 5 year milestone at Intuit i, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving this impressive 5-year milestone! Wishing you ongoing success and countless more accomplishments in the years to come. From Garima Yadav From Rohit Verma Sign In Register Congratulations Reeti on completing 5 years at Intuit, The dedication and passion you show towards your work is truly commendable and inspiring. Wish you all the best for your future endeavours. From Nidhi Kamewar Congratulations on completing your 5th work anniversary with us!. You are such an amazing engineer and a great colleague to work with. One of the things we love most about you is engineering skills and knack for documentation. You bring a level of expertise to the team that is unmatched, and your attention to detail is something that we all strive to replicate. We're grateful for your unwavering dedication to the job and couldn't think of anyone better to have on our team. Here's to many more years of collaboration and success together From Amit Raj",
+    "excerpt": "VU YU LUIGINULLM From Arun R Many Congratulations Reeti on your 5 year milestone at Intuit i, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving thi",
+    "message": "VU YU LUIGINULLM From Arun R Many Congratulations Reeti on your 5 year milestone at Intuit i, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving this impressive 5-year milestone! Wishing you ongoing success and countless more accomplishments in the years to come. From Garima Yadav From Rohit Verma Sign In Register Congratulations Reeti on completing 5 years at Intuit, The dedication and passion you show towards your work is truly commendable and inspiring. Wish you all the best for your future endeavours. From Nidhi Kamewar Congratulations on completing your 5th work anniversary with us!. You are such an amazing engineer and a great colleague to work with. One of the things we love most about you is engineering skills and knack for documentation. You bring a level of expertise to the team that is unmatched, and your attention to detail is something that we all strive to replicate. We're grateful for your unwavering dedication to the job and couldn't think of anyone better to have on our team. Here's to many more years of collaboration and success together From Amit Raj"
+  },
+  {
+    "id": 111,
+    "image": "111.webp",
+    "kind": "kudoboard",
+    "value": "5 Year Milestone",
+    "giver": null,
+    "date": "2024-08-29",
+    "themes": [
+      "Milestones"
+    ],
+    "featured": false,
+    "title": "Kudoboard note",
+    "headline": null,
+    "text": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching this incredible milestone, Reeti! Over the past five years, your exceptional UI skills have truly set a new benchmark for design excellence within our team. Your dedication to creating intuitive and visually stunning user interfaces has significantly elevated our projects and delighted our users. Your creativity, attention to detail, and passion for perfection are truly inspiring. Thank you for all your hard work and the countless ways you've contributed to our success. From Arun R Heartfelt congratulations, Reeti, on achieving this impressive 5-year milestone! Wishing you ongoing success and Congrats on 5 years, Reeti Dear Reeti, Congratulations on the 5 Years anniversary with Intuit. Very happy to see the journey that you have undertook in these years. You are one of the engineers who uphold a constant learning mindset. Keep up the great work. Wish you many more successful years with Intuit. Regards, Rameez From Rameez Suseelan Congratulations Reeti, on the remarkable 5-year milestone! Wishing you continued success and many more achievements ahead. From bhargav h 85888885 Many Congratulations Reeti on your 5 year milestone at Intuit ret, really admire your attention to detail and presentation skills, wishing you great success ahead an Sign In Register Many congratulations Reeti on 5yr milestone, wishing you all the success in future. From durgeshwari Naik kunveno 5-Year Anniversary",
+    "excerpt": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching thi",
+    "message": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching this incredible milestone, Reeti! Over the past five years, your exceptional UI skills have truly set a new benchmark for design excellence within our team. Your dedication to creating intuitive and visually stunning user interfaces has significantly elevated our projects and delighted our users. Your creativity, attention to detail, and passion for perfection are truly inspiring. Thank you for all your hard work and the countless ways you've contributed to our success. From Arun R Heartfelt congratulations, Reeti, on achieving this impressive 5-year milestone! Wishing you ongoing success and Congrats on 5 years, Reeti Dear Reeti, Congratulations on the 5 Years anniversary with Intuit. Very happy to see the journey that you have undertook in these years. You are one of the engineers who uphold a constant learning mindset. Keep up the great work. Wish you many more successful years with Intuit. Regards, Rameez From Rameez Suseelan Congratulations Reeti, on the remarkable 5-year milestone! Wishing you continued success and many more achievements ahead. From bhargav h 85888885 Many Congratulations Reeti on your 5 year milestone at Intuit ret, really admire your attention to detail and presentation skills, wishing you great success ahead an Sign In Register Many congratulations Reeti on 5yr milestone, wishing you all the success in future. From durgeshwari Naik kunveno 5-Year Anniversary"
+  },
+  {
+    "id": 112,
+    "image": "112.webp",
+    "kind": "kudoboard",
+    "value": "5 Year Milestone",
+    "giver": null,
+    "date": "2024-08-29",
+    "themes": [
+      "Milestones"
+    ],
+    "featured": false,
+    "title": "Kudoboard note",
+    "headline": null,
+    "text": "Many Congratulations Reeti on your 5 year milestone at Intuit co, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving this impressive 5-year milestone! Wishing you ongoing success and countless more accomplishments in the years to come. From Garima Yadav From Rohit Verma Sign In Register Congratulations Reeti on completing 5 years at Intuit, The dedication and passion you show towards your work is truly commendable and inspiring. Wish you all the best for your future endeavours. From Nidhi Kamewar Congratulations on completing your 5th work anniversary with us!. You are such an amazing engineer and a great colleague to work with. One of the things we love most about you is engineering skills and knack for documentation. You bring a level of expertise to the team that is unmatched, and your attention to detail is something that we all strive to replicate. We're grateful for your unwavering dedication to the job and couldn't think of anyone better to have on our team. Here's to many more years of collaboration and success together From Amit Raj",
+    "excerpt": "Many Congratulations Reeti on your 5 year milestone at Intuit co, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving this impressive 5-year mileston",
+    "message": "Many Congratulations Reeti on your 5 year milestone at Intuit co, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving this impressive 5-year milestone! Wishing you ongoing success and countless more accomplishments in the years to come. From Garima Yadav From Rohit Verma Sign In Register Congratulations Reeti on completing 5 years at Intuit, The dedication and passion you show towards your work is truly commendable and inspiring. Wish you all the best for your future endeavours. From Nidhi Kamewar Congratulations on completing your 5th work anniversary with us!. You are such an amazing engineer and a great colleague to work with. One of the things we love most about you is engineering skills and knack for documentation. You bring a level of expertise to the team that is unmatched, and your attention to detail is something that we all strive to replicate. We're grateful for your unwavering dedication to the job and couldn't think of anyone better to have on our team. Here's to many more years of collaboration and success together From Amit Raj"
   },
   {
     "id": 86,
@@ -356,8 +479,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Teach-Learn-Teach Program Thank you for all your expertise, passion & commitment towards making the India site Al ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is com"
+    "title": "Teach-Learn-Teach Program",
+    "text": "Teach-Learn-Teach Program Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is com",
+    "headline": "Teach-Learn-Teach Program",
+    "excerpt": "Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program.",
+    "message": "Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is commendable. Congratulations & looking forward to your continued support in helping our India site reach 100% Early AI Adopters."
   },
   {
     "id": 82,
@@ -371,7 +497,10 @@ export const SPOTLIGHTS = [
     ],
     "featured": true,
     "title": "5 Year Milestone at Intuit",
-    "text": "Redeem now Spotlight Congratulations! I'm proud to celebrate your Intuit anniversary and recognize your accomplishments. I want to personally thank you for your commitment to powering prosperity around the world. I hope we continue to celebrate many more years and successes Sasan Goodarzi"
+    "text": "Redeem now Spotlight Congratulations! I'm proud to celebrate your Intuit anniversary and recognize your accomplishments. I want to personally thank you for your commitment to powering prosperity around the world. I hope we continue to celebrate many more years and successes Sasan Goodarzi",
+    "headline": "5 Year Milestone at Intuit",
+    "excerpt": "Redeem now Spotlight Congratulations! I'm proud to celebrate your Intuit anniversary and recognize your accomplishments. I want to personally thank you for your commitment to powering prosperity around the world.",
+    "message": "Redeem now Spotlight Congratulations! I'm proud to celebrate your Intuit anniversary and recognize your accomplishments. I want to personally thank you for your commitment to powering prosperity around the world."
   },
   {
     "id": 81,
@@ -385,8 +514,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "Commendable & continuous efforts in AAA Program Thank you for all your expertise, passion & commitment towards making the India site Al-ready through this teach-learn-teach program. Beyond your day job, you have been training close to 100 engineers in Concepts, Theory & Hands-on Labs of the AAA Prog"
+    "title": "Commendable & continuous efforts in AAA Program",
+    "text": "Commendable & continuous efforts in AAA Program Thank you for all your expertise, passion & commitment towards making the India site AI-ready through this teach-learn-teach program. Beyond your day job, you have been training close to 100 engineers in Concepts, Theory & Hands-on Labs of the AAA Prog",
+    "headline": "Commendable & continuous efforts in AAA Program",
+    "excerpt": "Thank you for all your expertise, passion & commitment towards making the India site AI-ready through this teach-learn-teach program.",
+    "message": "Thank you for all your expertise, passion & commitment towards making the India site AI-ready through this teach-learn-teach program. Beyond your day job, you have been training close to 100 engineers in Concepts, Theory & Hands-on Labs of the AAA Program. Your dedication is commendable. Congratulations & looking forward to your continued Support in helping our India site reach 100% Early AI Adopters."
   },
   {
     "id": 80,
@@ -400,8 +532,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "TY for participating! PD Tech Forward Newsletter Thank you for participating in our quarterly Tech Forward Newsletter crossword puzzle. Your engagement and enthusiasm for our goal of fostering a Builder Culture within our tech ecosystem mean a lot to us. I hope you had fun solving the puzzle and bui"
+    "title": "TY for participating! PD Tech Forward Newsletter",
+    "text": "TY for participating! PD Tech Forward Newsletter Thank you for participating in our quarterly Tech Forward Newsletter crossword puzzle. Your engagement and enthusiasm for our goal of fostering a Builder Culture within our tech ecosystem mean a lot to us. I hope you had fun solving the puzzle and bui",
+    "headline": "TY for participating! PD Tech Forward Newsletter",
+    "excerpt": "Thank you for participating in our quarterly Tech Forward Newsletter crossword puzzle. Your engagement and enthusiasm for our goal of fostering a Builder Culture within our tech ecosystem mean a lot to us.",
+    "message": "Thank you for participating in our quarterly Tech Forward Newsletter crossword puzzle. Your engagement and enthusiasm for our goal of fostering a Builder Culture within our tech ecosystem mean a lot to us. I hope you had fun solving the puzzle and building your knowledge of our Intuit Builder Culture. Don't forget to check out our Builder Culture FAQ as a resource to help you find the answers. Thanks again for being a part of our SBSEG PD community and for helping to create a Builder Culture!"
   },
   {
     "id": 79,
@@ -415,8 +550,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Project Profitability - Milestone V 0.5 Release Thanks team for all the hard work behind the Project Profitability Milestone V 0.5 Release. Your dedication in making the Platform live to customers and learning weekly from the iterations is something commendable. This is just the start of our QB.AI j"
+    "title": "Project Profitability - Milestone V 0.5 Release",
+    "text": "Project Profitability - Milestone V 0.5 Release Thanks team for all the hard work behind the Project Profitability Milestone V 0.5 Release. Your dedication in making the Platform live to customers and learning weekly from the iterations is something commendable. This is just the start of our QB.AI j",
+    "headline": "Project Profitability - Milestone V 0.5 Release",
+    "excerpt": "Thanks team for all the hard work behind the Project Profitability Milestone V 0.5 Release. Your dedication in making the Platform live to customers and learning weekly from the iterations is something commendable.",
+    "message": "Thanks team for all the hard work behind the Project Profitability Milestone V 0.5 Release. Your dedication in making the Platform live to customers and learning weekly from the iterations is something commendable. This is just the start of our QB.AI journey and solving more Mid Market Use-Cases to unlock the true power of IES for customers using AI Cheers Amit"
   },
   {
     "id": 77,
@@ -429,8 +567,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Great work on QBAI Thanks Reeti for bootstrapping the journey builder iteration for the QB.AI Flow. Having to work through multiple iterations and working through multiple variations of the demo video is appreciated. Appreciate the accountability of going above and beyond. Best, Anshu (1 of 2)"
+    "title": "QB.AI journey builder",
+    "text": "Great work on QBAI Thanks Reeti for bootstrapping the journey builder iteration for the QB.AI Flow. Having to work through multiple iterations and working through multiple variations of the demo video is appreciated. Appreciate the accountability of going above and beyond. Best, Anshu (1 of 2)",
+    "headline": "QB.AI journey builder",
+    "excerpt": "Great work on QBAI Thanks Reeti for bootstrapping the journey builder iteration for the QB.AI Flow. Having to work through multiple iterations and working through multiple variations of the demo video is appreciated.",
+    "message": "Great work on QBAI Thanks Reeti for bootstrapping the journey builder iteration for the QB.AI Flow. Having to work through multiple iterations and working through multiple variations of the demo video is appreciated. Appreciate the accountability of going above and beyond. Best, Anshu (1 of 2)"
   },
   {
     "id": 76,
@@ -443,8 +584,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "India Site Visit: Gallery Walk Success! On behalf of Kashi, Laurent and James, we would like to extend our sincere gratitude for the incredible work that you did in putting together the Gallery Walks during our recent site visit. These demos provided us with a firsthand look at all of the incredible"
+    "title": "India Site Visit: Gallery Walk Success",
+    "text": "India Site Visit: Gallery Walk Success! On behalf of Kashi, Laurent and James, we would like to extend our sincere gratitude for the incredible work that you did in putting together the Gallery Walks during our recent site visit. These demos provided us with a firsthand look at all of the incredible",
+    "headline": "India Site Visit: Gallery Walk Success",
+    "excerpt": "On behalf of Kashi, Laurent and James, we would like to extend our sincere gratitude for the incredible work that you did in putting together the Gallery Walks during our recent site visit.",
+    "message": "On behalf of Kashi, Laurent and James, we would like to extend our sincere gratitude for the incredible work that you did in putting together the Gallery Walks during our recent site visit. These demos provided us with a firsthand look at all of the incredible projects that you have been working on, giving us a deeper understanding of your team's contributions to our organization. Your attention to detail and organization throughout the Gallery Walks was impressive and greatly appreciated. The effort that you put into showcasing your work has not gone unnoticed and we want you to know how much we value your work. It's clear that you all have a deep passion for what you do and it truly came through in the presentations. Thank you again for your dedication and hard work, and for all that you do to make our organization successful. We look forward to seeing the continued impact of your work."
   },
   {
     "id": 75,
@@ -457,8 +601,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "SBSEG PD Tech Forward Wordle Participation THANK YOU for participating in our Tech Forward Newsletter Wordle challenge! It was a pleasure to see all of the entries and enthusiasm for the puzzles. Your efforts are greatly appreciated, and I hope you had fun solving the Wordles. The answers are: Cheer"
+    "title": "SBSEG PD Tech Forward Wordle Participation",
+    "text": "SBSEG PD Tech Forward Wordle Participation THANK YOU for participating in our Tech Forward Newsletter Wordle challenge! It was a pleasure to see all of the entries and enthusiasm for the puzzles. Your efforts are greatly appreciated, and I hope you had fun solving the Wordles. The answers are: Cheer",
+    "headline": "SBSEG PD Tech Forward Wordle Participation",
+    "excerpt": "THANK YOU for participating in our Tech Forward Newsletter Wordle challenge! It was a pleasure to see all of the entries and enthusiasm for the puzzles. Your efforts are greatly appreciated, and I hope you had fun solving the Wordles.",
+    "message": "THANK YOU for participating in our Tech Forward Newsletter Wordle challenge! It was a pleasure to see all of the entries and enthusiasm for the puzzles. Your efforts are greatly appreciated, and I hope you had fun solving the Wordles. The answers are: Cheer, Agile and Tools. In SBSEG PD, everyone is a winner - thank you again for your contribution!"
   },
   {
     "id": 74,
@@ -471,8 +618,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "A Giant Thank You for all you do Hello Reeti, Take a bow for your valuable partnership which resulted in MM A team ship Al summarisation widget on MR and quickly setting up an experiments on Reports. You have always responded with incredible agility and speed without compromising on quality. I also "
+    "title": "AI summarization widget",
+    "text": "A Giant Thank You for all you do Hello Reeti, Take a bow for your valuable partnership which resulted in MM A team ship AI summarisation widget on MR and quickly setting up an experiments on Reports. You have always responded with incredible agility and speed without compromising on quality. I also",
+    "headline": "AI summarization widget",
+    "excerpt": "A Giant Thank You for all you do Hello Reeti, Take a bow for your valuable partnership which resulted in MM A team ship AI summarisation widget on MR and quickly setting up an experiments on Reports.",
+    "message": "A Giant Thank You for all you do Hello Reeti, Take a bow for your valuable partnership which resulted in MM A team ship AI summarisation widget on MR and quickly setting up an experiments on Reports. You have always responded with incredible agility and speed without compromising on quality. I also take this moment to thank you for your demo at the successful BB5 galley walk event at IDC which received incredible support and appreciation from our Product and Engineering leaders. Once again, thank you for your hard work, commitment and it has been an absolute pleasure working with you."
   },
   {
     "id": 73,
@@ -485,8 +635,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "QB Al 30days Coding Challenge Thank you so much team for all the hard work you have put in to drive QB.AI. QB.Al was a concept 30 days back, you made this a reality in the form of working code. Its truly inspiring to see how you not only thought about solving this problem, but also solving this as a"
+    "title": "QB AI 30days Coding Challenge",
+    "text": "QB AI 30days Coding Challenge Thank you so much team for all the hard work you have put in to drive QB.AI. QB.AI was a concept 30 days back, you made this a reality in the form of working code. Its truly inspiring to see how you not only thought about solving this problem, but also solving this as a",
+    "headline": "QB AI 30days Coding Challenge",
+    "excerpt": "Thank you so much team for all the hard work you have put in to drive QB.AI. QB.AI was a concept 30 days back, you made this a reality in the form of working code.",
+    "message": "QB AI 30days Coding Challenge Thank you so much team for all the hard work you have put in to drive QB.AI. QB.AI was a concept 30 days back, you made this a reality in the form of working code. Its truly inspiring to see how you not only thought about solving this problem, but also solving this as a durable pattern which can be applied to a wide variety of problems. We are onto something big, kudos and keep up the momentum. Looking forward to customer learnings. #shipit! Best, Anshu"
   },
   {
     "id": 72,
@@ -499,8 +652,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Congratulations on creating production ready code for Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers by shipping your project to production. Great job partnering with your teams to deliver impact. That's worth celebra"
+    "title": "Global Engineering Days",
+    "text": "Congratulations on creating production ready code for Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers by shipping your project to production. Great job partnering with your teams to deliver impact. That's worth celebra",
+    "headline": "Global Engineering Days",
+    "excerpt": "Congratulations on creating production ready code for Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers by shipping your project to production.",
+    "message": "Congratulations on creating production ready code for Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers by shipping your project to production. Great job partnering with your teams to deliver impact. That's worth celebrating awesome job!"
   },
   {
     "id": 71,
@@ -515,8 +671,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Congratulations on the MR Al Release! Thanks Reeti for tech leadership and guidance for MM AI Team. You have been instrumental in setting this team for success. Additionally with the expanded role on the QB.Al, you have wore multiple hats and helping multiple tracks in their Al journey. Appreciate t"
+    "title": "Congratulations on the MR AI Release!",
+    "text": "Congratulations on the MR AI Release! Thanks Reeti for tech leadership and guidance for MM AI Team. You have been instrumental in setting this team for success. Additionally with the expanded role on the QB.AI, you have wore multiple hats and helping multiple tracks in their AI journey. Appreciate t",
+    "headline": "Congratulations on the MR AI Release!",
+    "excerpt": "Thanks Reeti for tech leadership and guidance for MM AI Team. You have been instrumental in setting this team for success. Additionally with the expanded role on the QB.AI, you have wore multiple hats and helping multiple tracks in their AI journey.",
+    "message": "Thanks Reeti for tech leadership and guidance for MM AI Team. You have been instrumental in setting this team for success. Additionally with the expanded role on the QB.AI, you have wore multiple hats and helping multiple tracks in their AI journey. Appreciate the Good work, keep it up."
   },
   {
     "id": 70,
@@ -530,8 +689,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "MR Milestone 2 Release Thanks Team for all the hard work behind the MR Milestone 2 Release. This release is an example of hard work put across sprints and working with varied stakeholders The call of duty mindset coupled with delivering the right Al Use- Case in production is truly appreciated. Let'"
+    "title": "MR Milestone 2 Release",
+    "text": "MR Milestone 2 Release Thanks Team for all the hard work behind the MR Milestone 2 Release. This release is an example of hard work put across sprints and working with varied stakeholders The call of duty mindset coupled with delivering the right AI Use- Case in production is truly appreciated. Let'",
+    "headline": "MR Milestone 2 Release",
+    "excerpt": "Thanks Team for all the hard work behind the MR Milestone 2 Release. This release is an example of hard work put across sprints and working with varied stakeholders The call of duty mindset coupled with delivering the right AI Use- Case in production is truly…",
+    "message": "Thanks Team for all the hard work behind the MR Milestone 2 Release. This release is an example of hard work put across sprints and working with varied stakeholders The call of duty mindset coupled with delivering the right AI Use- Case in production is truly appreciated. Let's solve for more such use-cases for MM Customers Thanks Amit"
   },
   {
     "id": 69,
@@ -545,8 +707,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": true,
-    "title": "Customer Obsession",
-    "text": "You are Awesome! Congratulations Reeti on leading the team to accomplish the first milestone of the \"Management Report - Gen Al Experience\" initiative. The private beta testing of the first Generative Al Use case that we have launched is a remarkable achievement, and the team's quick handling of the"
+    "title": "Management Report GenAI",
+    "text": "You are Awesome! Congratulations Reeti on leading the team to accomplish the first milestone of the \"Management Report - Gen AI Experience\" initiative. The private beta testing of the first Generative AI Use case that we have launched is a remarkable achievement, and the team's quick handling of the",
+    "headline": "Management Report GenAI",
+    "excerpt": "You are Awesome! Congratulations Reeti on leading the team to accomplish the first milestone of the \"Management Report - Gen AI Experience\" initiative.",
+    "message": "You are Awesome! Congratulations Reeti on leading the team to accomplish the first milestone of the \"Management Report - Gen AI Experience\" initiative. The private beta testing of the first Generative AI Use case that we have launched is a remarkable achievement, and the team's quick handling of the iterative releases is a testament to their skills and dedication. Your leadership as a front-end engineer and mentor to the junior engineers in the team has been exemplary. Your Data Science understanding in general was also very handy while executing this project. You have led from the front by demonstrating meticulous execution and attention to detail in documenting the project's details consistently. Your contribution to this initiative has been invaluable, making a significant impact on the success of the project. We are proud to have you as a member of the team and appreciate your dedication and hard work. The positive confirmations through the follow-up home interactions with the customers are a testament to the initiative's success, and we look forward to continued success under your leadership. Keep up the fantastic work! Regards, Sumanta"
   },
   {
     "id": 68,
@@ -560,7 +725,10 @@ export const SPOTLIGHTS = [
     ],
     "featured": true,
     "title": "Customer Obsession Winner, FY23 Q4",
-    "text": "FY23 Q4 - Customer Obsession Winners Reeti Sarup Senior Software Engineer Reeti has shown the exceptional qualities of a senior engineer in the team. She has been the pioneer for sharing her knowledge in her recent deliveries that she made in composite apps team. She proactively scheduled 2 differen"
+    "text": "FY23 Q4 - Customer Obsession Winners Reeti Sarup Senior Software Engineer Reeti has shown the exceptional qualities of a senior engineer in the team. She has been the pioneer for sharing her knowledge in her recent deliveries that she made in composite apps team. She proactively scheduled 2 differen",
+    "headline": "Customer Obsession Winner, FY23 Q4",
+    "excerpt": "FY23 Q4 - Customer Obsession Winners Reeti Sarup Senior Software Engineer Reeti has shown the exceptional qualities of a senior engineer in the team.",
+    "message": "FY23 Q4 - Customer Obsession Winners Reeti Sarup Senior Software Engineer Reeti has shown the exceptional qualities of a senior engineer in the team."
   },
   {
     "id": 67,
@@ -574,8 +742,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Beta Launch of MR Summary Report in QBO - AV Thank you for launching GenAl enabled Management Report (MR) in private Beta mode. The reusable summarization widget is a novel application of Gen Al, Management Reports and Autonomous Insights that generates a summary of complex financial reports. This f"
+    "title": "Beta Launch of MR Summary Report in QBO - AV",
+    "text": "Beta Launch of MR Summary Report in QBO - AV Thank you for launching GenAI enabled Management Report (MR) in private Beta mode. The reusable summarization widget is a novel application of Gen AI, Management Reports and Autonomous Insights that generates a summary of complex financial reports. This f",
+    "headline": "Beta Launch of MR Summary Report in QBO - AV",
+    "excerpt": "Thank you for launching GenAI enabled Management Report (MR) in private Beta mode. The reusable summarization widget is a novel application of Gen AI, Management Reports and Autonomous Insights that generates a summary of complex financial reports.",
+    "message": "Thank you for launching GenAI enabled Management Report (MR) in private Beta mode. The reusable summarization widget is a novel application of Gen AI, Management Reports and Autonomous Insights that generates a summary of complex financial reports. This feature will be a massive benefit to MM usersboth the creators and the consumers of MR, who need to customize their executive summary before sharing it with their stakeholders/clients. I look forward to ramping up this feature for more customers in QBO-Advanced."
   },
   {
     "id": 66,
@@ -588,8 +759,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Thank you Reeti! Thank you for innovating and doing an incredible job on the POCs to help our MM customers. It's inspiring to see 50 GED ideas from this team creating delighters ranging across different themes like GenAl, Automation, and other amazing enhancements to help Mid-Market customers solve "
+    "title": "Global Engineering Days",
+    "text": "Thank you Reeti! Thank you for innovating and doing an incredible job on the POCs to help our MM customers. It's inspiring to see 50 GED ideas from this team creating delighters ranging across different themes like GenAI, Automation, and other amazing enhancements to help Mid-Market customers solve",
+    "headline": "Global Engineering Days",
+    "excerpt": "Thank you Reeti! Thank you for innovating and doing an incredible job on the POCs to help our MM customers. It's inspiring to see 50 GED ideas from this team creating delighters ranging across different themes like GenAI, Automation, and other amazing…",
+    "message": "Thank you Reeti! Thank you for innovating and doing an incredible job on the POCs to help our MM customers. It's inspiring to see 50 GED ideas from this team creating delighters ranging across different themes like GenAI, Automation, and other amazing enhancements to help Mid-Market customers solve their most important problems! Congratulations and looking forward to further successes that benefit Mid-Market customers!"
   },
   {
     "id": 65,
@@ -602,8 +776,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Tech 6 - E2E Use Case Workshop Thank you Reeti - for your great engagement and passionate debate in the Tech 6 e2e Use case workshop. Look forward to continued partnership as we work to accelerate developer productivity! regards Leena"
+    "title": "Tech 6 - E2E Use Case Workshop",
+    "text": "Tech 6 - E2E Use Case Workshop Thank you Reeti - for your great engagement and passionate debate in the Tech 6 e2e Use case workshop. Look forward to continued partnership as we work to accelerate developer productivity! regards Leena",
+    "headline": "Tech 6 - E2E Use Case Workshop",
+    "excerpt": "Thank you Reeti - for your great engagement and passionate debate in the Tech 6 e2e Use case workshop. Look forward to continued partnership as we work to accelerate developer productivity!",
+    "message": "Thank you Reeti - for your great engagement and passionate debate in the Tech 6 e2e Use case workshop. Look forward to continued partnership as we work to accelerate developer productivity! regards Leena"
   },
   {
     "id": 63,
@@ -617,8 +794,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "Thanks for your Hacktoberfest contribution! This year, Intuit joined in Hacktoberfest for the 4th time and we are thrilled you were part of it. We value your bias for learning and action and appreciate your contributions to the open source community. This is worth celebrating-great job! - The Intuit"
+    "title": "Hacktoberfest",
+    "text": "Thanks for your Hacktoberfest contribution! This year, Intuit joined in Hacktoberfest for the 4th time and we are thrilled you were part of it. We value your bias for learning and action and appreciate your contributions to the open source community. This is worth celebrating-great job! - The Intuit",
+    "headline": "Hacktoberfest",
+    "excerpt": "Thanks for your Hacktoberfest contribution! This year, Intuit joined in Hacktoberfest for the 4th time and we are thrilled you were part of it. We value your bias for learning and action and appreciate your contributions to the open source community.",
+    "message": "Thanks for your Hacktoberfest contribution! This year, Intuit joined in Hacktoberfest for the 4th time and we are thrilled you were part of it. We value your bias for learning and action and appreciate your contributions to the open source community. This is worth celebrating-great job! - The Intuit Hacktoberfest Core Team"
   },
   {
     "id": 64,
@@ -632,8 +812,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Hacktoberfest Mentor This year, Intuit joined in Hacktoberfest for the 4th time and we are thrilled you were part of it. Your mentorship helped us win together, providing guidance and encouragement to contributors new to open source and serving as a leader in the community. This is worth celebrating"
+    "title": "Hacktoberfest Mentor",
+    "text": "Hacktoberfest Mentor This year, Intuit joined in Hacktoberfest for the 4th time and we are thrilled you were part of it. Your mentorship helped us win together, providing guidance and encouragement to contributors new to open source and serving as a leader in the community. This is worth celebrating",
+    "headline": "Hacktoberfest Mentor",
+    "excerpt": "This year, Intuit joined in Hacktoberfest for the 4th time and we are thrilled you were part of it. Your mentorship helped us win together, providing guidance and encouragement to contributors new to open source and serving as a leader in the community.",
+    "message": "This year, Intuit joined in Hacktoberfest for the 4th time and we are thrilled you were part of it. Your mentorship helped us win together, providing guidance and encouragement to contributors new to open source and serving as a leader in the community. This is worth celebrating-great job! - The Intuit Hacktoberfest Core Team"
   },
   {
     "id": 62,
@@ -646,8 +829,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thanks Reeti Thank you Reeti for being the volunteer in the Tech Culture Champions Community booth in GED. You alongwith the other volunteers presented the vision, tracks and outcomes of the community to the whole audience including Alex Balazs in a very well articulated format. Your passion towards"
+    "title": "Global Engineering Days",
+    "text": "Thanks Reeti Thank you Reeti for being the volunteer in the Tech Culture Champions Community booth in GED. You alongwith the other volunteers presented the vision, tracks and outcomes of the community to the whole audience including Alex Balazs in a very well articulated format. Your passion towards",
+    "headline": "Global Engineering Days",
+    "excerpt": "Thanks Reeti Thank you Reeti for being the volunteer in the Tech Culture Champions Community booth in GED. You alongwith the other volunteers presented the vision, tracks and outcomes of the community to the whole audience including Alex Balazs in a very well…",
+    "message": "Thanks Reeti Thank you Reeti for being the volunteer in the Tech Culture Champions Community booth in GED. You alongwith the other volunteers presented the vision, tracks and outcomes of the community to the whole audience including Alex Balazs in a very well articulated format. Your passion towards the community is truly inspiring. Please keep up the good work and looking forward to much such successes. Cheers Anshuman"
   },
   {
     "id": 61,
@@ -660,8 +846,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Stronger Together: This award is in recognition of your time, energy and passion to deliver an awesome Fall GED FY24. We truly appreciate what it takes to prepare and ensure our teams and leaders have the best experience. With your help, we are all stronger together! Thank you so much"
+    "title": "Global Engineering Days",
+    "text": "Stronger Together: This award is in recognition of your time, energy and passion to deliver an awesome Fall GED FY24. We truly appreciate what it takes to prepare and ensure our teams and leaders have the best experience. With your help, we are all stronger together! Thank you so much",
+    "headline": "Global Engineering Days",
+    "excerpt": "This award is in recognition of your time, energy and passion to deliver an awesome Fall GED FY24. We truly appreciate what it takes to prepare and ensure our teams and leaders have the best experience. With your help, we are all stronger together!",
+    "message": "Stronger Together: This award is in recognition of your time, energy and passion to deliver an awesome Fall GED FY24. We truly appreciate what it takes to prepare and ensure our teams and leaders have the best experience. With your help, we are all stronger together! Thank you so much"
   },
   {
     "id": 60,
@@ -675,8 +864,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank you so much for your FY23 contributions as a Tech Ambassador! When you share your knowledge, expertise, and best practices in your external blog posts and / or presentations, you're telling the world that Intuit is a technical innovator and a great place to work. I look forward to seeing more "
+    "title": "Tech Ambassador",
+    "text": "Thank you so much for your FY23 contributions as a Tech Ambassador! When you share your knowledge, expertise, and best practices in your external blog posts and / or presentations, you're telling the world that Intuit is a technical innovator and a great place to work. I look forward to seeing more",
+    "headline": "Tech Ambassador",
+    "excerpt": "Thank you so much for your FY23 contributions as a Tech Ambassador! When you share your knowledge, expertise, and best practices in your external blog posts and / or presentations, you're telling the world that Intuit is a technical innovator and a great…",
+    "message": "Thank you so much for your FY23 contributions as a Tech Ambassador! When you share your knowledge, expertise, and best practices in your external blog posts and / or presentations, you're telling the world that Intuit is a technical innovator and a great place to work. I look forward to seeing more of your blogging and presenting in FY24. Thank you! Alex Balazs"
   },
   {
     "id": 59,
@@ -689,8 +881,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": true,
-    "title": "Customer Obsession",
-    "text": "You are Awesome!! Congratulations on winning the Quarterly Values award for BB5 India PD org. Thank you for all the hard work, passion and commitment towards delivering for our customers in BigBet5. This peer recognition is testimonial to what your peers value about your drive and excellence in what"
+    "title": "Quarterly Values award",
+    "text": "You are Awesome!! Congratulations on winning the Quarterly Values award for BB5 India PD org. Thank you for all the hard work, passion and commitment towards delivering for our customers in BigBet5. This peer recognition is testimonial to what your peers value about your drive and excellence in what",
+    "headline": "Quarterly Values award",
+    "excerpt": "You are Awesome!! Congratulations on winning the Quarterly Values award for BB5 India PD org. Thank you for all the hard work, passion and commitment towards delivering for our customers in BigBet5.",
+    "message": "You are Awesome!! Congratulations on winning the Quarterly Values award for BB5 India PD org. Thank you for all the hard work, passion and commitment towards delivering for our customers in BigBet5. This peer recognition is testimonial to what your peers value about your drive and excellence in what you do at work everyday while role modeling the Intuit values. We are lucky to have you in the team. Congratulations once again and keep it up! Best regards, Sumanta (On behalf of BB5 PD Leadership)"
   },
   {
     "id": 58,
@@ -703,8 +898,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Tech Forward Newsletter: Spot the Difference Thank you for participating in the Spot the Difference challenge at the end of our August 2023 Tech Forward Newsletter. In SBSEG PD, we are ALL winners and your participation makes our challenge such a memorable experience. We look forward to your partici"
+    "title": "Tech Forward Newsletter: Spot the Difference",
+    "text": "Tech Forward Newsletter: Spot the Difference Thank you for participating in the Spot the Difference challenge at the end of our August 2023 Tech Forward Newsletter. In SBSEG PD, we are ALL winners and your participation makes our challenge such a memorable experience. We look forward to your partici",
+    "headline": "Tech Forward Newsletter: Spot the Difference",
+    "excerpt": "Thank you for participating in the Spot the Difference challenge at the end of our August 2023 Tech Forward Newsletter. In SBSEG PD, we are ALL winners and your participation makes our challenge such a memorable experience.",
+    "message": "Thank you for participating in the Spot the Difference challenge at the end of our August 2023 Tech Forward Newsletter. In SBSEG PD, we are ALL winners and your participation makes our challenge such a memorable experience. We look forward to your participation in our future events and continuing to grow together. Kashi Kakarla and the SBSEG PD Tech Forward Team"
   },
   {
     "id": 57,
@@ -717,8 +915,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Stronger Together: Congratulations on creating production ready code for Global Engineering Days! Your project was production ready and solved an important problem for our internal developers or customers. Great job partnering with your teams to deliver impact. That's worth celebrating - awesome job"
+    "title": "Global Engineering Days",
+    "text": "Stronger Together: Congratulations on creating production ready code for Global Engineering Days! Your project was production ready and solved an important problem for our internal developers or customers. Great job partnering with your teams to deliver impact. That's worth celebrating - awesome job",
+    "headline": "Global Engineering Days",
+    "excerpt": "Congratulations on creating production ready code for Global Engineering Days! Your project was production ready and solved an important problem for our internal developers or customers. Great job partnering with your teams to deliver impact.",
+    "message": "Stronger Together: Congratulations on creating production ready code for Global Engineering Days! Your project was production ready and solved an important problem for our internal developers or customers. Great job partnering with your teams to deliver impact. That's worth celebrating awesome job!"
   },
   {
     "id": 56,
@@ -731,8 +932,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": true,
-    "title": "Stronger Together",
-    "text": "Tech Community FY'23 Thank you for your invaluable contributions to the Tech Community at Intuit India. Your expertise and dedication have made a significant impact, driving innovation and fostering a positive work environment. We are grateful to have you as part of our team. Best, Anshu Ovation (no"
+    "title": "Tech Community FY'23",
+    "text": "Tech Community FY'23 Thank you for your invaluable contributions to the Tech Community at Intuit India. Your expertise and dedication have made a significant impact, driving innovation and fostering a positive work environment. We are grateful to have you as part of our team. Best, Anshu Ovation (no",
+    "headline": "Tech Community FY'23",
+    "excerpt": "Thank you for your invaluable contributions to the Tech Community at Intuit India. Your expertise and dedication have made a significant impact, driving innovation and fostering a positive work environment. We are grateful to have you as part of our team.",
+    "message": "Thank you for your invaluable contributions to the Tech Community at Intuit India. Your expertise and dedication have made a significant impact, driving innovation and fostering a positive work environment. We are grateful to have you as part of our team. Best, Anshu"
   },
   {
     "id": 55,
@@ -746,8 +950,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank you for making Fridays fun! Thank you for taking a lead in keeping the team engagement and fun factor high through the Fun Friday sessions. Your efforts in the initial days have led to members from the different scrum teams having a good bonding with each other, the sessions have become a lot "
+    "title": "Fun Friday sessions",
+    "text": "Thank you for making Fridays fun! Thank you for taking a lead in keeping the team engagement and fun factor high through the Fun Friday sessions. Your efforts in the initial days have led to members from the different scrum teams having a good bonding with each other, the sessions have become a lot",
+    "headline": "Fun Friday sessions",
+    "excerpt": "Thank you for making Fridays fun! Thank you for taking a lead in keeping the team engagement and fun factor high through the Fun Friday sessions.",
+    "message": "Thank you for making Fridays fun! Thank you for taking a lead in keeping the team engagement and fun factor high through the Fun Friday sessions. Your efforts in the initial days have led to members from the different scrum teams having a good bonding with each other, the sessions have become a lot of fun, and team members are volunteering by themselves to conduct the sessions. Thank you for acting as the glue that brings the team together!"
   },
   {
     "id": 54,
@@ -760,8 +967,11 @@ export const SPOTLIGHTS = [
       "AI & GenAI"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Impactful GED Innovations Thank you for innovating and doing an incredible job on the POCs to help our MM customers. It's inspiring to see 60+ GED ideas from this team, most using GenAl! Congratulations and looking forward to further successes that benefit Mid-Market customers! Kelly"
+    "title": "Impactful GED Innovations",
+    "text": "Impactful GED Innovations Thank you for innovating and doing an incredible job on the POCs to help our MM customers. It's inspiring to see 60+ GED ideas from this team, most using GenAI! Congratulations and looking forward to further successes that benefit Mid-Market customers! Kelly",
+    "headline": "Impactful GED Innovations",
+    "excerpt": "Thank you for innovating and doing an incredible job on the POCs to help our MM customers. It's inspiring to see 60+ GED ideas from this team, most using GenAI! Congratulations and looking forward to further successes that benefit Mid-Market customers!",
+    "message": "Thank you for innovating and doing an incredible job on the POCs to help our MM customers. It's inspiring to see 60+ GED ideas from this team, most using GenAI! Congratulations and looking forward to further successes that benefit Mid-Market customers! Kelly"
   },
   {
     "id": 53,
@@ -775,8 +985,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "FEDs Launch You have gone above and beyond contributing to the Financial Error Detection new Ul and backend launch. Because of you, and the deep customer obsession that you bring to work every day, our customers will be able to prevent any data entry mistakes that could have led to disastrous conseq"
+    "title": "FEDs Launch",
+    "text": "FEDs Launch You have gone above and beyond contributing to the Financial Error Detection new Ul and backend launch. Because of you, and the deep customer obsession that you bring to work every day, our customers will be able to prevent any data entry mistakes that could have led to disastrous conseq",
+    "headline": "FEDs Launch",
+    "excerpt": "You have gone above and beyond contributing to the Financial Error Detection new Ul and backend launch. Because of you, and the deep customer obsession that you bring to work every day, our customers will be able to prevent any data entry mistakes that could…",
+    "message": "You have gone above and beyond contributing to the Financial Error Detection new Ul and backend launch. Because of you, and the deep customer obsession that you bring to work every day, our customers will be able to prevent any data entry mistakes that could have led to disastrous consequences. Keep up the excellent work!"
   },
   {
     "id": 52,
@@ -790,8 +1003,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Front-End Community Thank you for speaking at the session:Hands-on workshop on GraphQl by Frontend community Best, Anshu & Kusuma"
+    "title": "Front-End Community",
+    "text": "Front-End Community Thank you for speaking at the session:Hands-on workshop on GraphQl by Frontend community Best, Anshu & Kusuma",
+    "headline": "Front-End Community",
+    "excerpt": "Thank you for speaking at the session:Hands-on workshop on GraphQl by Frontend community Best, Anshu &…",
+    "message": "Thank you for speaking at the session:Hands-on workshop on GraphQl by Frontend community Best, Anshu & Kusuma"
   },
   {
     "id": 51,
@@ -804,8 +1020,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "Amazing work in Advanced Upgrader GTKM track Reeti, you have shown exceptional commitment in your recent work on GTKM in the upgrader experience. You spent a tonnes of great effort in reading through a complex lego codebase with very minimal workable documentation. This shows your courage and desire"
+    "title": "GTKM upgrader experience",
+    "text": "Amazing work in Advanced Upgrader GTKM track Reeti, you have shown exceptional commitment in your recent work on GTKM in the upgrader experience. You spent a tonnes of great effort in reading through a complex lego codebase with very minimal workable documentation. This shows your courage and desire",
+    "headline": "GTKM upgrader experience",
+    "excerpt": "Amazing work in Advanced Upgrader GTKM track Reeti, you have shown exceptional commitment in your recent work on GTKM in the upgrader experience.",
+    "message": "Amazing work in Advanced Upgrader GTKM track Reeti, you have shown exceptional commitment in your recent work on GTKM in the upgrader experience. You spent a tonnes of great effort in reading through a complex lego codebase with very minimal workable documentation. This shows your courage and desire to deliver an amazing experience for our customers. The work involved working through a lot of complex components in GTKM and this is evident by the quality and quantity of code you have delivered. Its just amazing and inspiring to see how well you have collaborated with the lego team to get this out. I cannot wait to see you growing and coaching your juniors with your recent learnings on these complex design principles! Keep up with the great work. Looking forward to more collaborations and deliveries with you in the team!"
   },
   {
     "id": 50,
@@ -818,8 +1037,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Rethink experience for Invoices! Thank you for your hard work and commitment for launching Rethink for Invoices, which introduces our customers to an absolutely new and refreshing way to manage their invoicing workflow Heartfelt congratulations and look forward to further successes in FY23 and beyon"
+    "title": "Rethink experience for Invoices",
+    "text": "Rethink experience for Invoices! Thank you for your hard work and commitment for launching Rethink for Invoices, which introduces our customers to an absolutely new and refreshing way to manage their invoicing workflow Heartfelt congratulations and look forward to further successes in FY23 and beyon",
+    "headline": "Rethink experience for Invoices",
+    "excerpt": "Thank you for your hard work and commitment for launching Rethink for Invoices, which introduces our customers to an absolutely new and refreshing way to manage their invoicing workflow Heartfelt congratulations and look forward to further successes in FY23…",
+    "message": "Thank you for your hard work and commitment for launching Rethink for Invoices, which introduces our customers to an absolutely new and refreshing way to manage their invoicing workflow Heartfelt congratulations and look forward to further successes in FY23 and beyond."
   },
   {
     "id": 49,
@@ -833,8 +1055,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank You!! Congratulations on winning the Quarterly Best Nomination award for BB5 India PD org. Nominating and recognizing our peers goes a long way in creating the right team culture and it is great to see you going the extra mile and role modeling in crafting the best nomination for your team mat"
+    "title": "Quarterly Best Nomination",
+    "text": "Thank You!! Congratulations on winning the Quarterly Best Nomination award for BB5 India PD org. Nominating and recognizing our peers goes a long way in creating the right team culture and it is great to see you going the extra mile and role modeling in crafting the best nomination for your team mat",
+    "headline": "Quarterly Best Nomination",
+    "excerpt": "Thank You!! Congratulations on winning the Quarterly Best Nomination award for BB5 India PD org. Nominating and recognizing our peers goes a long way in creating the right team culture and it is great to see you going the extra mile and role modeling in…",
+    "message": "Thank You!! Congratulations on winning the Quarterly Best Nomination award for BB5 India PD org. Nominating and recognizing our peers goes a long way in creating the right team culture and it is great to see you going the extra mile and role modeling in crafting the best nomination for your team mate. Thank you for championing the peer recognition mindset and culture! Keep it going! Best regards, Anil, Jyoti, Sumanta (On behalf of BB5 PD Leadership)"
   },
   {
     "id": 48,
@@ -847,8 +1072,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": true,
-    "title": "Stronger Together",
-    "text": "THANK YOU!! \"Congratulations on the launch of Rethink Invoicing Workflows for QBO Advanced users! Your passion, hardwork and perseverance on ensuring we have a quality milestone for our customers is commendable! This release has been one of the critical milestones for FY23 and our customers will be "
+    "title": "Rethink Invoicing Workflows",
+    "text": "THANK YOU!! \"Congratulations on the launch of Rethink Invoicing Workflows for QBO Advanced users! Your passion, hardwork and perseverance on ensuring we have a quality milestone for our customers is commendable! This release has been one of the critical milestones for FY23 and our customers will be",
+    "headline": "Rethink Invoicing Workflows",
+    "excerpt": "THANK YOU!! \"Congratulations on the launch of Rethink Invoicing Workflows for QBO Advanced users! Your passion, hardwork and perseverance on ensuring we have a quality milestone for our customers is commendable!",
+    "message": "THANK YOU!! \"Congratulations on the launch of Rethink Invoicing Workflows for QBO Advanced users! Your passion, hardwork and perseverance on ensuring we have a quality milestone for our customers is commendable! This release has been one of the critical milestones for FY23 and our customers will be delighted to try out the new improved experience. Thank you so much! Best wishes from Jyoti & Sumanta (On Behalf of QBOAdvanced Leadership team)"
   },
   {
     "id": 47,
@@ -861,8 +1089,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Stronger Together: Congratulations on creating production ready code for Global Engineering Days! Your project was production ready and solved an important problem for our internal developers or customers. Great job partnering with your teams to deliver impact. That's worth celebrating - awesome job"
+    "title": "Global Engineering Days",
+    "text": "Stronger Together: Congratulations on creating production ready code for Global Engineering Days! Your project was production ready and solved an important problem for our internal developers or customers. Great job partnering with your teams to deliver impact. That's worth celebrating - awesome job",
+    "headline": "Global Engineering Days",
+    "excerpt": "Congratulations on creating production ready code for Global Engineering Days! Your project was production ready and solved an important problem for our internal developers or customers. Great job partnering with your teams to deliver impact.",
+    "message": "Stronger Together: Congratulations on creating production ready code for Global Engineering Days! Your project was production ready and solved an important problem for our internal developers or customers. Great job partnering with your teams to deliver impact. That's worth celebrating awesome job!"
   },
   {
     "id": 46,
@@ -875,8 +1106,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Multiple outcomes in Workflows and Composite App! Thank you for your commitment to delivering value to our customers by auto- enabling workflows as part of FTU set-up, making notification workflows available across transactional and non-transactional entities, and throttling capabilities. Heartfelt "
+    "title": "Multiple outcomes in Workflows and Composite App!",
+    "text": "Multiple outcomes in Workflows and Composite App! Thank you for your commitment to delivering value to our customers by auto- enabling workflows as part of FTU set-up, making notification workflows available across transactional and non-transactional entities, and throttling capabilities. Heartfelt",
+    "headline": "Multiple outcomes in Workflows and Composite App!",
+    "excerpt": "Thank you for your commitment to delivering value to our customers by auto- enabling workflows as part of FTU set-up, making notification workflows available across transactional and non-transactional entities, and throttling capabilities.",
+    "message": "Thank you for your commitment to delivering value to our customers by autoenabling workflows as part of FTU set-up, making notification workflows available across transactional and non-transactional entities, and throttling capabilities. Heartfelt congratulations and look forward to further success in FY23 and beyond."
   },
   {
     "id": 45,
@@ -890,8 +1124,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "You are a Rockstar!! Thank you for volunteering on-call during recharge days. Appreciate you going beyond the call of duty and being available for our customers during the time off. Your passion is what defines us. Thanks once again\""
+    "title": "On-call volunteering",
+    "text": "You are a Rockstar!! Thank you for volunteering on-call during recharge days. Appreciate you going beyond the call of duty and being available for our customers during the time off. Your passion is what defines us. Thanks once again\"",
+    "headline": "On-call volunteering",
+    "excerpt": "You are a Rockstar!! Thank you for volunteering on-call during recharge days. Appreciate you going beyond the call of duty and being available for our customers during the time off. Your passion is what defines us. Thanks once again\"",
+    "message": "You are a Rockstar!! Thank you for volunteering on-call during recharge days. Appreciate you going beyond the call of duty and being available for our customers during the time off. Your passion is what defines us. Thanks once again"
   },
   {
     "id": 44,
@@ -904,8 +1141,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Thanks for helping improve employee experiences Thanks so much for taking the time to meet and share your feedback on employee help experiences. The team appreciates your feedback so we can understand how to improve the overall experience in the future. Acclaim (non-cash) Award"
+    "title": "Employee experience feedback",
+    "text": "Thanks for helping improve employee experiences Thanks so much for taking the time to meet and share your feedback on employee help experiences. The team appreciates your feedback so we can understand how to improve the overall experience in the future. Acclaim (non-cash) Award",
+    "headline": "Employee experience feedback",
+    "excerpt": "Thanks for helping improve employee experiences Thanks so much for taking the time to meet and share your feedback on employee help experiences. The team appreciates your feedback so we can understand how to improve the overall experience in the future.",
+    "message": "Thanks for helping improve employee experiences Thanks so much for taking the time to meet and share your feedback on employee help experiences. The team appreciates your feedback so we can understand how to improve the overall experience in the future."
   },
   {
     "id": 43,
@@ -918,8 +1158,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thankyou for making an Happy Team \"Thank you for your amazing contributions in making an engaged and happy team, so happy to be partnering with you in making BB5 the best team to work for. Kudos!\" Regards, Jyoti"
+    "title": "Building an engaged team",
+    "text": "Thankyou for making an Happy Team \"Thank you for your amazing contributions in making an engaged and happy team, so happy to be partnering with you in making BB5 the best team to work for. Kudos!\" Regards, Jyoti",
+    "headline": "Building an engaged team",
+    "excerpt": "Thankyou for making an Happy Team \"Thank you for your amazing contributions in making an engaged and happy team, so happy to be partnering with you in making BB5 the best team to work for.",
+    "message": "Thankyou for making an Happy Team \"Thank you for your amazing contributions in making an engaged and happy team, so happy to be partnering with you in making BB5 the best team to work for. Kudos!\" Regards, Jyoti"
   },
   {
     "id": 42,
@@ -932,8 +1175,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Integrity Without Compromise",
-    "text": "Thank you for the contributions in Q1-Q2 Hi Reeti and Kushagra, Thank you for the due diligence and perseverance exhibited by both of you on the Cypress track. We are in such a great position with respect to Cypress parallelization as well as CI/CD integration thanks to the work done by you. Wishing"
+    "title": "Q1–Q2 contributions",
+    "text": "Thank you for the contributions in Q1-Q2 Hi Reeti and Kushagra, Thank you for the due diligence and perseverance exhibited by both of you on the Cypress track. We are in such a great position with respect to Cypress parallelization as well as CI/CD integration thanks to the work done by you. Wishing",
+    "headline": "Thank you for the contributions in Q1-Q2 Hi Reeti and…",
+    "excerpt": "Kushagra, Thank you for the due diligence and perseverance exhibited by both of you on the Cypress track. We are in such a great position with respect to Cypress parallelization as well as CI/CD integration thanks to the work done by you.",
+    "message": "Hi Reeti and Kushagra, Thank you for the due diligence and perseverance exhibited by both of you on the Cypress track. We are in such a great position with respect to Cypress parallelization as well as CI/CD integration thanks to the work done by you. Wishing you both happy holidays and a happy, healthy and prosperous new year 2023!"
   },
   {
     "id": 41,
@@ -946,8 +1192,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": true,
-    "title": "Customer Obsession",
-    "text": "Product & Tech Culture Intuit India Thank you for your contributions for the Front End Community - Product & Tech Culture Intuit India, during Q1 & Q2 of FY23 Best, Anshu"
+    "title": "Product & Tech Culture Intuit India",
+    "text": "Product & Tech Culture Intuit India Thank you for your contributions for the Front End Community - Product & Tech Culture Intuit India, during Q1 & Q2 of FY23 Best, Anshu",
+    "headline": "Product & Tech Culture Intuit India",
+    "excerpt": "Thank you for your contributions for the Front End Community - Product & Tech Culture Intuit India, during Q1 & Q2 of FY23 Best…",
+    "message": "Thank you for your contributions for the Front End Community - Product & Tech Culture Intuit India, during Q1 & Q2 of FY23 Best, Anshu"
   },
   {
     "id": 40,
@@ -961,8 +1210,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "Hacktoberfest Celebration Congratulations on successfully making a contribution for the annual Hacktoberfest Celebration! Contributions like yours are what powers the open source community forward, and we hope you had a great experience this Hacktoberfest. Here's to more open source fun to come!"
+    "title": "Hacktoberfest Celebration",
+    "text": "Hacktoberfest Celebration Congratulations on successfully making a contribution for the annual Hacktoberfest Celebration! Contributions like yours are what powers the open source community forward, and we hope you had a great experience this Hacktoberfest. Here's to more open source fun to come!",
+    "headline": "Hacktoberfest Celebration",
+    "excerpt": "Congratulations on successfully making a contribution for the annual Hacktoberfest Celebration! Contributions like yours are what powers the open source community forward, and we hope you had a great experience this Hacktoberfest.",
+    "message": "Congratulations on successfully making a contribution for the annual Hacktoberfest Celebration! Contributions like yours are what powers the open source community forward, and we hope you had a great experience this Hacktoberfest. Here's to more open source fun to come!"
   },
   {
     "id": 39,
@@ -975,8 +1227,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Hiring for Performance Engineering Team Thanks a lot for your support for completing the hiring for Performance Engineering Team. You have helped with the phone screening and A4As. Hiring the right talent in to the organization is an important activity. It will help us to move in the right direction"
+    "title": "Hiring for Performance Engineering Team",
+    "text": "Hiring for Performance Engineering Team Thanks a lot for your support for completing the hiring for Performance Engineering Team. You have helped with the phone screening and A4As. Hiring the right talent in to the organization is an important activity. It will help us to move in the right direction",
+    "headline": "Hiring for Performance Engineering Team",
+    "excerpt": "Thanks a lot for your support for completing the hiring for Performance Engineering Team. You have helped with the phone screening and A4As. Hiring the right talent in to the organization is an important activity.",
+    "message": "Thanks a lot for your support for completing the hiring for Performance Engineering Team. You have helped with the phone screening and A4As. Hiring the right talent in to the organization is an important activity. It will help us to move in the right direction with confidence and speed. Continue the great momentum and the collaboration mindset. Regards, Rameez"
   },
   {
     "id": 38,
@@ -989,8 +1244,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Thank you for leading the session on React Suspense, React Lazy and code splitting (layering in plugin-cli)"
+    "title": "Plugin-cli migration",
+    "text": "Thank you for leading the session on React Suspense, React Lazy and code splitting (layering in plugin-cli)",
+    "headline": "Plugin-cli migration",
+    "excerpt": "Thank you for leading the session on React Suspense, React Lazy and code splitting (layering in plugin-cli)",
+    "message": "Thank you for leading the session on React Suspense, React Lazy and code splitting (layering in plugin-cli)"
   },
   {
     "id": 37,
@@ -1003,8 +1261,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Hi Reeti, Congratulations on the successful launch of the Sage Data Import feature! This was a complicated feature with a huge number of dependencies, thus requiring a lot of collaboration and follow-up. It was heartening to see that the patience you showed and effort put in by you has turned out so"
+    "title": "Sage Data Import launch",
+    "text": "Hi Reeti, Congratulations on the successful launch of the Sage Data Import feature! This was a complicated feature with a huge number of dependencies, thus requiring a lot of collaboration and follow-up. It was heartening to see that the patience you showed and effort put in by you has turned out so",
+    "headline": "Sage Data Import launch",
+    "excerpt": "Hi Reeti, Congratulations on the successful launch of the Sage Data Import feature! This was a complicated feature with a huge number of dependencies, thus requiring a lot of collaboration and follow-up.",
+    "message": "Hi Reeti, Congratulations on the successful launch of the Sage Data Import feature! This was a complicated feature with a huge number of dependencies, thus requiring a lot of collaboration and follow-up. It was heartening to see that the patience you showed and effort put in by you has turned out so well. This initiative has been a great example of customer obsession and of working through numerous obstacles keeping the customer experience in mind. Kudos and keep it up!"
   },
   {
     "id": 36,
@@ -1018,8 +1279,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Congratulations on winning the Quarterly Best Nomination award for BB5 India PD org. Nominating and recognizing our peers goes a long way in creating the right team culture and it is great to see you going the extra mile and role modeling in crafting the best nomination for your team mate. Thank you"
+    "title": "Quarterly Best Nomination",
+    "text": "Congratulations on winning the Quarterly Best Nomination award for BB5 India PD org. Nominating and recognizing our peers goes a long way in creating the right team culture and it is great to see you going the extra mile and role modeling in crafting the best nomination for your team mate. Thank you",
+    "headline": "Quarterly Best Nomination",
+    "excerpt": "Congratulations on winning the Quarterly Best Nomination award for BB5 India PD org. Nominating and recognizing our peers goes a long way in creating the right team culture and it is great to see you going the extra mile and role modeling in crafting the best…",
+    "message": "Congratulations on winning the Quarterly Best Nomination award for BB5 India PD org. Nominating and recognizing our peers goes a long way in creating the right team culture and it is great to see you going the extra mile and role modeling in crafting the best nomination for your team mate. Thank you for championing the peer recognition mindset and culture! Keep it going! Best regards, Anil, Jyoti, Sumanta (On behalf of BB5 PD Leadership)"
   },
   {
     "id": 35,
@@ -1033,8 +1297,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Thank you for demonstrating extreme customer obsession during the ideation and delivery of the UX 3.0 and Filtering & Sorting features launch. Your commitment to perfection and quality led to a flawless launch for the feature, and the engagement numbers are a testimony to the customer delight this f"
+    "title": "UX 3.0 launch",
+    "text": "Thank you for demonstrating extreme customer obsession during the ideation and delivery of the UX 3.0 and Filtering & Sorting features launch. Your commitment to perfection and quality led to a flawless launch for the feature, and the engagement numbers are a testimony to the customer delight this f",
+    "headline": "UX 3.0 launch",
+    "excerpt": "Thank you for demonstrating extreme customer obsession during the ideation and delivery of the UX 3.0 and Filtering & Sorting features launch.",
+    "message": "Thank you for demonstrating extreme customer obsession during the ideation and delivery of the UX 3.0 and Filtering & Sorting features launch. Your commitment to perfection and quality led to a flawless launch for the feature, and the engagement numbers are a testimony to the customer delight this feature is providing. Kudos!!"
   },
   {
     "id": 34,
@@ -1048,8 +1315,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Courage",
-    "text": "Hi Reeti, Thank you for organising the external speaker's talk for the Technology Blogging Workshop which contained overview of the process, key skills, tools and best practices for technical writing and blogging. Your contributions towards Tech Culture Community is always appreciated. Cheers, Anshu"
+    "title": "Tech blogging",
+    "text": "Hi Reeti, Thank you for organising the external speaker's talk for the Technology Blogging Workshop which contained overview of the process, key skills, tools and best practices for technical writing and blogging. Your contributions towards Tech Culture Community is always appreciated. Cheers, Anshu",
+    "headline": "Tech blogging",
+    "excerpt": "Hi Reeti, Thank you for organising the external speaker's talk for the Technology Blogging Workshop which contained overview of the process, key skills, tools and best practices for technical writing and blogging.",
+    "message": "Hi Reeti, Thank you for organising the external speaker's talk for the Technology Blogging Workshop which contained overview of the process, key skills, tools and best practices for technical writing and blogging. Your contributions towards Tech Culture Community is always appreciated. Cheers, Anshuman"
   },
   {
     "id": 33,
@@ -1062,8 +1332,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": true,
-    "title": "Stronger Together",
-    "text": "Congratulations on winning the Quarterly Above & Beyond award for BB5 India PD org. Thank you for hard work, passion and commitment in stretching and going above and beyond your normal call of duty in delivering value to our customers and helping our teams be stronger. This peer recognition is testi"
+    "title": "Quarterly Above & Beyond award",
+    "text": "Congratulations on winning the Quarterly Above & Beyond award for BB5 India PD org. Thank you for hard work, passion and commitment in stretching and going above and beyond your normal call of duty in delivering value to our customers and helping our teams be stronger. This peer recognition is testi",
+    "headline": "Quarterly Above & Beyond award",
+    "excerpt": "Congratulations on winning the Quarterly Above & Beyond award for BB5 India PD org. Thank you for hard work, passion and commitment in stretching and going above and beyond your normal call of duty in delivering value to our customers and helping our teams be…",
+    "message": "Congratulations on winning the Quarterly Above & Beyond award for BB5 India PD org. Thank you for hard work, passion and commitment in stretching and going above and beyond your normal call of duty in delivering value to our customers and helping our teams be stronger. This peer recognition is testimonial to what your peers value about your role modeling the tenets around Going Above and Beyond in the team. We are lucky to have you in the team. Congratulations once again and keep it up! Best regards, Anil, Jyoti, Sumanta (On behalf of BB5 PD Leadership)"
   },
   {
     "id": 32,
@@ -1076,8 +1349,11 @@ export const SPOTLIGHTS = [
       "Hiring & Leadership"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank you so much for your time and efforts in helping us with the hiring drive last week. We sincerely appreciate the bar you raised while selecting your peers and the passion with which you participated in the drive. Understand that your time is precious and this was above and beyond so THANKS A L"
+    "title": "Hiring support",
+    "text": "Thank you so much for your time and efforts in helping us with the hiring drive last week. We sincerely appreciate the bar you raised while selecting your peers and the passion with which you participated in the drive. Understand that your time is precious and this was above and beyond so THANKS A L",
+    "headline": "Hiring support",
+    "excerpt": "Thank you so much for your time and efforts in helping us with the hiring drive last week. We sincerely appreciate the bar you raised while selecting your peers and the passion with which you participated in the drive.",
+    "message": "Thank you so much for your time and efforts in helping us with the hiring drive last week. We sincerely appreciate the bar you raised while selecting your peers and the passion with which you participated in the drive. Understand that your time is precious and this was above and beyond so THANKS A LOT. Regards, Jyoti"
   },
   {
     "id": 31,
@@ -1090,8 +1366,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Reeti, Congratulations on the successful GA launch of the Edit Recurring Series feature, which was one of the frequent asks from customers who use Recurring series feature. You showed tremendous courage to pick this project and take it to the finish line working independently. There was additional c"
+    "title": "Edit Recurring Series launch",
+    "text": "Reeti, Congratulations on the successful GA launch of the Edit Recurring Series feature, which was one of the frequent asks from customers who use Recurring series feature. You showed tremendous courage to pick this project and take it to the finish line working independently. There was additional c",
+    "headline": "Edit Recurring Series launch",
+    "excerpt": "Reeti, Congratulations on the successful GA launch of the Edit Recurring Series feature, which was one of the frequent asks from customers who use Recurring series feature.",
+    "message": "Reeti, Congratulations on the successful GA launch of the Edit Recurring Series feature, which was one of the frequent asks from customers who use Recurring series feature. You showed tremendous courage to pick this project and take it to the finish line working independently. There was additional complexity due to the refactoring required for multi step drawers which you handled well and completed even though it was not part of original estimation. This project required close collaboration with Projects Service, XD and PM, and I am proud of the smooth release. Kudos!!"
   },
   {
     "id": 30,
@@ -1104,8 +1383,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Task Manager team, Congratulations on the successful GA launch of the Attachments feature, which was one of the top asks from our customers. You not only collaborated closely with IDX team to integrate the FDP widgets, but also showed a quick turnaround to build a custom list component for showing t"
+    "title": "Attachments launch",
+    "text": "Task Manager team, Congratulations on the successful GA launch of the Attachments feature, which was one of the top asks from our customers. You not only collaborated closely with IDX team to integrate the FDP widgets, but also showed a quick turnaround to build a custom list component for showing t",
+    "headline": "Attachments launch",
+    "excerpt": "Task Manager team, Congratulations on the successful GA launch of the Attachments feature, which was one of the top asks from our customers. You not only collaborated closely with IDX team to integrate the FDP widgets, but also showed a quick turnaround to…",
+    "message": "Task Manager team, Congratulations on the successful GA launch of the Attachments feature, which was one of the top asks from our customers. You not only collaborated closely with IDX team to integrate the FDP widgets, but also showed a quick turnaround to build a custom list component for showing the attachments for a task. There was additional complexity due to propagation of document permissions, which you thought through and handled well. This project required close collaboration with Projects Service, XD and PM across teams. I am proud of the smooth release, and looking forward to the feedback from our customers. Keep rocking team!!"
   },
   {
     "id": 29,
@@ -1118,8 +1400,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank you for proving Task Manager KT to Global team and providing continuous support by answering our queries. This sets us up for success. Acclaim (non-cash) Award"
+    "title": "Task Manager knowledge transfer",
+    "text": "Thank you for proving Task Manager KT to Global team and providing continuous support by answering our queries. This sets us up for success. Acclaim (non-cash) Award",
+    "headline": "Task Manager knowledge transfer",
+    "excerpt": "Thank you for proving Task Manager KT to Global team and providing continuous support by answering our queries. This sets us up for success.",
+    "message": "Thank you for proving Task Manager KT to Global team and providing continuous support by answering our queries. This sets us up for success."
   },
   {
     "id": 28,
@@ -1132,8 +1417,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank you for driving the launch of recurring tasks for our customers. This has been a big ask from our customers time and again and brings additional value to the use of Custom tasks. Look forward to more such launches in the future that help mid-market customers collaborate even more."
+    "title": "Recurring Tasks launch",
+    "text": "Thank you for driving the launch of recurring tasks for our customers. This has been a big ask from our customers time and again and brings additional value to the use of Custom tasks. Look forward to more such launches in the future that help mid-market customers collaborate even more.",
+    "headline": "Recurring Tasks launch",
+    "excerpt": "Thank you for driving the launch of recurring tasks for our customers. This has been a big ask from our customers time and again and brings additional value to the use of Custom tasks.",
+    "message": "Thank you for driving the launch of recurring tasks for our customers. This has been a big ask from our customers time and again and brings additional value to the use of Custom tasks. Look forward to more such launches in the future that help mid-market customers collaborate even more."
   },
   {
     "id": 27,
@@ -1146,8 +1434,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Congratulations for your inspiring demo in hackathon - your passion to innovate for customers and for developers is super inspiring. We wish to see you hacking and innovating more and more, even outside of Hack days. Keep it up!! - Anil and Jyoti"
+    "title": "Hackathon demo",
+    "text": "Congratulations for your inspiring demo in hackathon - your passion to innovate for customers and for developers is super inspiring. We wish to see you hacking and innovating more and more, even outside of Hack days. Keep it up!! - Anil and Jyoti",
+    "headline": "Hackathon demo",
+    "excerpt": "Congratulations for your inspiring demo in hackathon - your passion to innovate for customers and for developers is super inspiring. We wish to see you hacking and innovating more and more, even outside of Hack days. Keep it up!!",
+    "message": "Congratulations for your inspiring demo in hackathon - your passion to innovate for customers and for developers is super inspiring. We wish to see you hacking and innovating more and more, even outside of Hack days. Keep it up!! - Anil and Jyoti"
   },
   {
     "id": 26,
@@ -1160,8 +1451,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Hi Reeti, Thank you for joining us for the Intern Accessibility Hackathon as a mentor. Your technical guidance helped the interns shape their ideas and implement their hacks - thank you for your passion and partnership in making our interns accessibility champions and providing a great hackathon exp"
+    "title": "Intern Accessibility Hackathon",
+    "text": "Hi Reeti, Thank you for joining us for the Intern Accessibility Hackathon as a mentor. Your technical guidance helped the interns shape their ideas and implement their hacks - thank you for your passion and partnership in making our interns accessibility champions and providing a great hackathon exp",
+    "headline": "Intern Accessibility Hackathon",
+    "excerpt": "Hi Reeti, Thank you for joining us for the Intern Accessibility Hackathon as a mentor. Your technical guidance helped the interns shape their ideas and implement their hacks - thank you for your passion and partnership in making our interns accessibility…",
+    "message": "Hi Reeti, Thank you for joining us for the Intern Accessibility Hackathon as a mentor. Your technical guidance helped the interns shape their ideas and implement their hacks - thank you for your passion and partnership in making our interns accessibility champions and providing a great hackathon experience for the interns"
   },
   {
     "id": 25,
@@ -1174,8 +1468,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Woohoo! Congratulations for shipping to your customer for GED April 2021!!! On behalf of Marianna Tessel and Alex Balazs, we thank you and your team for all the passion and commitment to ship your solution to production. Let's celebrate you and your GED solution...you rock! Thank you, Marianna, Alex"
+    "title": "Global Engineering Days",
+    "text": "Woohoo! Congratulations for shipping to your customer for GED April 2021!!! On behalf of Marianna Tessel and Alex Balazs, we thank you and your team for all the passion and commitment to ship your solution to production. Let's celebrate you and your GED solution...you rock! Thank you, Marianna, Alex",
+    "headline": "Global Engineering Days",
+    "excerpt": "Woohoo! Congratulations for shipping to your customer for GED April 2021!!! On behalf of Marianna Tessel and Alex Balazs, we thank you and your team for all the passion and commitment to ship your solution to production.",
+    "message": "Woohoo! Congratulations for shipping to your customer for GED April 2021!!! On behalf of Marianna Tessel and Alex Balazs, we thank you and your team for all the passion and commitment to ship your solution to production. Let's celebrate you and your GED solution...you rock! Thank you, Marianna, Alex and the GED Core team"
   },
   {
     "id": 24,
@@ -1189,8 +1486,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank you for publishing your blogs/ articles and helping bring visibility to the Intuit Product and Tech brand. Tech Culture & Technically Writing team will look forward to your continued support in our journey to be the best-in-class product and tech company in India. Best - Saurabh Saxena & Kusum"
+    "title": "Tech blogging",
+    "text": "Thank you for publishing your blogs/ articles and helping bring visibility to the Intuit Product and Tech brand. Tech Culture & Technically Writing team will look forward to your continued support in our journey to be the best-in-class product and tech company in India. Best - Saurabh Saxena & Kusum",
+    "headline": "Tech blogging",
+    "excerpt": "Thank you for publishing your blogs/ articles and helping bring visibility to the Intuit Product and Tech brand. Tech Culture & Technically Writing team will look forward to your continued support in our journey to be the best-in-class product and tech…",
+    "message": "Thank you for publishing your blogs/ articles and helping bring visibility to the Intuit Product and Tech brand. Tech Culture & Technically Writing team will look forward to your continued support in our journey to be the best-in-class product and tech company in India. Best - Saurabh Saxena & Kusuma Krishna"
   },
   {
     "id": 23,
@@ -1204,8 +1504,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank you for speaking at various external tech conferences and helping bring visibility to the Intuit Product and Tech brand. Tech Culture & Technically Speaking team will look forward to your continued support in our journey to be the best-in-class product and tech company in India. Best - Saurabh"
+    "title": "External tech speaking",
+    "text": "Thank you for speaking at various external tech conferences and helping bring visibility to the Intuit Product and Tech brand. Tech Culture & Technically Speaking team will look forward to your continued support in our journey to be the best-in-class product and tech company in India. Best - Saurabh",
+    "headline": "External tech speaking",
+    "excerpt": "Thank you for speaking at various external tech conferences and helping bring visibility to the Intuit Product and Tech brand. Tech Culture & Technically Speaking team will look forward to your continued support in our journey to be the best-in-class product…",
+    "message": "Thank you for speaking at various external tech conferences and helping bring visibility to the Intuit Product and Tech brand. Tech Culture & Technically Speaking team will look forward to your continued support in our journey to be the best-in-class product and tech company in India. Best - Saurabh Saxena & Kusuma Krishna"
   },
   {
     "id": 22,
@@ -1218,8 +1521,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Thank you for living the values of Customer obsession during the recent GED week. Your hard work, dedication and passion to solve our customers' problems during the Global Engineering Days have been phenomenal and inspirational. Kudos for your GED idea and execution and looking forward to all the de"
+    "title": "Global Engineering Days",
+    "text": "Thank you for living the values of Customer obsession during the recent GED week. Your hard work, dedication and passion to solve our customers' problems during the Global Engineering Days have been phenomenal and inspirational. Kudos for your GED idea and execution and looking forward to all the de",
+    "headline": "Global Engineering Days",
+    "excerpt": "Thank you for living the values of Customer obsession during the recent GED week. Your hard work, dedication and passion to solve our customers' problems during the Global Engineering Days have been phenomenal and inspirational.",
+    "message": "Thank you for living the values of Customer obsession during the recent GED week. Your hard work, dedication and passion to solve our customers' problems during the Global Engineering Days have been phenomenal and inspirational. Kudos for your GED idea and execution and looking forward to all the delight and impact it will create on our customers. In case, you are yet to ship your idea in Production; do ensure you ship it before the GED Ship Date deadline. Keep it going! On behalf of Jyoti and Sumanta"
   },
   {
     "id": 21,
@@ -1232,8 +1538,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Congratulations on GA launch of Custom Workflows! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customization helping them stay on top of their activities and collaborate effectively for quicker cash flows. This laun"
+    "title": "Custom Workflows GA launch",
+    "text": "Congratulations on GA launch of Custom Workflows! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customization helping them stay on top of their activities and collaborate effectively for quicker cash flows. This laun",
+    "headline": "Custom Workflows GA launch",
+    "excerpt": "Congratulations on GA launch of Custom Workflows! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customization helping them stay on top of their activities and collaborate…",
+    "message": "Congratulations on GA launch of Custom Workflows! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customization helping them stay on top of their activities and collaborate effectively for quicker cash flows. This launch also signifies an important step into the custom workflows journey to continuously add more capabilities for our customers. Looking forward to our customers using it! -Kelly"
   },
   {
     "id": 20,
@@ -1246,8 +1555,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Heartiest congratulations on GA launch of Custom Workflows focussed on reminders! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customisation helping them stay on top of their activities and collaborate effectively f"
+    "title": "Heartiest congratulations on GA launch of Custom Workflows focussed on",
+    "text": "Heartiest congratulations on GA launch of Custom Workflows focussed on reminders! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customisation helping them stay on top of their activities and collaborate effectively f",
+    "headline": "Heartiest congratulations on GA launch of Custom Workflows focussed on",
+    "excerpt": "reminders! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customisation helping them stay on top of their activities and collaborate effectively…",
+    "message": "reminders! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customisation helping them stay on top of their activities and collaborate effectively for quicker cash flows. THANK YOU - Jyoti"
   },
   {
     "id": 19,
@@ -1260,8 +1572,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Customer service is not a department... it's an attitude. The passion and dedication that you exhibited while being involved in the global engineering days hackathon to solve for our customers truly demonstrates the same. You have been such an inspiration and kudos for solving one of the customer pa"
+    "title": "Hackathon demo",
+    "text": "Customer service is not a department... it's an attitude. The passion and dedication that you exhibited while being involved in the global engineering days hackathon to solve for our customers truly demonstrates the same. You have been such an inspiration and kudos for solving one of the customer pa",
+    "headline": "Hackathon demo",
+    "excerpt": "Customer service is not a department... it's an attitude. The passion and dedication that you exhibited while being involved in the global engineering days hackathon to solve for our customers truly demonstrates the same.",
+    "message": "Customer service is not a department... it's an attitude. The passion and dedication that you exhibited while being involved in the global engineering days hackathon to solve for our customers truly demonstrates the same. You have been such an inspiration and kudos for solving one of the customer pain points in such a limited time during the GED week. There is no doubt that our customers will be truly delighted and benefitted with this being solved. -Kelly"
   },
   {
     "id": 18,
@@ -1274,8 +1589,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Reeti's work is \"consumer grade\" all the way through. Her PRs delight customers, but even her internal communications and presentations are are so professional and polished that they could exported externally at any time. Her work is masterful and I have much to learn from it!"
+    "title": "Consumer-grade work",
+    "text": "Reeti's work is \"consumer grade\" all the way through. Her PRs delight customers, but even her internal communications and presentations are are so professional and polished that they could exported externally at any time. Her work is masterful and I have much to learn from it!",
+    "headline": "Reeti's work is \"consumer grade\" all the way through.",
+    "excerpt": "Her PRs delight customers, but even her internal communications and presentations are are so professional and polished that they could exported externally at any time. Her work is masterful and I have much to learn from it!",
+    "message": "customers, but even her internal communications and presentations are are so professional and polished that they could exported externally at any time. Her work is masterful and I have much to learn from it!"
   },
   {
     "id": 17,
@@ -1288,8 +1606,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Customer Obsession",
-    "text": "Reeti as part of Batch and back up team has been an amazing team mate. She is always driven by customer obsession and really deliver awesome features. Recently she delivered Batch reclassification with little or no help. She did all end to end feature deliverables including identification of depende"
+    "title": "Reeti as part of Batch and back up team has been an amazing…",
+    "text": "Reeti as part of Batch and back up team has been an amazing team mate. She is always driven by customer obsession and really deliver awesome features. Recently she delivered Batch reclassification with little or no help. She did all end to end feature deliverables including identification of depende",
+    "headline": "Reeti as part of Batch and back up team has been an amazing…",
+    "excerpt": "team mate. She is always driven by customer obsession and really deliver awesome features. Recently she delivered Batch reclassification with little or no help.",
+    "message": "is always driven by customer obsession and really deliver awesome features. Recently she delivered Batch reclassification with little or no help. She did all end to end feature deliverables including identification of dependencies, stakeholders, making sure that all the stakeholders are aligned and deliver things as per plan. This was a very flawless execution. I appreciate the efforts she made for this. Thanks, Abhish, Mandar."
   },
   {
     "id": 16,
@@ -1302,8 +1623,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Stronger Together",
-    "text": "Thank you for your contributions to the React Learning sessions for our engineers at intuit India . Looking forward to continued partnership in delivering more experiential learning for the engineers in FY 21 . Regards, Rahul & Sanket Acclaim (non-cash) Award"
+    "title": "React learning sessions",
+    "text": "Thank you for your contributions to the React Learning sessions for our engineers at intuit India . Looking forward to continued partnership in delivering more experiential learning for the engineers in FY 21 . Regards, Rahul & Sanket Acclaim (non-cash) Award",
+    "headline": "React learning sessions",
+    "excerpt": "Thank you for your contributions to the React Learning sessions for our engineers at intuit India . Looking forward to continued partnership in delivering more experiential learning for the engineers in FY 21 .",
+    "message": "Thank you for your contributions to the React Learning sessions for our engineers at intuit India . Looking forward to continued partnership in delivering more experiential learning for the engineers in FY 21 . Regards, Rahul & Sanket"
   },
   {
     "id": 15,
@@ -1316,8 +1640,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Deliver Awesome",
-    "text": "Thank you for your incredible contributions to QBO Mid-Market Batch team in Q4! -Kelly"
+    "title": "Thank you for your incredible contributions to QBO…",
+    "text": "Thank you for your incredible contributions to QBO Mid-Market Batch team in Q4! -Kelly",
+    "headline": "Thank you for your incredible contributions to QBO…",
+    "excerpt": "Mid-Market Batch team in Q4!…",
+    "message": "Q4! -Kelly"
   },
   {
     "id": 14,
@@ -1330,8 +1657,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Be Passionate",
-    "text": "Hi Reeti, Thanks a lot for all the great work on rolling our the QBO Advanced Newsletter. This is beyond your regular assignments and your passion clearly shows up the way you have shaped up this newsletter. It is very inspiring to see the extent of details captured in the newsletter. This newslette"
+    "title": "QBO Advanced newsletter",
+    "text": "Hi Reeti, Thanks a lot for all the great work on rolling our the QBO Advanced Newsletter. This is beyond your regular assignments and your passion clearly shows up the way you have shaped up this newsletter. It is very inspiring to see the extent of details captured in the newsletter. This newslette",
+    "headline": "QBO Advanced newsletter",
+    "excerpt": "Hi Reeti, Thanks a lot for all the great work on rolling our the QBO Advanced Newsletter. This is beyond your regular assignments and your passion clearly shows up the way you have shaped up this newsletter.",
+    "message": "Hi Reeti, Thanks a lot for all the great work on rolling our the QBO Advanced Newsletter. This is beyond your regular assignments and your passion clearly shows up the way you have shaped up this newsletter. It is very inspiring to see the extent of details captured in the newsletter. This newsletter has a become an important part of sharing the highlights and achievement of the QBO Advanced team and plays very crucial role in generating a sense of pride in everyone in the team. Keep up the great work! - Govinda & Anil"
   },
   {
     "id": 13,
@@ -1345,8 +1675,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Win Together",
-    "text": "Thank you for being part of the Front-end Community (India) and contributing to building a vibrant and engaging tech culture. You contributions to the multiple initiatives at Intuit India Frontend Community like as in both organisation capacity and as mentors by giving technical talks at IDC. You ha"
+    "title": "Front-End Community",
+    "text": "Thank you for being part of the Front-end Community (India) and contributing to building a vibrant and engaging tech culture. You contributions to the multiple initiatives at Intuit India Frontend Community like as in both organisation capacity and as mentors by giving technical talks at IDC. You ha",
+    "headline": "Front-End Community",
+    "excerpt": "Thank you for being part of the Front-end Community (India) and contributing to building a vibrant and engaging tech culture. You contributions to the multiple initiatives at Intuit India Frontend Community like as in both organisation capacity and as mentors…",
+    "message": "Thank you for being part of the Front-end Community (India) and contributing to building a vibrant and engaging tech culture. You contributions to the multiple initiatives at Intuit India Frontend Community like as in both organisation capacity and as mentors by giving technical talks at IDC. You have selflessly spent time with drafting technical content and keeping the community constantly engaged. Looking forward to your partnership and contributions in FY 21. Regards, Anshuman, Rahul & Kajal"
   },
   {
     "id": 11,
@@ -1359,8 +1692,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Be Passionate",
-    "text": "Hi Reeti This is a callout to your passionate approach in getting us the awesome Q3 PD Newsletter for the QBO Advanced Product development team. You went about methodical this time, collaborated with so many engineers and came out with an awesome newsletter that not only serves as an exec status upd"
+    "title": "QBO Advanced newsletter",
+    "text": "Hi Reeti This is a callout to your passionate approach in getting us the awesome Q3 PD Newsletter for the QBO Advanced Product development team. You went about methodical this time, collaborated with so many engineers and came out with an awesome newsletter that not only serves as an exec status upd",
+    "headline": "QBO Advanced newsletter",
+    "excerpt": "Hi Reeti This is a callout to your passionate approach in getting us the awesome Q3 PD Newsletter for the QBO Advanced Product development team.",
+    "message": "Hi Reeti This is a callout to your passionate approach in getting us the awesome Q3 PD Newsletter for the QBO Advanced Product development team. You went about methodical this time, collaborated with so many engineers and came out with an awesome newsletter that not only serves as an exec status update, but also employee engagement & brand recognition. Thank you for everything that you do to make this newsletter authoring an amazing one! Cheers Govinda & Mandar"
   },
   {
     "id": 12,
@@ -1373,8 +1709,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Deliver Awesome",
-    "text": "Hi Reeti, Thank you for all the hard work and delivering awesome in performance track. You have led the track along with the team and really shown awesome win together mindset. You have successfully dealt with day to day execution. You also interfaced with all the stakeholders when needed. We are al"
+    "title": "Performance track",
+    "text": "Hi Reeti, Thank you for all the hard work and delivering awesome in performance track. You have led the track along with the team and really shown awesome win together mindset. You have successfully dealt with day to day execution. You also interfaced with all the stakeholders when needed. We are al",
+    "headline": "Performance track",
+    "excerpt": "Hi Reeti, Thank you for all the hard work and delivering awesome in performance track. You have led the track along with the team and really shown awesome win together mindset. You have successfully dealt with day to day execution.",
+    "message": "Hi Reeti, Thank you for all the hard work and delivering awesome in performance track. You have led the track along with the team and really shown awesome win together mindset. You have successfully dealt with day to day execution. You also interfaced with all the stakeholders when needed. We are already seeing great results from the initial data. Looking forward to the bigger impact that this work will create. This is super awesome! Thanks for all the amazing work!"
   },
   {
     "id": 10,
@@ -1387,8 +1726,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Deliver Awesome",
-    "text": "\"Hi Reeti, I wanted to take this opportunity to thank you for all the hard work that you have put in for releasing plugin-cli migration, helping with perf improvements and also leading gear icon access point. Thanks for all the great contributions and really delivering awesome for our customers. Ple"
+    "title": "Plugin-cli migration",
+    "text": "\"Hi Reeti, I wanted to take this opportunity to thank you for all the hard work that you have put in for releasing plugin-cli migration, helping with perf improvements and also leading gear icon access point. Thanks for all the great contributions and really delivering awesome for our customers. Ple",
+    "headline": "Plugin-cli migration",
+    "excerpt": "\"Hi Reeti, I wanted to take this opportunity to thank you for all the hard work that you have put in for releasing plugin-cli migration, helping with perf improvements and also leading gear icon access point.",
+    "message": "Hi Reeti, I wanted to take this opportunity to thank you for all the hard work that you have put in for releasing plugin-cli migration, helping with perf improvements and also leading gear icon access point. Thanks for all the great contributions and really delivering awesome for our customers. Please keep up the great work, Thanks, -Mandar"
   },
   {
     "id": 9,
@@ -1401,8 +1743,11 @@ export const SPOTLIGHTS = [
       "Community & Culture"
     ],
     "featured": false,
-    "title": "Be Passionate",
-    "text": "Hi Reeti, Thank you for being super passionate about representing QBO Advanced team through your amazing newsletter for Q1/Q2. Thanks for getting into the details and capturing every single detail of people, product and process so well and helping us with a tech branding for the team! Looking forwar"
+    "title": "QBO Advanced newsletter",
+    "text": "Hi Reeti, Thank you for being super passionate about representing QBO Advanced team through your amazing newsletter for Q1/Q2. Thanks for getting into the details and capturing every single detail of people, product and process so well and helping us with a tech branding for the team! Looking forwar",
+    "headline": "QBO Advanced newsletter",
+    "excerpt": "Hi Reeti, Thank you for being super passionate about representing QBO Advanced team through your amazing newsletter for Q1/Q2. Thanks for getting into the details and capturing every single detail of people, product and process so well and helping us with a…",
+    "message": "Hi Reeti, Thank you for being super passionate about representing QBO Advanced team through your amazing newsletter for Q1/Q2. Thanks for getting into the details and capturing every single detail of people, product and process so well and helping us with a tech branding for the team! Looking forward to an"
   },
   {
     "id": 8,
@@ -1415,8 +1760,11 @@ export const SPOTLIGHTS = [
       "Product Launches"
     ],
     "featured": false,
-    "title": "Deliver Awesome",
-    "text": "You shipped to production for Global Engineering Days. Your project was production ready, it properly used Intuit standards, and it solved a problem for your customer. That's worth celebrating - great job!"
+    "title": "Global Engineering Days",
+    "text": "You shipped to production for Global Engineering Days. Your project was production ready, it properly used Intuit standards, and it solved a problem for your customer. That's worth celebrating - great job!",
+    "headline": "Global Engineering Days",
+    "excerpt": "You shipped to production for Global Engineering Days. Your project was production ready, it properly used Intuit standards, and it solved a problem for your customer. That's worth celebrating - great job!",
+    "message": "You shipped to production for Global Engineering Days. Your project was production ready, it properly used Intuit standards, and it solved a problem for your customer. That's worth celebrating - great job!"
   },
   {
     "id": 7,
@@ -1430,8 +1778,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Be Passionate",
-    "text": "We put together Intuit's first ever Open Source Day. This is a HUGE milestone for our engineering community and will set an example for the rest of the Intuit offices around the world. Thank you so much for your time and effort to put this event together, It was a huge success. (Sorry for the delay "
+    "title": "Open Source Day",
+    "text": "We put together Intuit's first ever Open Source Day. This is a HUGE milestone for our engineering community and will set an example for the rest of the Intuit offices around the world. Thank you so much for your time and effort to put this event together, It was a huge success. (Sorry for the delay",
+    "headline": "Open Source Day",
+    "excerpt": "We put together Intuit's first ever Open Source Day. This is a HUGE milestone for our engineering community and will set an example for the rest of the Intuit offices around the world.",
+    "message": "We put together Intuit's first ever Open Source Day. This is a HUGE milestone for our engineering community and will set an example for the rest of the Intuit offices around the world. Thank you so much for your time and effort to put this event together, It was a huge success. (Sorry for the delay in sending this recognition, we got some miscommunication on my team as to who was going to send the spotlights)"
   },
   {
     "id": 5,
@@ -1444,8 +1795,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Be Passionate",
-    "text": "Congratulations for completing the first level of Intuit's Accessibility Champion badge. This badge recognizes your commitment to building inclusive products that provide exceptional experiences to all of our customers, regardless of their physical, sensory, and cognitive ability. Thank you for bein"
+    "title": "Accessibility Champion badge",
+    "text": "Congratulations for completing the first level of Intuit's Accessibility Champion badge. This badge recognizes your commitment to building inclusive products that provide exceptional experiences to all of our customers, regardless of their physical, sensory, and cognitive ability. Thank you for bein",
+    "headline": "Accessibility Champion badge",
+    "excerpt": "Congratulations for completing the first level of Intuit's Accessibility Champion badge. This badge recognizes your commitment to building inclusive products that provide exceptional experiences to all of our customers, regardless of their physical, sensory,…",
+    "message": "Congratulations for completing the first level of Intuit's Accessibility Champion badge. This badge recognizes your commitment to building inclusive products that provide exceptional experiences to all of our customers, regardless of their physical, sensory, and cognitive ability. Thank you for being passionate. More information: in/a11y-badge Take a Bow Award"
   },
   {
     "id": 6,
@@ -1458,8 +1812,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Win Together",
-    "text": "Can you believe Global Engineering Days - November 2019 is almost complete?! This has been an incredible exploration of building more inclusive products. 16 teams from across the globe came together to make Intuit products and services more accessible and to drive prosperity for all of our customers"
+    "title": "Global Engineering Days",
+    "text": "Can you believe Global Engineering Days - November 2019 is almost complete?! This has been an incredible exploration of building more inclusive products. 16 teams from across the globe came together to make Intuit products and services more accessible and to drive prosperity for all of our customers",
+    "headline": "Global Engineering Days",
+    "excerpt": "Can you believe Global Engineering Days - November 2019 is almost complete?! This has been an incredible exploration of building more inclusive products.",
+    "message": "Can you believe Global Engineering Days - November 2019 is almost complete?! This has been an incredible exploration of building more inclusive products. 16 teams from across the globe came together to make Intuit products and services more accessible and to drive prosperity for all of our customers. This modest reward is a thank you for joining this event and focusing on accessibility. There will be more recognition to come as you push these changes into production, continue your research, and enjoy knowing you've taken time this week to consider our customers that are often forgotten. Please keep the momentum and ensure your future work is accessible and grow your local Accessibility Champion community."
   },
   {
     "id": 4,
@@ -1472,8 +1829,11 @@ export const SPOTLIGHTS = [
       "Speaking & Mentoring"
     ],
     "featured": false,
-    "title": "Be Passionate",
-    "text": "Congratulations for submitting a PR to our Intuit Open Source projects during Hacktoberfest! Open Source is a new initiative at Intuit and we are so proud that you are showing your passion for coding by getting involved in the program! Hacktoberfest was a great way to increase our footprint in the o"
+    "title": "Hacktoberfest",
+    "text": "Congratulations for submitting a PR to our Intuit Open Source projects during Hacktoberfest! Open Source is a new initiative at Intuit and we are so proud that you are showing your passion for coding by getting involved in the program! Hacktoberfest was a great way to increase our footprint in the o",
+    "headline": "Hacktoberfest",
+    "excerpt": "Congratulations for submitting a PR to our Intuit Open Source projects during Hacktoberfest! Open Source is a new initiative at Intuit and we are so proud that you are showing your passion for coding by getting involved in the program!",
+    "message": "Congratulations for submitting a PR to our Intuit Open Source projects during Hacktoberfest! Open Source is a new initiative at Intuit and we are so proud that you are showing your passion for coding by getting involved in the program! Hacktoberfest was a great way to increase our footprint in the open source community and you were a big part of that. Thank you!"
   },
   {
     "id": 3,
@@ -1486,8 +1846,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Deliver Awesome",
-    "text": "Hi Faiz, Prashant and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation. Adding additional blockers such as GSheets i"
+    "title": "Product downgrade flows",
+    "text": "Hi Faiz, Prashant and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation. Adding additional blockers such as GSheets i",
+    "headline": "Product downgrade flows",
+    "excerpt": "Hi Faiz, Prashant and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation.",
+    "message": "Hi Faiz, Prashant and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation. Adding additional blockers such as GSheets is so easy and modular in nature. Thank you for fixing one of the critical tech debts that we wanted to avoid in FY19Q4, within a quarter... Good job and looking forward to an \"encore\" Thanks Govinda"
   },
   {
     "id": 2,
@@ -1500,8 +1863,11 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Win Together",
-    "text": "Thank you Reeti for spending time with the talent marketing team and contributing to us developing the best possible global, tech talent focused brand campaign. We loved your passion for the Intuit brand and your feedback as well as the photos you shared will help us craft a message and creative tha"
+    "title": "Talent marketing brand",
+    "text": "Thank you Reeti for spending time with the talent marketing team and contributing to us developing the best possible global, tech talent focused brand campaign. We loved your passion for the Intuit brand and your feedback as well as the photos you shared will help us craft a message and creative tha",
+    "headline": "Talent marketing brand",
+    "excerpt": "Thank you Reeti for spending time with the talent marketing team and contributing to us developing the best possible global, tech talent focused brand campaign.",
+    "message": "Thank you Reeti for spending time with the talent marketing team and contributing to us developing the best possible global, tech talent focused brand campaign. We loved your passion for the Intuit brand and your feedback as well as the photos you shared will help us craft a message and creative that hopefully inspires talented engineers like yourself to come do the best work of their lives with Intuit. You truly exemplify living the Intuit life and our value of winning together. Jennifer Cottle James Thomas"
   },
   {
     "id": 1,
@@ -1514,7 +1880,10 @@ export const SPOTLIGHTS = [
       "Recognition"
     ],
     "featured": false,
-    "title": "Deliver Awesome",
-    "text": "Congratulations, Reeti as a member of team \"Elevating Voice of Customer\" !!! You were truly a winner for hacking in the category of \"Customer Success\". This is one of the top priorities for Intuit. Your hack is a great future state which will sort & prioritize customer feedback such that the most cr"
+    "title": "Interns Hackathon: Voice of Customer",
+    "text": "Congratulations, Reeti as a member of team \"Elevating Voice of Customer\" !!! You were truly a winner for hacking in the category of \"Customer Success\". This is one of the top priorities for Intuit. Your hack is a great future state which will sort & prioritize customer feedback such that the most cr",
+    "headline": "Interns Hackathon: Voice of Customer",
+    "excerpt": "Congratulations, Reeti as a member of team \"Elevating Voice of Customer\" !!! You were truly a winner for hacking in the category of \"Customer Success\". This is one of the top priorities for Intuit.",
+    "message": "Congratulations, Reeti as a member of team \"Elevating Voice of Customer\" !!! You were truly a winner for hacking in the category of \"Customer Success\". This is one of the top priorities for Intuit. Your hack is a great future state which will sort & prioritize customer feedback such that the most critical and genuine ones could be acted upon at the earliest by using sentimental analysis and ML to direct the feedback automatically to respective departments. Awesome job done by you & your team members !!! Continue to build upon this innovation streak and meet success !!! From - Early Career Team"
   }
 ];

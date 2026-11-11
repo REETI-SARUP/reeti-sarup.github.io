@@ -1,32 +1,39 @@
-import { NAV_ITEMS } from './config/constants.js';
-import { NavBar, setActiveNav } from './components/header.js';
-import { Hero, Highlights, About } from './components/hero.js';
-import { ExperienceSection } from './components/experience.js';
-import { SpotlightSection } from './components/spotlights.js';
-import { PublicationsSection } from './components/publications.js';
-import { EducationSection } from './components/education.js';
-import { SkillsSection } from './components/skills.js';
-import { CommunitySection } from './components/community.js';
+import { PAGE } from './config/constants.js';
+import { h } from './utils/dom.js';
+import { NavBar } from './components/header.js';
 import { Footer } from './components/footer.js';
-import { initRevealOnScroll, initScrollSpy } from './utils/observers.js';
+import { renderHome } from './pages/home.js';
+import { renderAbout } from './pages/about.js';
+import { renderExperience } from './pages/experience.js';
+import { renderRecognition } from './pages/recognition.js';
+import { renderPublications } from './pages/publications.js';
+import { renderBlogs } from './pages/blogs.js';
+import { renderProjects } from './pages/projects.js';
+import { renderEducation } from './pages/education.js';
+import { renderSkills } from './pages/skills.js';
+import { renderCommunity } from './pages/community.js';
+import { initRevealOnScroll } from './utils/observers.js';
+
+/** Each HTML file sets <body data-page="...">; this registry maps it to a page renderer. */
+const PAGES = {
+  [PAGE.HOME]: renderHome,
+  [PAGE.ABOUT]: renderAbout,
+  [PAGE.EXPERIENCE]: renderExperience,
+  [PAGE.RECOGNITION]: renderRecognition,
+  [PAGE.PUBLICATIONS]: renderPublications,
+  [PAGE.BLOGS]: renderBlogs,
+  [PAGE.PROJECTS]: renderProjects,
+  [PAGE.EDUCATION]: renderEducation,
+  [PAGE.SKILLS]: renderSkills,
+  [PAGE.COMMUNITY]: renderCommunity,
+};
 
 function mount() {
+  const page = document.body.dataset.page ?? PAGE.HOME;
+  const render = PAGES[page] ?? renderHome;
   const root = document.getElementById('app');
-  root.replaceChildren(
-    NavBar(),
-    Hero(),
-    Highlights(),
-    About(),
-    ExperienceSection(),
-    SpotlightSection(),
-    PublicationsSection(),
-    EducationSection(),
-    SkillsSection(),
-    CommunitySection(),
-    Footer(),
-  );
+  root.replaceChildren(NavBar(page), h('main', { id: 'content' }, ...render()), Footer());
   initRevealOnScroll(root);
-  initScrollSpy(NAV_ITEMS.map((n) => n.id), setActiveNav);
 }
 
 mount();

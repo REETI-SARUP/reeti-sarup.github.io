@@ -1,7 +1,7 @@
-import { SECTION } from '../config/constants.js';
 import { EDUCATION } from '../data/education.js';
 import { h } from '../utils/dom.js';
-import { Section, Chip } from './section.js';
+import { Block } from './page.js';
+import { Chip } from './section.js';
 
 function EduCard(e) {
   return h('article', { class: 'card edu reveal' },
@@ -15,6 +15,5 @@ function EduCard(e) {
       e.gallery && h('div', { class: 'edu__gallery' }, e.gallery.map((src) => h('img', { src, alt: 'Graduation photo', loading: 'lazy', decoding: 'async' })))));
 }
 
-export const EducationSection = () =>
-  Section({ id: SECTION.EDUCATION, tone: 'tint', eyebrow: 'Education', title: 'Academic foundation', lead: 'Top-of-class results from school through a 4.0 GPA master’s in machine learning.' },
-    h('div', { class: 'stack' }, EDUCATION.map(EduCard)));
+export const EducationContent = () =>
+  Block({ id: 'degrees' }, h('div', { class: 'stack' }, EDUCATION.map(EduCard)));

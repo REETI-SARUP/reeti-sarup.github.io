@@ -5,7 +5,9 @@ THEMES=[("AI & GenAI",r"(?i)\b(AI|Al|GenAl|GenAI|QB\.?A[Il]|agent|LLM|Self Learn
 ("Community & Culture",r"(?i)community|newsletter|Tech Forward|Fun Friday|volunteer|culture|WiDS|Emcee|engagement|Wordle|crossword|Spot the Difference|Tech Ambassador|booth"),
 ("Speaking & Mentoring",r"(?i)speak|session|mentor|workshop|Teach|AAA|Hacktoberfest|Grace Hopper|blog|React Learning|Tech Stories|Hackathon|hackathon|Open Source"),
 ("Hiring & Leadership",r"(?i)hiring|interview|panelist|leadership|on-call|bar you raised|nomination|Above & Beyond|Quarterly")]
-FEATURED_RULES=[lambda x:x["kind"] in("milestone","winners"), lambda x:(x["_amt"] or 0)>=20000]
+# Pinned (featured) Spotlights are chosen by hand; ids refer to the generated gallery images.
+FEATURED_IDS=set([33, 41, 48, 56, 59, 68, 69, 82, 98, 99, 102, 105])
+FEATURED_RULES=[lambda x:x["kind"] in("milestone","winners"), lambda x:x["id"] in FEATURED_IDS]
 out=[]
 for x in raw:
     parts=[p for p in re.split(r"\s{0}",x["text"])]

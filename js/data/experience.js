@@ -1,3 +1,13 @@
+export const INTUIT = Object.freeze({
+  org: 'Intuit',
+  location: 'Bengaluru, India',
+  period: 'Jul 2019 \u2013 Present',
+  duration: '7 yrs 5 mos',
+  image: 'images/intuit-picture.jpeg',
+  summary: 'Building products for mid-market businesses, from full-stack product features to AI-native experiences and agents.',
+  path: Object.freeze(['Software Engineer 1', 'Software Engineer 2', 'Senior Software Engineer', 'Staff Software Engineer']),
+});
+
 export const EXPERIENCE = Object.freeze([
   {
     id: 'staff-2026',
@@ -9,9 +19,10 @@ export const EXPERIENCE = Object.freeze([
     summary:
       'Building Mid-Market AI intelligence and an AI-native ERP for enterprise-grade FinTech, empowering the financial lives of mid-market businesses.',
     highlights: [
-      'Won the Best Industry Paper Award at the International Conference on AI-ML Systems 2026, Italy.',
-      'Co-lead of the Builder Culture Champions Community (BCCC), the Intuit India site-wide tech community for emerging tech initiatives and strategy, working alongside Principal and Distinguished Engineers (Feb 2026 – Present).',
-      'Internal AI instructor, mentor and volunteer for the AI Adoption Accelerator (AAA), a site-wide learn-teach-learn programme (Jul 2024 – Present).',
+      'Building Mid-Market AI intelligence and an AI-native ERP for enterprise-grade FinTech.',
+      'Best Industry Paper Award, AI-ML Systems 2026 (Italy).',
+      'Co-Lead, Builder Culture Champions Community (Feb 2026 – Present).',
+      'Internal AI trainer and mentor, AI Adoption Accelerator (Jul 2024 – Present).',
     ],
     tech: [],
   },
@@ -24,12 +35,11 @@ export const EXPERIENCE = Object.freeze([
     summary:
       'Part of the A2D (AI, Data & Analytics) org, which merged into a dedicated Mid-Market AI org combining breakthrough research with customer-driven, AI-native product development.',
     highlights: [
-      'Built, evaluated and innovated on approaches, models, algorithms and AI tools for agent use cases.',
-      'Architected intelligent AI/ML systems: event-driven pipelines, explainable AI, and hybrid batch + real-time architectures deployed for large-scale inference serving millions of transactions.',
-      'Launched models and ML pipelines for Project Profitability, cost-allocation predictions, categorization, and budget-overage and project-cost forecasting.',
-      'Created reusable AI patterns: event-based predictions, distributed inference at scale, an optimized ANN-search retrieval layer, and a low-latency real-time inference system.',
-      'Built a reimagined Data QnA and Deep Think research experience. Patent filed for BizQuery, a deep-research QnA agentic system for financial queries.',
-      'Experimented with self-learning mechanisms using online RL to fold real-time user feedback into AI recommendations.',
+      'Architected event-driven, explainable AI/ML systems with hybrid batch and real-time inference serving millions of transactions.',
+      'Launched models for Project Profitability, cost-allocation predictions, categorization and budget forecasting.',
+      'Built reusable AI patterns: event-based predictions, distributed inference, ANN retrieval, low-latency real-time inference.',
+      'Built Data QnA and Deep Think experiences; patent filed for BizQuery.',
+      'Prototyped self-learning with online RL from live user feedback.',
     ],
     tech: ['Kubeflow', 'Spark', 'Databricks', 'Redis', 'Python', 'LangChain', 'LangGraph', 'RAG', 'Knowledge Graphs', 'Multi-Armed Bandits', 'AWS'],
   },
@@ -41,12 +51,11 @@ export const EXPERIENCE = Object.freeze([
     period: 'Aug 2023 – May 2025',
     summary: 'Built the AI-powered platform and AI-native experiences for the newly launched Intuit Enterprise Suite.',
     highlights: [
-      'Launched the Management Report AI Summary (GenAI) to ~800 beta customers, and Project Profitability with QB AI Goals and Insights for IES.',
-      'Completed an immersive Adopt a Small Business programme: worked ~2 months with a QBO Advanced customer, resolving key pain points first-hand.',
-      'Led and contributed to both front end and back end for Project Profitability, with users staying in control of approving or dismissing AI-recommended actions.',
-      'Core member of the QB AI Project Leap mission team: a RAG-based, LLM-powered solution with a Knowledge Graph for entity representation.',
-      'Drove a novel personalized self-learning and feedback platform: online RL scoring (including multi-armed bandits), data pipelines and Redis, serving hyper-personalized top-K insights from financial KPIs and live user feedback.',
-      'Core contributor to the M8 mission team from the earliest stages of Mid-Market AI Agents: shared platform, experiments and launches of AI agents for QBO and IES, enabling multiple teams.',
+      'Launched GenAI Management Report Summary to ~800 beta customers, and Project Profitability with AI Goals and Insights for IES.',
+      'Built a RAG-based, LLM-powered solution with a Knowledge Graph, keeping users in control of AI actions.',
+      'Drove a self-learning platform: online RL (multi-armed bandits) scoring, pipelines and Redis for personalized top-K insights.',
+      'Core contributor to the Mid-Market AI Agents platform and launches (M8 mission team).',
+      'Worked ~2 months with a QBO Advanced customer through the Adopt a Small Business programme.',
     ],
     tech: ['RAG', 'LLMs', 'Knowledge Graph', 'Reinforcement Learning', 'Redis', 'React', 'TypeScript', 'AI Agents'],
   },
@@ -58,10 +67,9 @@ export const EXPERIENCE = Object.freeze([
     period: 'Aug 2021 – Aug 2023',
     summary: 'Launched key customer-centric features for QuickBooks Online Advanced.',
     highlights: [
-      'Shipped Recurring Tasks, Task Attachments, In-App Task Notifications, Data Import, and personalized first-time onboarding.',
-      'Delivered Smart Suggestions: Anomaly Detection that catches financial data-entry errors using AI (Financial Error Detection Service), including in the new Rethink transactions experience.',
-      'Led end-to-end creation of the Mid-Market Advanced Get-to-Know-Me (GTKM) onboarding upgrader flow with an AI-based intent picker.',
-      'Drove tech tracks such as migration to a consolidated global setting key across Classic and Rethink transactions, and operational-excellence initiatives.',
+      'Shipped Recurring Tasks, Attachments, In-App Notifications, Data Import and personalized onboarding.',
+      'Delivered AI anomaly detection (Financial Error Detection Service), including in the new Rethink experience.',
+      'Led the Get-to-Know-Me onboarding upgrader flow with an AI-based intent picker.',
     ],
     tech: ['React', 'TypeScript', 'GraphQL', 'Apollo', 'Anomaly Detection'],
   },
@@ -74,10 +82,9 @@ export const EXPERIENCE = Object.freeze([
     summary:
       'Full-stack engineer on QuickBooks Online Advanced, a cloud accounting product for mid-market businesses.',
     highlights: [
-      'Analyzed and optimized web performance for top accounting workflows, improving page-load time (TP99) by ~30%.',
-      'Built power-tools for advanced users from the very first phase, including Batch Transactions: invoices, sales receipts, automatic sales tax, reclassify and CSV import.',
-      'Beta-launched Smart Automated Custom Workflow Templates and AI-driven workflow recommendations.',
-      'Strong in HTML, CSS, JavaScript, React, TypeScript, GraphQL and Apollo Client, with a focus on accessibility, analytics, code coverage and web performance.',
+      'Improved page-load time (TP99) by ~30% on top accounting workflows.',
+      'Built Batch Transactions: invoices, sales receipts, automatic sales tax, reclassify, CSV import.',
+      'Beta-launched Smart Custom Workflow Templates and AI workflow recommendations.',
     ],
     tech: ['React', 'TypeScript', 'GraphQL', 'Apollo Client', 'A11y', 'Web Performance'],
   },

@@ -28,8 +28,9 @@ test('sanitizeFilters tolerates junk', () => {
   assert.equal(sanitizeFilters({ year: '2020' }).year, '2020');
 });
 
-test('spotlight data never contains monetary amounts', () => {
-  assert.ok(!/\b(inr|usd)\b|₹|\$\s?\d/i.test(JSON.stringify(SPOTLIGHTS)));
+test('spotlight data never contains a Spotlight prize amount (INR / rupee values)', () => {
+  // Project figures mentioned inside a message (e.g. a programme budget) are allowed; prize values are not.
+  assert.ok(!/\b(inr|usd)\b|₹/i.test(JSON.stringify(SPOTLIGHTS)));
 });
 
 test('every spotlight has a date, title and image', () => {

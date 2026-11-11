@@ -1,24 +1,30 @@
 /** Site-wide constants. Keep magic strings and numbers here. */
 
-export const SECTION = Object.freeze({
+export const PAGE = Object.freeze({
   HOME: 'home',
+  ABOUT: 'about',
   EXPERIENCE: 'experience',
   RECOGNITION: 'recognition',
   PUBLICATIONS: 'publications',
+  BLOGS: 'blogs',
+  PROJECTS: 'projects',
   EDUCATION: 'education',
   SKILLS: 'skills',
   COMMUNITY: 'community',
-  CONTACT: 'contact',
 });
 
+/** Primary navigation: one real page per item. */
 export const NAV_ITEMS = Object.freeze([
-  { id: SECTION.HOME, label: 'Home' },
-  { id: SECTION.EXPERIENCE, label: 'Experience' },
-  { id: SECTION.RECOGNITION, label: 'Recognition' },
-  { id: SECTION.PUBLICATIONS, label: 'Publications & Talks' },
-  { id: SECTION.EDUCATION, label: 'Education' },
-  { id: SECTION.SKILLS, label: 'Skills' },
-  { id: SECTION.COMMUNITY, label: 'Community' },
+  { id: PAGE.HOME, label: 'Home', href: 'index.html' },
+  { id: PAGE.ABOUT, label: 'About', href: 'about.html', icon: 'people' },
+  { id: PAGE.EXPERIENCE, label: 'Experience', href: 'experience.html', icon: 'briefcase' },
+  { id: PAGE.EDUCATION, label: 'Education', href: 'education.html', icon: 'cap' },
+  { id: PAGE.PROJECTS, label: 'Project Highlights', href: 'projects.html', icon: 'code' },
+  { id: PAGE.RECOGNITION, label: 'Recognition', href: 'recognition.html', icon: 'trophy' },
+  { id: PAGE.PUBLICATIONS, label: 'Research Publications & Speaker Sessions', shortLabel: 'Research & Sessions', href: 'publications.html', icon: 'doc' },
+  { id: PAGE.BLOGS, label: 'Blogs', href: 'blogs.html', icon: 'doc' },
+  { id: PAGE.SKILLS, label: 'Skills', href: 'skills.html', icon: 'code' },
+  { id: PAGE.COMMUNITY, label: 'Mentoring & Community Leadership Initiatives, Volunteering', shortLabel: 'Mentoring & Leadership', heroLabel: 'Mentoring & Community Leadership, Volunteering', href: 'community.html', icon: 'people' },
 ]);
 
 export const STORAGE_KEYS = Object.freeze({
@@ -26,7 +32,7 @@ export const STORAGE_KEYS = Object.freeze({
 });
 
 export const SPOTLIGHT = Object.freeze({
-  PAGE_SIZE: 24,
+  BATCH_SIZE: 12,
   ALL: 'All',
   SORT_NEWEST: 'newest',
   SORT_OLDEST: 'oldest',
@@ -45,5 +51,15 @@ export const ICON_PATHS = Object.freeze({
   prev: 'M15.4 6.4 14 5l-7 7 7 7 1.4-1.4L9.8 12z',
   next: 'M8.6 6.4 10 5l7 7-7 7-1.4-1.4L14.2 12z',
   star: 'M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17l-6.1 3.4 1.5-6.8L2.2 9l6.9-.7z',
+  briefcase: 'M10 4h4a2 2 0 012 2v1h4a1 1 0 011 1v11a1 1 0 01-1 1H4a1 1 0 01-1-1V8a1 1 0 011-1h4V6a2 2 0 012-2zm0 2v1h4V6h-4z',
+  trend: 'M3 17l6-6 4 4 8-8v5h2V4h-8v2h5l-6 6-4-4-8 8z',
+  cap: 'M12 3L1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2v4L12 21l7-3.8v-4L12 17l-7-3.8z',
+  doc: 'M6 2h9l5 5v15H6V2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 3.5h8V17H8v-1.5z',
+  bulb: 'M12 2a7 7 0 00-4 12.7V17h8v-2.3A7 7 0 0012 2zM9 19h6v1.5a1.5 1.5 0 01-1.5 1.5h-3A1.5 1.5 0 019 20.5V19z',
+  mic: 'M12 14a3 3 0 003-3V5a3 3 0 00-6 0v6a3 3 0 003 3zm5-3a5 5 0 01-10 0H5a7 7 0 006 6.9V21h2v-3.1A7 7 0 0019 11h-2z',
+  play: 'M8 5v14l11-7z',
+  medal: 'M12 2l-2.5 5h5L12 2zm0 7a6 6 0 100 12 6 6 0 000-12zm0 2.2l1.2 2.5 2.7.4-2 1.9.5 2.7-2.4-1.3-2.4 1.3.5-2.7-2-1.9 2.7-.4z',
+  code: 'M8.6 16.6L4 12l4.6-4.6L10 8.8 6.8 12l3.2 3.2-1.4 1.4zm6.8 0l-1.4-1.4 3.2-3.2L14 8.8l1.4-1.4L20 12l-4.6 4.6zM13 5l-2 14h-2l2-14h2z',
+  people: 'M16 11a3 3 0 100-6 3 3 0 000 6zm-8 0a3 3 0 100-6 3 3 0 000 6zm0 2c-2.3 0-7 1.2-7 3.5V19h14v-2.5C15 14.2 10.3 13 8 13zm8 0c-.3 0-.6 0-1 .1 1.2.8 2 1.9 2 3.4V19h6v-2.5c0-2.3-4.7-3.5-7-3.5z',
   trophy: 'M6 3h12v2h3v3a4 4 0 01-4 4h-.3A5 5 0 0113 14.9V17h3v2H8v-2h3v-2.1A5 5 0 017.3 12H7a4 4 0 01-4-4V5h3V3zm-1 4v1a2 2 0 002 2V7H5zm14 0h-2v3a2 2 0 002-2V7z',
 });

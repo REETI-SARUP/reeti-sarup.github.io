@@ -3,6 +3,7 @@
 export const PUBLICATIONS = Object.freeze([
   {
     id: 'aiml-2026',
+    image: 'images/linkedin/paper-certificate.webp',
     type: 'Research Paper',
     badge: 'Best Industry Paper',
     title: 'Substitutes, Not Complements: Entity Features vs Fine-Tuned Embeddings for Expense Allocation',
@@ -38,23 +39,38 @@ export const PUBLICATIONS = Object.freeze([
   },
 ]);
 
+export const PATENTS = Object.freeze([
+  {
+    id: 'bizquery-patent',
+    type: 'Patent',
+    badge: 'Patent Filed',
+    image: 'images/awards/trophies/patent.webp',
+    title: 'Deep Research System for Iterative Question Answering and Adaptive Report Generation',
+    venue: 'Patent application filed',
+    date: '2025-12-24',
+    summary: 'BizQuery: a deep-research agentic QnA system that iteratively answers financial questions and adaptively generates reports.',
+    details: [
+      'Novel agentic system for multi-step, iterative question answering over structured financial data, with adaptive report generation.',
+      'Related paper: "BizQuery: Agentic Financial Question Answering over Structured Data", AAIML Tokyo 2026 (IEEE proceedings).',
+    ],
+  },
+]);
+
 export const TALKS = Object.freeze([
   {
     id: 'ghc25',
+    image: 'images/linkedin/ghc25-speaker.webp',
     type: 'Conference Talk',
     title: 'Agentic AI Masterclass: Multi-Agent System Development with LangGraph, Memory & Human-in-the-Loop',
     venue: 'Grace Hopper Celebration (GHC) 2025, Chicago, USA',
     date: '2025-11-07',
-    summary: 'In-person tech presentation selected for the global GHC stage.',
+    highlight: { value: '300+', label: 'in-person global audience' },
+    summary: 'In-person tech presentation selected for the global GHC stage, with a 300+ in-person global audience.',
     details: ['AnitaB.org flagship conference; in-person AI Masterclass session.'],
-    response: [
-      { label: 'LinkedIn reactions (recap post)', value: '81' },
-      { label: 'Comments', value: '10' },
-      { label: 'Announcement post reactions', value: '117' },
-    ],
   },
   {
     id: 'ghci24',
+    image: 'images/ghci/ghci-2024-booth.webp',
     type: 'Innovation Showcase',
     title: 'AI Innovation Showcase Presenter, Intuit Lounge',
     venue: 'GHCI 2024, AnitaB.org India',
@@ -64,29 +80,21 @@ export const TALKS = Object.freeze([
   },
   {
     id: 'ghc24',
+    image: 'images/linkedin/ghc24-session.webp',
     type: 'Conference Talk',
     title: 'Building LLM-Powered RAG Chatbots with LangChain & Knowledge Graph',
     venue: 'Grace Hopper Celebration (GHC) 2024, Philadelphia, USA',
     date: '2024-10-10',
     summary: 'In-person AI/GenAI Masterclass workshop for the global GHC audience.',
-    details: ['Selected as speaker for an in-person AI/GenAI Masterclass workshop session.'],
-    response: [
-      { label: 'LinkedIn reactions (recap post)', value: '168' },
-      { label: 'Comments', value: '10' },
-      { label: 'Reposts', value: '3' },
+    details: [
+      'Co-hosted with Rishupreet Kaur at the Pennsylvania Convention Center, Philadelphia.',
+      'Hands-on coding with GenAI, LLMs, prompt engineering, RAG, vector embeddings, Knowledge Graphs and LangChain.',
+      'A fully packed ballroom, with attendees still sharing positive feedback afterwards.',
     ],
   },
   {
-    id: 'webinar-ai-first',
-    type: 'Tech Webinar',
-    title: 'The AI-first Approach: AI-powered product development and developer experience',
-    venue: 'Intuit tech webinar (panelist)',
-    summary: "Intuit's engineering transformation with an AI-first mindset.",
-    details: [],
-    response: [{ label: 'LinkedIn reactions', value: '90' }],
-  },
-  {
     id: 'wids',
+    image: 'images/linkedin/wids-emcee.webp',
     type: 'Community',
     title: 'Emcee / host, WiDS Worldwide Bangalore Conference',
     venue: 'Hosted at Intuit',
@@ -94,20 +102,12 @@ export const TALKS = Object.freeze([
     summary: 'Hosted the Women in Data Science Worldwide Bangalore conference.',
     details: [],
   },
-  {
-    id: 'webinar-modern-app',
-    type: 'Tech Webinar',
-    title: 'Ingredients of a Stellar Modern App',
-    venue: 'Panelist speaker, tech webinar (Nov 22)',
-    summary: 'Panel discussion on building stellar modern applications.',
-    details: [],
-    response: [{ label: 'LinkedIn reactions', value: '35' }],
-  },
 ]);
 
 export const BLOGS = Object.freeze([
   {
     id: 'a11y-best-practices',
+    image: 'images/blogs/a11y-best-practices.webp',
     type: 'Blog',
     title: 'Web A11y: 11 Best Practices and Techniques for Developing Accessible Web-Applications',
     venue: 'Medium',
@@ -118,6 +118,7 @@ export const BLOGS = Object.freeze([
   },
   {
     id: 'a11y-wcag',
+    image: 'images/blogs/a11y-wcag.webp',
     type: 'Blog',
     title: 'Web A11y: WCAG’s 4 Principles and 13 Guidelines For Web Accessibility',
     venue: 'Medium',
@@ -128,6 +129,7 @@ export const BLOGS = Object.freeze([
   },
   {
     id: 'a11y-intro',
+    image: 'images/blogs/a11y-intro.webp',
     type: 'Blog',
     title: 'Web A11y: What is Web Accessibility and Why Digital Inclusion Matters',
     venue: 'Medium',
@@ -138,6 +140,7 @@ export const BLOGS = Object.freeze([
   },
   {
     id: 'intuit-internship',
+    image: 'images/blogs/intuit-internship.webp',
     type: 'Blog',
     title: 'An Insight into the Incredible Internship Experience at Intuit',
     venue: 'Medium',

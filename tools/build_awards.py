@@ -1,11 +1,12 @@
-"""Redact award amounts from Spotlight screenshots and emit gallery metadata.
-Input: Vision OCR json + source screenshots. Output: webp images + awards.json (no amounts)."""
+"""Hide the Spotlight prize value on screenshots (solid fill on the pixels) and emit gallery metadata.
+Input: Vision OCR json + source screenshots. Output: flattened WebP images + metadata. Prize values are never read into data."""
 import json, re, sys, os
 from PIL import Image, ImageDraw
 OCR, SRC, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
 os.makedirs(OUT + "/full", exist_ok=True); os.makedirs(OUT + "/thumb", exist_ok=True)
 data = json.load(open(OCR))
-MONEY = re.compile(r"(?i)([il1]nr|usd|rs\.?|₹|\$)\s*[\d,.]+|^[\d,]{3,7}$")
+# Only the Spotlight prize value is hidden (INR/USD/rupee amounts); project impact figures in messages stay visible.
+MONEY = re.compile(r"(?i)\b([il1]nr|usd)\b\s*[\d,]+|₹\s*[\d,]+")
 EXCLUDE = re.compile(r"(?i)@|betterworks|bookmarks|workhuman\.com|chrome|mailbox|check-in|find a colleague")
 VALUES = ["Deliver Awesome","Win Together","Be Passionate","Customer Obsession","Stronger Together","Courage","Integrity Without Compromise","We Care and Give Back"]
 DATE = re.compile(r"(January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}")
@@ -42,10 +43,6 @@ for e in data:
     idx = len(items) + 1; name = f"{idx:03d}.webp"
     full.save(f"{OUT}/full/{name}", "webp", quality=80, method=6)
     th = img.copy(); th.thumbnail((640, 640)); th.save(f"{OUT}/thumb/{name}", "webp", quality=74, method=6)
-    amt = None
-    for t in texts:
-        mm = re.search(r"[\d,]{4,7}", t) if re.search(r"(?i)[il1]nr", t) else None
-        if mm: amt = int(mm.group(0).replace(",","")); break
     value = next((v for v in VALUES if v in blob), None)
     date = m.group(0) if m else None
     iso = None
@@ -56,6 +53,6 @@ for e in data:
     after = re.sub(r"(?i)[^|]*[il1]nr\s*[\d,]+[^|]*\|?", "", after)
     parts = [p.strip() for p in after.split("|") if p.strip() and not re.match(r"(?i)^(x|rs,?|\d)$", p.strip())]
     items.append({"id": idx, "file": name, "kind": kind, "giver": giver, "value": value, "date": iso, "year": int(iso[:4]) if iso else int(e["file"].split("/")[0]),
-                  "src": e["file"], "text": " ".join(parts)[:420], "_amt": amt})
+                  "src": e["file"], "text": " ".join(parts)[:420]})
 json.dump(items, open(OUT + "/awards_raw.json", "w"), indent=1)
 print(len(items), "items")

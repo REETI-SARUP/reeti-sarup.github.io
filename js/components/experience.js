@@ -1,33 +1,55 @@
-import { SECTION } from '../config/constants.js';
-import { EXPERIENCE, EARLY_CAREER } from '../data/experience.js';
+import { EXPERIENCE, EARLY_CAREER, INTUIT } from '../data/experience.js';
 import { h } from '../utils/dom.js';
-import { Section, Chip, ExternalLink } from './section.js';
+import { Block } from './page.js';
+import { Chip, ExternalLink } from './section.js';
 import { Disclosure } from './disclosure.js';
+
+/** First four-digit year in a period string, e.g. "May 2025 \u2013 Aug 2026" -> "2025". */
+const startYear = (period) => period.match(/\d{4}/)?.[0] ?? '';
+
+/** One promotion step in the career-path strip. */
+const PathStep = (label, i, last) =>
+  h('li', { class: `path__step${i === last ? ' is-current' : ''}` }, h('span', { class: 'path__dot' }, i + 1), h('span', { class: 'path__label' }, label));
+
+function IntuitHeader() {
+  return h('article', { class: 'org-card reveal' },
+    h('img', { class: 'org-card__img', src: INTUIT.image, alt: 'Reeti at Intuit', decoding: 'async' }),
+    h('div', { class: 'org-card__body' },
+      h('div', { class: 'org-card__head' },
+        h('h2', { class: 'org-card__title' }, INTUIT.org),
+        h('p', { class: 'org-card__meta' }, `${INTUIT.period} · ${INTUIT.duration} · ${INTUIT.location}`)),
+      h('p', { class: 'org-card__text' }, INTUIT.summary),
+      h('ol', { class: 'path', 'aria-label': 'Promotion path' }, INTUIT.path.map((label, i) => PathStep(label, i, INTUIT.path.length - 1))),
+      h('p', { class: 'org-card__badge' }, Chip('3 promotions in 7 years', 'chip--gold'))));
+}
 
 function RoleCard(role) {
   return h('article', { class: `role reveal${role.current ? ' role--current' : ''}` },
+    h('span', { class: 'role__year', 'aria-hidden': 'true' }, startYear(role.period)),
     h('div', { class: 'role__head' },
-      h('div', {}, h('h3', { class: 'role__title' }, role.role), h('p', { class: 'role__org' }, `${role.org} · ${role.team}`)),
+      h('div', {}, h('h3', { class: 'role__title' }, role.role), h('p', { class: 'role__org' }, role.team)),
       h('span', { class: 'role__period' }, role.period, role.current && Chip('Current', 'chip--accent'))),
     h('p', { class: 'role__summary' }, role.summary),
-    Disclosure({ label: 'Key contributions', defaultOpen: role.current }, h('ul', { class: 'bullets' }, role.highlights.map((t) => h('li', {}, t))),
+    Disclosure({ label: 'Key Highlights', defaultOpen: role.current },
+      h('ul', { class: 'bullets' }, role.highlights.map((t) => h('li', {}, t))),
       role.tech.length > 0 && h('ul', { class: 'chips', role: 'list' }, role.tech.map((t) => h('li', {}, Chip(t))))));
 }
 
 function EarlyCard(item) {
-  return h('article', { class: 'card early reveal' },
-    item.image && h('img', { class: 'early__img', src: item.image, alt: '', loading: 'lazy', decoding: 'async' }),
-    h('div', { class: 'early__body' },
-      h('p', { class: 'card__meta' }, item.period),
-      h('h3', { class: 'card__title' }, item.role),
-      h('p', { class: 'card__org' }, item.org),
-      h('p', { class: 'card__text' }, item.summary),
+  return h('article', { class: 'role role--early reveal' },
+    h('span', { class: 'role__year', 'aria-hidden': 'true' }, startYear(item.period)),
+    item.image && h('img', { class: 'role__thumb', src: item.image, alt: '', loading: 'lazy', decoding: 'async' }),
+    h('div', { class: 'role__main' },
+      h('div', { class: 'role__head' },
+        h('div', {}, h('h3', { class: 'role__title' }, item.role), h('p', { class: 'role__org' }, item.org)),
+        h('span', { class: 'role__period' }, item.period)),
+      h('p', { class: 'role__summary' }, item.summary),
       item.link && ExternalLink(`${item.link.label} ↗`, item.link.href)));
 }
 
-export function ExperienceSection() {
-  return Section({ id: SECTION.EXPERIENCE, eyebrow: 'Experience', title: 'Career at Intuit', lead: '7 years 5 months of building: from QuickBooks Online Advanced to the AI-native Intuit Enterprise Suite.' },
+export const ExperienceContent = () =>
+  Block({ id: 'career' },
+    IntuitHeader(),
     h('div', { class: 'timeline' }, EXPERIENCE.map(RoleCard)),
-    h('h3', { class: 'subhead reveal' }, 'Early experience'),
-    h('div', { class: 'grid grid--3' }, EARLY_CAREER.map(EarlyCard)));
-}
+    h('h2', { class: 'subhead reveal' }, 'Internships & early experience'),
+    h('div', { class: 'timeline timeline--early' }, EARLY_CAREER.map(EarlyCard)));

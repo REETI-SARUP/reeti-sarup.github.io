@@ -22,8 +22,8 @@ export function createLightbox() {
 
   function render() {
     const item = items[index];
-    img.src = `${SPOTLIGHT.IMAGE_BASE}/full/${item.image}`;
-    img.alt = `${item.title}${item.giver ? ` from ${item.giver}` : ''}, ${formatFullDate(item.date)}`;
+    img.src = item.src ?? `${SPOTLIGHT.IMAGE_BASE}/full/${item.image}`;
+    img.alt = [item.title, item.date && formatFullDate(item.date)].filter(Boolean).join(', ');
     replaceChildren(caption,
       h('strong', {}, item.title),
       ' ',

@@ -1,35 +1,43 @@
-import { SECTION } from '../config/constants.js';
-import { PUBLICATIONS, TALKS, BLOGS } from '../data/publications.js';
+import { PUBLICATIONS, PATENTS, TALKS, BLOGS } from '../data/publications.js';
 import { formatFullDate } from '../utils/format.js';
-import { h } from '../utils/dom.js';
-import { Section, Chip, ExternalLink } from './section.js';
+import { ICON_PATHS } from '../config/constants.js';
+import { h, icon } from '../utils/dom.js';
+import { Block } from './page.js';
+import { Chip, ExternalLink } from './section.js';
 import { Disclosure } from './disclosure.js';
 
-function ResponseStrip(response) {
-  return h('dl', { class: 'response' },
-    response.map((r) => h('div', { class: 'response__item' }, h('dt', {}, r.label), h('dd', {}, r.value))));
+const TYPE_ICON = Object.freeze({ Patent: 'bulb', 'Research Paper': 'doc', 'Book Chapter': 'doc', 'Conference Talk': 'mic', 'Innovation Showcase': 'mic', 'Tech Webinar': 'mic', Community: 'star', Blog: 'doc' });
+
+/** Image if we have one, otherwise a colored tile with a type icon, so every card has a visual. */
+function PubMedia(item) {
+  if (item.image) return h('img', { class: 'pub__img', src: item.image, alt: '', loading: 'lazy', decoding: 'async' });
+  return h('div', { class: 'pub__tile', 'aria-hidden': 'true' }, icon(ICON_PATHS[item.icon ?? TYPE_ICON[item.type] ?? 'doc'], { size: 34 }));
 }
 
 function PubCard(item) {
   return h('article', { class: 'card pub reveal' },
+    PubMedia(item),
     h('div', { class: 'pub__top' }, Chip(item.type), item.badge && Chip(item.badge, 'chip--gold')),
     h('h4', { class: 'card__title' }, item.title),
-    h('p', { class: 'card__meta' }, [item.venue, item.date && formatFullDate(item.date)].filter(Boolean).join(' · ')),
-    item.authors && h('p', { class: 'card__org' }, `Authors: ${item.authors}`),
+    h('p', { class: 'pub__venue' }, h('strong', {}, item.venue), item.date && h('span', { class: 'pub__date' }, formatFullDate(item.date))),
+    item.authors && h('p', { class: 'pub__authors' }, `Authors: ${item.authors}`),
+    item.highlight && h('p', { class: 'pub__highlight' }, h('strong', {}, item.highlight.value), ` ${item.highlight.label}`),
     h('p', { class: 'card__text' }, item.summary),
-    (item.details?.length || item.response || item.href) &&
+    (item.details?.length || item.href) &&
       Disclosure({ label: 'More details' },
         item.details?.length > 0 && h('ul', { class: 'bullets' }, item.details.map((d) => h('li', {}, d))),
-        item.response && [h('p', { class: 'card__meta' }, 'Response on LinkedIn'), ResponseStrip(item.response)],
         item.href && ExternalLink('Open ↗', item.href)));
 }
 
-const Group = (title, items) => [h('h3', { class: 'subhead reveal' }, title), h('div', { class: 'grid grid--2' }, items.map(PubCard))];
+const Group = (title, items) => [h('h2', { class: 'subhead reveal' }, title), h('div', { class: 'grid grid--2' }, items.map(PubCard))];
 
-export function PublicationsSection() {
-  return Section({ id: SECTION.PUBLICATIONS, tone: 'tint', eyebrow: 'Publications & Talks', title: 'Research, speaking and writing', lead: 'Peer-reviewed papers, a patent filing, Grace Hopper stages and blogs. Open any card for details.' },
-    Group('Research papers & chapters', PUBLICATIONS),
-    Group('Speaker sessions & talks', TALKS),
+export const PapersContent = () => Block({ id: 'papers', wide: true }, Group('Research papers & chapters', PUBLICATIONS));
+
+export const PatentsContent = () => Block({ id: 'patents', wide: true }, Group('Patents', PATENTS));
+
+export const TalksContent = () => Block({ id: 'talks', tone: 'tint', wide: true }, Group('Speaker sessions & talks', TALKS));
+
+export const BlogsContent = () =>
+  Block({ id: 'posts', wide: true },
     Group('Blogs on Medium', BLOGS),
-    h('p', { class: 'center reveal' }, ExternalLink('Read all posts on Medium ↗', 'https://reetisarup.medium.com/', 'btn btn--ghost')));
-}
+    h('p', { class: 'center reveal' }, ExternalLink('Read all posts on Medium \u2197', 'https://reetisarup.medium.com/', 'btn btn--ghost')));

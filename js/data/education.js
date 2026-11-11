@@ -10,6 +10,7 @@ export const EDUCATION = Object.freeze([
       'images/georgia-tech-reeti-graduation-pic-2.jpg',
       'images/georgia-tech-reeti-graduation-pic-3.jpg',
       'images/georgia-tech-reeti-graduation-pic-4.jpg',
+      'images/linkedin/gatech-diploma.webp',
     ],
     points: [
       'Completed on a flexible schedule designed for working professionals.',
