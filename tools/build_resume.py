@@ -12,7 +12,7 @@ OUT = pathlib.Path(sys.argv[1]); OUT.mkdir(parents=True, exist_ok=True)
 C = {
  "name": "Reeti Sarup",
  "title": "Staff Software Engineer, AI",
- "contact": ["linkedin.com/in/reeti-sarup", "reeti.sarup@gmail.com", "reeti-sarup.github.io", "github.com/REETI-SARUP", "reetisarup.medium.com", "Bangalore, India"],
+ "contact": ["linkedin.com/in/reeti-sarup", "reeti.sarup@gmail.com", "reeti-sarup.github.io", "github.com/REETI-SARUP", "reetisarup.medium.com"],
  "summary": "Staff Software Engineer building production AI for enterprise-scale FinTech: GenAI, Agentic AI, RL, ML systems and full-stack. Best Industry Paper (AIMLSystems 2026), patent filed, GHC 2024 and 2025 speaker. MS CS (ML), Georgia Tech, 4.0/4.0 GPA.",
  "skills": [
   ("Technologies & Tools", "Python, AI, GenAI, LLMs, Agentic AI, RAG, Knowledge Graphs, Machine Learning, Deep Learning, Reinforcement Learning, LangGraph, LangChain, Kubeflow, PySpark, Databricks, Kafka, SQL, Redis, AWS, React, TypeScript, HTML, CSS, JavaScript, GraphQL, Apollo Client, Cypress, Playwright, Jest, C, C++, Java, Web Performance, Web Accessibility, CI/CD, Jenkins, Splunk, Amplitude, Wavefront"),
@@ -73,7 +73,7 @@ def main_html():
     out.append("<h2>Additional Accomplishments</h2><ul>" + "".join(f"<li>{rich(a)}</li>" for a in C["accomplishments"]) + "</ul>")
     return "".join(out)
 
-SIZE = float(sys.argv[2]) if len(sys.argv) > 2 else 7.6
+SIZE = float(sys.argv[2]) if len(sys.argv) > 2 else 8.7
 page = f"""<!doctype html><meta charset=utf-8><title>Reeti Sarup Resume</title><style>
 @page{{size:Letter;margin:0.32in 0.38in}}*{{box-sizing:border-box}}
 body{{font:{SIZE}pt/1.28 'Helvetica Neue',Arial,sans-serif;color:#1b1f2a;margin:0}}

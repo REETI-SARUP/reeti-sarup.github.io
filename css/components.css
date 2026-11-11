@@ -219,3 +219,18 @@
 .pub__cta-row { display: flex; justify-content: flex-end; margin: 10px 0 0; }
 .pub__cta::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius); }
 .pub--link .disclosure { position: relative; z-index: 2; }
+
+/* Skills: top-skill feature tiles */
+.top-skills { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; margin: 18px 0 36px; }
+.top-skill { position: relative; overflow: hidden; padding: 22px 18px 20px; border-radius: var(--radius); color: #fff; background: linear-gradient(135deg, var(--c-grad-a), var(--c-grad-b)); box-shadow: var(--shadow); }
+.top-skill:nth-child(5n + 2) { background: linear-gradient(135deg, #2f7fd1, #11abb0); }
+.top-skill:nth-child(5n + 3) { background: linear-gradient(135deg, #7c4dd6, #c04fa0); }
+.top-skill:nth-child(5n + 4) { background: linear-gradient(135deg, #e0a030, #b7791f); }
+.top-skill:nth-child(5n) { background: linear-gradient(135deg, #1f9d6b, #11abb0); }
+.top-skill__rank { position: absolute; top: 8px; right: 14px; font: 800 2.4rem/1 var(--font-sans); opacity: 0.22; }
+.top-skill__icon { display: grid; place-items: center; width: 46px; height: 46px; margin-bottom: 14px; border-radius: 12px; background: rgba(255, 255, 255, 0.18); }
+.top-skill__name { font: 800 1.1rem/1.25 var(--font-sans); margin: 0 0 6px; }
+.top-skill__text { margin: 0; font-size: 0.88rem; line-height: 1.5; opacity: 0.92; }
+.skill-count { margin-left: 8px; padding: 1px 9px; border-radius: 999px; font: 700 0.75rem var(--font-sans); background: var(--c-tint); color: var(--c-muted); vertical-align: middle; }
+@media (max-width: 1100px) { .top-skills { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .top-skills { grid-template-columns: 1fr; } }
