@@ -27,7 +27,7 @@ export function createLightbox() {
     replaceChildren(caption,
       h('strong', {}, item.title),
       ' ',
-      h('span', {}, [item.giver && `from ${item.giver}`, formatFullDate(item.date)].filter(Boolean).join(' · ')));
+      h('span', {}, item.date ? formatFullDate(item.date) : item.caption ?? ''));
     counter.textContent = `${index + 1} / ${items.length}`;
   }
 

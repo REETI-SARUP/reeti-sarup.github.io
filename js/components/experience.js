@@ -7,10 +7,6 @@ import { Disclosure } from './disclosure.js';
 /** First four-digit year in a period string, e.g. "May 2025 \u2013 Aug 2026" -> "2025". */
 const startYear = (period) => period.match(/\d{4}/)?.[0] ?? '';
 
-/** One promotion step in the career-path strip. */
-const PathStep = (label, i, last) =>
-  h('li', { class: `path__step${i === last ? ' is-current' : ''}` }, h('span', { class: 'path__dot' }, i + 1), h('span', { class: 'path__label' }, label));
-
 function IntuitHeader() {
   return h('article', { class: 'org-card reveal' },
     h('img', { class: 'org-card__img', src: INTUIT.image, alt: 'Reeti at Intuit', decoding: 'async' }),
@@ -18,9 +14,7 @@ function IntuitHeader() {
       h('div', { class: 'org-card__head' },
         h('h2', { class: 'org-card__title' }, INTUIT.org),
         h('p', { class: 'org-card__meta' }, `${INTUIT.period} · ${INTUIT.duration} · ${INTUIT.location}`)),
-      h('p', { class: 'org-card__text' }, INTUIT.summary),
-      h('ol', { class: 'path', 'aria-label': 'Promotion path' }, INTUIT.path.map((label, i) => PathStep(label, i, INTUIT.path.length - 1))),
-      h('p', { class: 'org-card__badge' }, Chip('3 promotions in 7 years', 'chip--gold'))));
+      h('p', { class: 'org-card__text' }, INTUIT.summary)));
 }
 
 function RoleCard(role) {

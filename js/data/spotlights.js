@@ -5,7 +5,6 @@ export const SPOTLIGHTS = [
     "image": "109.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Alex Balazs",
     "date": "2026-09-22",
     "themes": [
       "Recognition"
@@ -22,29 +21,27 @@ export const SPOTLIGHTS = [
     "image": "108.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Vivek Dubey",
     "date": "2026-08-25",
     "themes": [
       "AI & GenAI"
     ],
     "featured": false,
     "title": "AI Standard Compliance for the PM Agent",
-    "text": "AI Standard Compliance for the PM Agent Hi Shweta and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics. This is a huge milestone — i",
+    "text": "AI Standard Compliance for the PM Agent Hi ██████ and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics. This is a huge milestone — i",
     "headline": "AI Standard Compliance for the PM Agent",
-    "excerpt": "Hi Shweta and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics.",
-    "message": "AI Standard Compliance for the PM Agent Hi Shweta and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics. This is a huge milestone — it is the first customer-facing agent deployed in the field within the Mid-Market BU to achieve 100% compliance. Thank you for your hard work, and keep doing wonders!"
+    "excerpt": "Hi ██████ and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics.",
+    "message": "AI Standard Compliance for the PM Agent Hi ██████ and Reeti, I would like to take a moment to thank you both for your awesome collaboration and coordinated execution in making the Project Manager Agent 100% compliant across all four Intuit AI standard compliance metrics. This is a huge milestone — it is the first customer-facing agent deployed in the field within the Mid-Market BU to achieve 100% compliance. Thank you for your hard work, and keep doing wonders!"
   },
   {
     "id": 107,
     "image": "107.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Kamalika Das",
     "date": "2026-07-28",
     "themes": [
       "Recognition"
     ],
-    "featured": false,
+    "featured": true,
     "title": "IFRA contribution",
     "text": "Thank you for contributing to IFRA Thank you for being so generous with your time and expertise during this year's inaugural Intuit Faculty Research Awards (IFRA). You each had a full plate of your own commitments, yet you stepped into what was a new role for at least some of you-carefully evaluatin",
     "headline": "IFRA contribution",
@@ -56,7 +53,6 @@ export const SPOTLIGHTS = [
     "image": "105.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Yan Qu",
     "date": "2026-01-06",
     "themes": [
       "AI & GenAI",
@@ -74,13 +70,12 @@ export const SPOTLIGHTS = [
     "image": "104.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Anshu Verma",
     "date": "2025-10-27",
     "themes": [
       "AI & GenAI",
       "Speaking & Mentoring"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Teach-Learn-Teach",
     "text": "Teach-Learn-Teach Thank you for all your expertise, passion & commitment towards making the India site AI ready through this teach-learn-teach program. Beyond your day job you have been training close to 100 engineers on Concepts, Theory & Hands-on Labs of AAA Program. Your dedication is commendable",
     "headline": "Teach-Learn-Teach",
@@ -92,7 +87,6 @@ export const SPOTLIGHTS = [
     "image": "103.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Yan Qu",
     "date": "2025-08-20",
     "themes": [
       "Product Launches"
@@ -109,7 +103,6 @@ export const SPOTLIGHTS = [
     "image": "102.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Nidhi Gopal",
     "date": "2025-08-14",
     "themes": [
       "Product Launches"
@@ -119,14 +112,13 @@ export const SPOTLIGHTS = [
     "text": "A BIG THANK YOU for IES - July Release ! A huge thank you and congratulations to you for the Intuit Enterprise Suite (IES) July release! Your dedication and hard work has been the key pillar driving remarkable customer value, operational excellence, and so far the biggest feature rich release for IE",
     "headline": "A BIG THANK YOU for IES - July Release",
     "excerpt": "A huge thank you and congratulations to you for the Intuit Enterprise Suite (IES) July release! Your dedication and hard work has been the key pillar driving remarkable customer value, operational excellence, and so far the biggest feature rich release for…",
-    "message": "A huge thank you and congratulations to you for the Intuit Enterprise Suite (IES) July release! Your dedication and hard work has been the key pillar driving remarkable customer value, operational excellence, and so far the biggest feature rich release for IES customers. This release had 80+ features delivered (+4X from Mar release) owned by 35+ teams with 10 weeks of development targeting 70% Sage IntAcct Parity. We achieved 0 PO, P1 and P2 targets along with scale SLAs for this release with your contribution, making it a truly a premium experience for our Enterprise customers. And you did all this while collaborating across teams, functions, and time zones demonstrating high bar and true customer obsession. Your efforts are truly appreciated and we have deep gratitude for your commitment and customer obsession. Thank you again, and well done! - Nidhi Gopal"
+    "message": "A huge thank you and congratulations to you for the Intuit Enterprise Suite (IES) July release! Your dedication and hard work has been the key pillar driving remarkable customer value, operational excellence, and so far the biggest feature rich release for IES customers. This release had 80+ features delivered (+4X from Mar release) owned by 35+ teams with 10 weeks of development targeting ██████████████ Parity. We achieved 0 PO, P1 and P2 targets along with scale SLAs for this release with your contribution, making it a truly a premium experience for our Enterprise customers. And you did all this while collaborating across teams, functions, and time zones demonstrating high bar and true customer obsession. Your efforts are truly appreciated and we have deep gratitude for your commitment and customer obsession. Thank you again, and well done! - Nidhi Gopal"
   },
   {
     "id": 101,
     "image": "101.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Rajat Khare",
     "date": "2025-08-11",
     "themes": [
       "Community & Culture"
@@ -143,7 +135,6 @@ export const SPOTLIGHTS = [
     "image": "100.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Alex Balazs",
     "date": "2025-08-07",
     "themes": [
       "Recognition"
@@ -160,7 +151,6 @@ export const SPOTLIGHTS = [
     "image": "099.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Marianna Tessel",
     "date": "2025-07-14",
     "themes": [
       "Product Launches"
@@ -177,24 +167,22 @@ export const SPOTLIGHTS = [
     "image": "098.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Kiran Rajath",
     "date": "2025-07-10",
     "themes": [
       "Speaking & Mentoring"
     ],
     "featured": true,
-    "title": "Thank You!",
-    "text": "Thank You! Intuit Tech Stories Hi Radhika, Reeti, Sidharth and Uttam, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India. Your expert insights and tech expertise, along with your commitment to ensure we",
+    "title": "Thank You! Intuit Tech Stories",
+    "text": "Thank You! Intuit Tech Stories Hi ███████, Reeti, ████████ and █████, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India. Your expert insights and tech expertise, along with your commitment to ensure we",
     "headline": "Thank You!",
-    "excerpt": "Intuit Tech Stories Hi Radhika, Reeti, Sidharth and Uttam, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India.",
-    "message": "Hi Radhika, Reeti, Sidharth and Uttam, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India. Your expert insights and tech expertise, along with your commitment to ensure we deliver an engaging session to our talent community members and external talent pools contribute to our efforts in nurturing and converting top tech talent for current and future opportunities at Intuit! Looking forward to your continued support and contributions! Kiran Rajath, on behalf of Talent Marketing and Talent Acquisition!"
+    "excerpt": "Intuit Tech Stories Hi ███████, Reeti, ████████ and █████, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India.",
+    "message": "Hi ███████, Reeti, ████████ and █████, We would like to thank you for your valuable partnership and contributions towards the latest edition of Intuit Tech Stories webinar series in India. Your expert insights and tech expertise, along with your commitment to ensure we deliver an engaging session to our talent community members and external talent pools contribute to our efforts in nurturing and converting top tech talent for current and future opportunities at Intuit! Looking forward to your continued support and contributions! Kiran Rajath, on behalf of Talent Marketing and Talent Acquisition!"
   },
   {
     "id": 97,
     "image": "097.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Radhika Kannan",
     "date": "2025-06-16",
     "themes": [
       "Community & Culture"
@@ -211,7 +199,6 @@ export const SPOTLIGHTS = [
     "image": "096.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "sidharth kumar",
     "date": "2025-05-14",
     "themes": [
       "AI & GenAI"
@@ -228,7 +215,6 @@ export const SPOTLIGHTS = [
     "image": "095.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Vignesh Subrahmaniam",
     "date": "2025-05-12",
     "themes": [
       "AI & GenAI"
@@ -245,12 +231,11 @@ export const SPOTLIGHTS = [
     "image": "094.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Uttam Ramamurthy",
     "date": "2025-03-28",
     "themes": [
       "AI & GenAI"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Production readiness for PM Agent first iteration",
     "text": "Production readiness for PM Agent first iteration Thanking you for the exceptional dedication and hard work that went into successfully building the PM Agent Iteration 1 on schedule. This achievement was made possible by the team's unwavering commitment, often involving significant extra hours. Embr",
     "headline": "Production readiness for PM Agent first iteration",
@@ -262,7 +247,6 @@ export const SPOTLIGHTS = [
     "image": "093.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Uttam Ramamurthy",
     "date": "2025-02-13",
     "themes": [
       "AI & GenAI",
@@ -280,13 +264,12 @@ export const SPOTLIGHTS = [
     "image": "092.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Amit Raj",
     "date": "2025-01-24",
     "themes": [
       "AI & GenAI",
       "Product Launches"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Self Learning Model Personalised Ranking System",
     "text": "Self Learning Model Personalised Ranking System Thanks Team for the work on the Self Learning Model Personalised Ranking System. This is the first launch in BB5 for Self-Learning Feedback mechanism based on User Preferences in the product. Additionally, this enables other use- cases like Verticaliza",
     "headline": "Self Learning Model Personalised Ranking System",
@@ -298,7 +281,6 @@ export const SPOTLIGHTS = [
     "image": "091.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Anshu Verma",
     "date": "2024-12-17",
     "themes": [
       "AI & GenAI",
@@ -316,7 +298,6 @@ export const SPOTLIGHTS = [
     "image": "090.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Anshu Verma",
     "date": "2024-11-22",
     "themes": [
       "AI & GenAI",
@@ -334,15 +315,14 @@ export const SPOTLIGHTS = [
     "image": "089.webp",
     "kind": "spotlight",
     "value": "We Care and Give Back",
-    "giver": "Rishupreet Kaur",
     "date": "2024-11-11",
     "themes": [
       "Hiring & Leadership"
     ],
-    "featured": false,
-    "title": "Hiring support",
+    "featured": true,
+    "title": "Hiring Assessor",
     "text": "Thankyou for helping us with hiring! Your contributions as an interview panelist have helped us hire well so far. Thanks a lot for making time for this and building a strong team.",
-    "headline": "Hiring support",
+    "headline": "Hiring Assessor",
     "excerpt": "Thankyou for helping us with hiring! Your contributions as an interview panelist have helped us hire well so far. Thanks a lot for making time for this and building a strong team.",
     "message": "Thankyou for helping us with hiring! Your contributions as an interview panelist have helped us hire well so far. Thanks a lot for making time for this and building a strong team."
   },
@@ -351,7 +331,6 @@ export const SPOTLIGHTS = [
     "image": "088.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Amit Raj",
     "date": "2024-10-01",
     "themes": [
       "AI & GenAI",
@@ -370,7 +349,6 @@ export const SPOTLIGHTS = [
     "image": "087.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Alex Balazs",
     "date": "2024-09-04",
     "themes": [
       "Recognition"
@@ -383,28 +361,10 @@ export const SPOTLIGHTS = [
     "message": "Congratulations on completing your project during Global Engineering Days! Thank you for your dedication to solving an important problem for our internal and/or external customers. Great job partnering with your teams to deliver impact. That's worth celebrating!"
   },
   {
-    "id": 84,
-    "image": "084.webp",
-    "kind": "kudoboard",
-    "value": "5 Year Milestone",
-    "giver": null,
-    "date": "2024-08-29",
-    "themes": [
-      "Milestones"
-    ],
-    "featured": false,
-    "title": "Kudoboard note",
-    "text": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching this incredible milestone, Reeti! Over the past five years, your exceptional UI skills have truly set a new benchmark for design excellence within our team. Your dedication to creating intuitive and visually stunning user interfaces has significantly elevated our projects and delighted our users. Your creativity, attention to detail, and passion for perfection are truly inspiring. Thank you for all your hard work and the countless ways you've contributed to our success. From Arun R Congrats on 5 years, Reeti Dear Reeti, Congratulations on the 5 Years anniversary with Intuit. Very happy to see the journey that you have undertook in these years. You are one of the engineers who uphold a constant learning mindset. Keep up the great work. Wish you many more successful years with Intuit. Regards, Rameez From Rameez Suseelan Congratulations Reeti, on the remarkable 5-year milestone! Wishing you continued success and many more achievements ahead. From bhargav h Many Congratulations Reeti on your 5 year milestone at Intuit Sign In Register • View as recipient Many congratulations Reeti on 5yr milestone, wishing you all the success in future. From durgeshwari Naik kunveno",
-    "headline": "5 Years: Kudoboard from Colleagues",
-    "excerpt": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching thi",
-    "message": "Hi Reeti, congratulations on this amazing milestone! It has been a great experience working with you, and seeing you grow from strength to strength. Wishing you many more milestones! From Anitha Palaniappan | Congratulations on reaching this incredible milestone, Reeti! Over the past five years, your exceptional UI skills have truly set a new benchmark for design excellence within our team. Your dedication to creating intuitive and visually stunning user interfaces has significantly elevated our projects and delighted our users. Your creativity, attention to detail, and passion for perfection are truly inspiring. Thank you for all your hard work and the countless ways you've contributed to our success. From Arun R Congrats on 5 years, Reeti Dear Reeti, Congratulations on the 5 Years anniversary with Intuit. Very happy to see the journey that you have undertook in these years. You are one of the engineers who uphold a constant learning mindset. Keep up the great work. Wish you many more successful years with Intuit. Regards, Rameez From Rameez Suseelan Congratulations Reeti, on the remarkable 5-year milestone! Wishing you continued success and many more achievements ahead. From bhargav h Many Congratulations Reeti on your 5 year milestone at Intuit Sign In Register • View as recipient Many congratulations Reeti on 5yr milestone, wishing you all the success in future. From durgeshwari Naik kunveno"
-  },
-  {
     "id": 85,
     "image": "085.webp",
     "kind": "kudoboard",
     "value": "5 Year Milestone",
-    "giver": null,
     "date": "2024-08-29",
     "themes": [
       "Milestones"
@@ -417,28 +377,10 @@ export const SPOTLIGHTS = [
     "message": "Colleagues celebrated five years at Intuit with a Kudoboard of congratulations."
   },
   {
-    "id": 110,
-    "image": "110.webp",
-    "kind": "kudoboard",
-    "value": "5 Year Milestone",
-    "giver": null,
-    "date": "2024-08-29",
-    "themes": [
-      "Milestones"
-    ],
-    "featured": false,
-    "title": "Kudoboard note",
-    "headline": null,
-    "text": "VU YU LUIGINULLM From Arun R Many Congratulations Reeti on your 5 year milestone at Intuit i, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving this impressive 5-year milestone! Wishing you ongoing success and countless more accomplishments in the years to come. From Garima Yadav From Rohit Verma Sign In Register Congratulations Reeti on completing 5 years at Intuit, The dedication and passion you show towards your work is truly commendable and inspiring. Wish you all the best for your future endeavours. From Nidhi Kamewar Congratulations on completing your 5th work anniversary with us!. You are such an amazing engineer and a great colleague to work with. One of the things we love most about you is engineering skills and knack for documentation. You bring a level of expertise to the team that is unmatched, and your attention to detail is something that we all strive to replicate. We're grateful for your unwavering dedication to the job and couldn't think of anyone better to have on our team. Here's to many more years of collaboration and success together From Amit Raj",
-    "excerpt": "VU YU LUIGINULLM From Arun R Many Congratulations Reeti on your 5 year milestone at Intuit i, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving thi",
-    "message": "VU YU LUIGINULLM From Arun R Many Congratulations Reeti on your 5 year milestone at Intuit i, really admire your attention to detail and presentation skills, wishing you great success ahead Heartfelt congratulations, Reeti, on achieving this impressive 5-year milestone! Wishing you ongoing success and countless more accomplishments in the years to come. From Garima Yadav From Rohit Verma Sign In Register Congratulations Reeti on completing 5 years at Intuit, The dedication and passion you show towards your work is truly commendable and inspiring. Wish you all the best for your future endeavours. From Nidhi Kamewar Congratulations on completing your 5th work anniversary with us!. You are such an amazing engineer and a great colleague to work with. One of the things we love most about you is engineering skills and knack for documentation. You bring a level of expertise to the team that is unmatched, and your attention to detail is something that we all strive to replicate. We're grateful for your unwavering dedication to the job and couldn't think of anyone better to have on our team. Here's to many more years of collaboration and success together From Amit Raj"
-  },
-  {
     "id": 111,
     "image": "111.webp",
     "kind": "kudoboard",
     "value": "5 Year Milestone",
-    "giver": null,
     "date": "2024-08-29",
     "themes": [
       "Milestones"
@@ -455,7 +397,6 @@ export const SPOTLIGHTS = [
     "image": "112.webp",
     "kind": "kudoboard",
     "value": "5 Year Milestone",
-    "giver": null,
     "date": "2024-08-29",
     "themes": [
       "Milestones"
@@ -472,7 +413,6 @@ export const SPOTLIGHTS = [
     "image": "086.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Anshu Verma",
     "date": "2024-08-13",
     "themes": [
       "AI & GenAI",
@@ -490,7 +430,6 @@ export const SPOTLIGHTS = [
     "image": "082.webp",
     "kind": "milestone",
     "value": null,
-    "giver": null,
     "date": "2024-07-22",
     "themes": [
       "Milestones"
@@ -507,13 +446,12 @@ export const SPOTLIGHTS = [
     "image": "081.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Kusuma K",
     "date": "2024-07-08",
     "themes": [
       "AI & GenAI",
       "Speaking & Mentoring"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Commendable & continuous efforts in AAA Program",
     "text": "Commendable & continuous efforts in AAA Program Thank you for all your expertise, passion & commitment towards making the India site AI-ready through this teach-learn-teach program. Beyond your day job, you have been training close to 100 engineers in Concepts, Theory & Hands-on Labs of the AAA Prog",
     "headline": "Commendable & continuous efforts in AAA Program",
@@ -525,7 +463,6 @@ export const SPOTLIGHTS = [
     "image": "080.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Kashi Kakarla",
     "date": "2024-06-25",
     "themes": [
       "Community & Culture",
@@ -543,7 +480,6 @@ export const SPOTLIGHTS = [
     "image": "079.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Amit Raj",
     "date": "2024-06-07",
     "themes": [
       "AI & GenAI",
@@ -561,7 +497,6 @@ export const SPOTLIGHTS = [
     "image": "077.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Anshu Verma",
     "date": "2024-04-21",
     "themes": [
       "AI & GenAI"
@@ -578,12 +513,11 @@ export const SPOTLIGHTS = [
     "image": "076.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Kashi Kakarla",
     "date": "2024-04-06",
     "themes": [
       "Recognition"
     ],
-    "featured": false,
+    "featured": true,
     "title": "India Site Visit: Gallery Walk Success",
     "text": "India Site Visit: Gallery Walk Success! On behalf of Kashi, Laurent and James, we would like to extend our sincere gratitude for the incredible work that you did in putting together the Gallery Walks during our recent site visit. These demos provided us with a firsthand look at all of the incredible",
     "headline": "India Site Visit: Gallery Walk Success",
@@ -591,33 +525,15 @@ export const SPOTLIGHTS = [
     "message": "On behalf of Kashi, Laurent and James, we would like to extend our sincere gratitude for the incredible work that you did in putting together the Gallery Walks during our recent site visit. These demos provided us with a firsthand look at all of the incredible projects that you have been working on, giving us a deeper understanding of your team's contributions to our organization. Your attention to detail and organization throughout the Gallery Walks was impressive and greatly appreciated. The effort that you put into showcasing your work has not gone unnoticed and we want you to know how much we value your work. It's clear that you all have a deep passion for what you do and it truly came through in the presentations. Thank you again for your dedication and hard work, and for all that you do to make our organization successful. We look forward to seeing the continued impact of your work."
   },
   {
-    "id": 75,
-    "image": "075.webp",
-    "kind": "spotlight",
-    "value": "Stronger Together",
-    "giver": "Kashi Kakarla",
-    "date": "2024-03-25",
-    "themes": [
-      "Community & Culture"
-    ],
-    "featured": false,
-    "title": "SBSEG PD Tech Forward Wordle Participation",
-    "text": "SBSEG PD Tech Forward Wordle Participation THANK YOU for participating in our Tech Forward Newsletter Wordle challenge! It was a pleasure to see all of the entries and enthusiasm for the puzzles. Your efforts are greatly appreciated, and I hope you had fun solving the Wordles. The answers are: Cheer",
-    "headline": "SBSEG PD Tech Forward Wordle Participation",
-    "excerpt": "THANK YOU for participating in our Tech Forward Newsletter Wordle challenge! It was a pleasure to see all of the entries and enthusiasm for the puzzles. Your efforts are greatly appreciated, and I hope you had fun solving the Wordles.",
-    "message": "THANK YOU for participating in our Tech Forward Newsletter Wordle challenge! It was a pleasure to see all of the entries and enthusiasm for the puzzles. Your efforts are greatly appreciated, and I hope you had fun solving the Wordles. The answers are: Cheer, Agile and Tools. In SBSEG PD, everyone is a winner - thank you again for your contribution!"
-  },
-  {
     "id": 74,
     "image": "074.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Ashish Balla",
     "date": "2024-03-21",
     "themes": [
       "AI & GenAI"
     ],
-    "featured": false,
+    "featured": true,
     "title": "AI summarization widget",
     "text": "A Giant Thank You for all you do Hello Reeti, Take a bow for your valuable partnership which resulted in MM A team ship AI summarisation widget on MR and quickly setting up an experiments on Reports. You have always responded with incredible agility and speed without compromising on quality. I also",
     "headline": "AI summarization widget",
@@ -629,12 +545,11 @@ export const SPOTLIGHTS = [
     "image": "073.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Anshu Verma",
     "date": "2024-03-20",
     "themes": [
       "AI & GenAI"
     ],
-    "featured": false,
+    "featured": true,
     "title": "QB AI 30days Coding Challenge",
     "text": "QB AI 30days Coding Challenge Thank you so much team for all the hard work you have put in to drive QB.AI. QB.AI was a concept 30 days back, you made this a reality in the form of working code. Its truly inspiring to see how you not only thought about solving this problem, but also solving this as a",
     "headline": "QB AI 30days Coding Challenge",
@@ -646,7 +561,6 @@ export const SPOTLIGHTS = [
     "image": "072.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Alex Balazs",
     "date": "2024-03-08",
     "themes": [
       "Product Launches"
@@ -663,14 +577,13 @@ export const SPOTLIGHTS = [
     "image": "071.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Rishupreet Kaur",
     "date": "2024-02-19",
     "themes": [
       "AI & GenAI",
       "Product Launches",
       "Hiring & Leadership"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Congratulations on the MR AI Release!",
     "text": "Congratulations on the MR AI Release! Thanks Reeti for tech leadership and guidance for MM AI Team. You have been instrumental in setting this team for success. Additionally with the expanded role on the QB.AI, you have wore multiple hats and helping multiple tracks in their AI journey. Appreciate t",
     "headline": "Congratulations on the MR AI Release!",
@@ -682,7 +595,6 @@ export const SPOTLIGHTS = [
     "image": "070.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Amit Raj",
     "date": "2024-02-15",
     "themes": [
       "AI & GenAI",
@@ -700,7 +612,6 @@ export const SPOTLIGHTS = [
     "image": "069.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Sumanta Das",
     "date": "2024-01-16",
     "themes": [
       "AI & GenAI",
@@ -718,30 +629,28 @@ export const SPOTLIGHTS = [
     "image": "068.webp",
     "kind": "winners",
     "value": "Customer Obsession",
-    "giver": null,
     "date": "2023-12-31",
     "themes": [
       "Quarterly Awards"
     ],
     "featured": true,
     "title": "Customer Obsession Winner, FY23 Q4",
-    "text": "FY23 Q4 - Customer Obsession Winners Reeti Sarup Senior Software Engineer Reeti has shown the exceptional qualities of a senior engineer in the team. She has been the pioneer for sharing her knowledge in her recent deliveries that she made in composite apps team. She proactively scheduled 2 differen",
+    "text": "Reeti has shown the exceptional qualities of a senior engineer in the team. She has been the pioneer for sharing her knowledge in her recent deliveries that she made in composite apps team. She proactively scheduled 2 different learn-teach-learn sessions, one internally within the team and one with the entire advanced pd. Because of her in depth knowledge of lego framework, we were able to deliver bug free V1 upgrader experience. QBO Advanced being are one of the early adopters of the lego framework, her qualities to drill down through the documentation helped the lego team to identify the gaps which eventually helped them to rework, and change it such that it could be adopted intuit wide. Along with that, it helped us to iterate over the upgrader v2 experience. She proactively consulted with the team, helped the team with code reviews, helped facilitate onboarding new attributes to C360 by consulting with ███████ and ██████ on why certain things were not working. She also recently worked on a complex use-case of migrating smart suggestions setting to a single setting for all the transaction types. Given this setting was available differently for each transaction type, there was a need to have a very planned thought though technical analysis and documentation. With her detailed oriented skill of documentation, we were able to identify the complexities of the charter and deliver it within time. Her ability to analyse everything is exceptional which results to absolutely 0 errors on production. This is evident by all her recent and previous deliveries on txp rethink smart suggestions, V1 upgrader experience and now settings consolidation. All that being said, she completed her Masters in computer science and Machine Learning with a 4/4 CGPA from a premier institute. Her hunger towards knowledge is definitely benefiting the comp app team to release delightful features for our customers. Keep up the great work Reeti! Great to have you in the team!",
     "headline": "Customer Obsession Winner, FY23 Q4",
-    "excerpt": "FY23 Q4 - Customer Obsession Winners Reeti Sarup Senior Software Engineer Reeti has shown the exceptional qualities of a senior engineer in the team.",
-    "message": "FY23 Q4 - Customer Obsession Winners Reeti Sarup Senior Software Engineer Reeti has shown the exceptional qualities of a senior engineer in the team."
+    "excerpt": "Reeti has shown the exceptional qualities of a senior engineer in the team. She has been the pioneer for sharing her knowledge in her recent deliveries that she made in composite apps team. She proactively scheduled 2 different learn-teach-",
+    "message": "Reeti has shown the exceptional qualities of a senior engineer in the team. She has been the pioneer for sharing her knowledge in her recent deliveries that she made in composite apps team. She proactively scheduled 2 different learn-teach-learn sessions, one internally within the team and one with the entire advanced pd. Because of her in depth knowledge of lego framework, we were able to deliver bug free V1 upgrader experience. QBO Advanced being are one of the early adopters of the lego framework, her qualities to drill down through the documentation helped the lego team to identify the gaps which eventually helped them to rework, and change it such that it could be adopted intuit wide. Along with that, it helped us to iterate over the upgrader v2 experience. She proactively consulted with the team, helped the team with code reviews, helped facilitate onboarding new attributes to C360 by consulting with ███████ and ██████ on why certain things were not working. She also recently worked on a complex use-case of migrating smart suggestions setting to a single setting for all the transaction types. Given this setting was available differently for each transaction type, there was a need to have a very planned thought though technical analysis and documentation. With her detailed oriented skill of documentation, we were able to identify the complexities of the charter and deliver it within time. Her ability to analyse everything is exceptional which results to absolutely 0 errors on production. This is evident by all her recent and previous deliveries on txp rethink smart suggestions, V1 upgrader experience and now settings consolidation. All that being said, she completed her Masters in computer science and Machine Learning with a 4/4 CGPA from a premier institute. Her hunger towards knowledge is definitely benefiting the comp app team to release delightful features for our customers. Keep up the great work Reeti! Great to have you in the team!"
   },
   {
     "id": 67,
     "image": "067.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Yan Qu",
     "date": "2023-12-19",
     "themes": [
       "AI & GenAI",
       "Product Launches"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Beta Launch of MR Summary Report in QBO - AV",
     "text": "Beta Launch of MR Summary Report in QBO - AV Thank you for launching GenAI enabled Management Report (MR) in private Beta mode. The reusable summarization widget is a novel application of Gen AI, Management Reports and Autonomous Insights that generates a summary of complex financial reports. This f",
     "headline": "Beta Launch of MR Summary Report in QBO - AV",
@@ -753,7 +662,6 @@ export const SPOTLIGHTS = [
     "image": "066.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Kelly Vincent",
     "date": "2023-12-01",
     "themes": [
       "AI & GenAI"
@@ -770,7 +678,6 @@ export const SPOTLIGHTS = [
     "image": "065.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Leena Sampemane",
     "date": "2023-11-28",
     "themes": [
       "Speaking & Mentoring"
@@ -787,7 +694,6 @@ export const SPOTLIGHTS = [
     "image": "063.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Lucy Shen",
     "date": "2023-11-22",
     "themes": [
       "Community & Culture",
@@ -805,7 +711,6 @@ export const SPOTLIGHTS = [
     "image": "064.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Monica Miyasato",
     "date": "2023-11-22",
     "themes": [
       "Community & Culture",
@@ -823,7 +728,6 @@ export const SPOTLIGHTS = [
     "image": "062.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Anshuman Kumar",
     "date": "2023-11-17",
     "themes": [
       "Community & Culture"
@@ -840,7 +744,6 @@ export const SPOTLIGHTS = [
     "image": "061.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Alex Balazs",
     "date": "2023-11-14",
     "themes": [
       "Recognition"
@@ -857,13 +760,12 @@ export const SPOTLIGHTS = [
     "image": "060.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Alex Balazs",
     "date": "2023-11-09",
     "themes": [
       "Community & Culture",
       "Speaking & Mentoring"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Tech Ambassador",
     "text": "Thank you so much for your FY23 contributions as a Tech Ambassador! When you share your knowledge, expertise, and best practices in your external blog posts and / or presentations, you're telling the world that Intuit is a technical innovator and a great place to work. I look forward to seeing more",
     "headline": "Tech Ambassador",
@@ -875,7 +777,6 @@ export const SPOTLIGHTS = [
     "image": "059.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Sumanta Das",
     "date": "2023-09-20",
     "themes": [
       "Hiring & Leadership"
@@ -888,28 +789,10 @@ export const SPOTLIGHTS = [
     "message": "You are Awesome!! Congratulations on winning the Quarterly Values award for BB5 India PD org. Thank you for all the hard work, passion and commitment towards delivering for our customers in BigBet5. This peer recognition is testimonial to what your peers value about your drive and excellence in what you do at work everyday while role modeling the Intuit values. We are lucky to have you in the team. Congratulations once again and keep it up! Best regards, Sumanta (On behalf of BB5 PD Leadership)"
   },
   {
-    "id": 58,
-    "image": "058.webp",
-    "kind": "spotlight",
-    "value": "Stronger Together",
-    "giver": "Kashi Kakarla",
-    "date": "2023-09-16",
-    "themes": [
-      "Community & Culture"
-    ],
-    "featured": false,
-    "title": "Tech Forward Newsletter: Spot the Difference",
-    "text": "Tech Forward Newsletter: Spot the Difference Thank you for participating in the Spot the Difference challenge at the end of our August 2023 Tech Forward Newsletter. In SBSEG PD, we are ALL winners and your participation makes our challenge such a memorable experience. We look forward to your partici",
-    "headline": "Tech Forward Newsletter: Spot the Difference",
-    "excerpt": "Thank you for participating in the Spot the Difference challenge at the end of our August 2023 Tech Forward Newsletter. In SBSEG PD, we are ALL winners and your participation makes our challenge such a memorable experience.",
-    "message": "Thank you for participating in the Spot the Difference challenge at the end of our August 2023 Tech Forward Newsletter. In SBSEG PD, we are ALL winners and your participation makes our challenge such a memorable experience. We look forward to your participation in our future events and continuing to grow together. Kashi Kakarla and the SBSEG PD Tech Forward Team"
-  },
-  {
     "id": 57,
     "image": "057.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Alex Balazs",
     "date": "2023-08-21",
     "themes": [
       "Recognition"
@@ -926,7 +809,6 @@ export const SPOTLIGHTS = [
     "image": "056.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Anshu Verma",
     "date": "2023-08-04",
     "themes": [
       "Community & Culture"
@@ -943,16 +825,15 @@ export const SPOTLIGHTS = [
     "image": "055.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Anitha Palaniappan",
     "date": "2023-07-28",
     "themes": [
       "Community & Culture",
       "Speaking & Mentoring"
     ],
-    "featured": false,
-    "title": "Fun Friday sessions",
+    "featured": true,
+    "title": "Leading Team Building and Engagement Initiatives",
     "text": "Thank you for making Fridays fun! Thank you for taking a lead in keeping the team engagement and fun factor high through the Fun Friday sessions. Your efforts in the initial days have led to members from the different scrum teams having a good bonding with each other, the sessions have become a lot",
-    "headline": "Fun Friday sessions",
+    "headline": "Leading Team Building and Engagement Initiatives",
     "excerpt": "Thank you for making Fridays fun! Thank you for taking a lead in keeping the team engagement and fun factor high through the Fun Friday sessions.",
     "message": "Thank you for making Fridays fun! Thank you for taking a lead in keeping the team engagement and fun factor high through the Fun Friday sessions. Your efforts in the initial days have led to members from the different scrum teams having a good bonding with each other, the sessions have become a lot of fun, and team members are volunteering by themselves to conduct the sessions. Thank you for acting as the glue that brings the team together!"
   },
@@ -961,7 +842,6 @@ export const SPOTLIGHTS = [
     "image": "054.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Kelly Vincent",
     "date": "2023-06-24",
     "themes": [
       "AI & GenAI"
@@ -978,13 +858,12 @@ export const SPOTLIGHTS = [
     "image": "053.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Kelly Vincent",
     "date": "2023-06-07",
     "themes": [
       "Product Launches",
       "Speaking & Mentoring"
     ],
-    "featured": false,
+    "featured": true,
     "title": "FEDs Launch",
     "text": "FEDs Launch You have gone above and beyond contributing to the Financial Error Detection new Ul and backend launch. Because of you, and the deep customer obsession that you bring to work every day, our customers will be able to prevent any data entry mistakes that could have led to disastrous conseq",
     "headline": "FEDs Launch",
@@ -996,7 +875,6 @@ export const SPOTLIGHTS = [
     "image": "052.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Anshu Verma",
     "date": "2023-05-22",
     "themes": [
       "Community & Culture",
@@ -1014,12 +892,11 @@ export const SPOTLIGHTS = [
     "image": "051.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Jitin Maherchandani",
     "date": "2023-05-10",
     "themes": [
       "Recognition"
     ],
-    "featured": false,
+    "featured": true,
     "title": "GTKM upgrader experience",
     "text": "Amazing work in Advanced Upgrader GTKM track Reeti, you have shown exceptional commitment in your recent work on GTKM in the upgrader experience. You spent a tonnes of great effort in reading through a complex lego codebase with very minimal workable documentation. This shows your courage and desire",
     "headline": "GTKM upgrader experience",
@@ -1031,7 +908,6 @@ export const SPOTLIGHTS = [
     "image": "050.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Kelly Vincent",
     "date": "2023-04-10",
     "themes": [
       "Product Launches"
@@ -1048,7 +924,6 @@ export const SPOTLIGHTS = [
     "image": "049.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Jyoti Ahuja",
     "date": "2023-03-31",
     "themes": [
       "Community & Culture",
@@ -1066,7 +941,6 @@ export const SPOTLIGHTS = [
     "image": "048.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Jyoti Ahuja",
     "date": "2023-03-26",
     "themes": [
       "Product Launches"
@@ -1083,7 +957,6 @@ export const SPOTLIGHTS = [
     "image": "047.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Alex Balazs",
     "date": "2023-03-10",
     "themes": [
       "Recognition"
@@ -1100,12 +973,11 @@ export const SPOTLIGHTS = [
     "image": "046.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Kelly Vincent",
     "date": "2023-03-09",
     "themes": [
       "Product Launches"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Multiple outcomes in Workflows and Composite App!",
     "text": "Multiple outcomes in Workflows and Composite App! Thank you for your commitment to delivering value to our customers by auto- enabling workflows as part of FTU set-up, making notification workflows available across transactional and non-transactional entities, and throttling capabilities. Heartfelt",
     "headline": "Multiple outcomes in Workflows and Composite App!",
@@ -1117,7 +989,6 @@ export const SPOTLIGHTS = [
     "image": "045.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Jyoti Ahuja",
     "date": "2023-02-08",
     "themes": [
       "Community & Culture",
@@ -1131,28 +1002,10 @@ export const SPOTLIGHTS = [
     "message": "You are a Rockstar!! Thank you for volunteering on-call during recharge days. Appreciate you going beyond the call of duty and being available for our customers during the time off. Your passion is what defines us. Thanks once again"
   },
   {
-    "id": 44,
-    "image": "044.webp",
-    "kind": "spotlight",
-    "value": "Customer Obsession",
-    "giver": "Melanie Noble",
-    "date": "2023-01-19",
-    "themes": [
-      "Recognition"
-    ],
-    "featured": false,
-    "title": "Employee experience feedback",
-    "text": "Thanks for helping improve employee experiences Thanks so much for taking the time to meet and share your feedback on employee help experiences. The team appreciates your feedback so we can understand how to improve the overall experience in the future. Acclaim (non-cash) Award",
-    "headline": "Employee experience feedback",
-    "excerpt": "Thanks for helping improve employee experiences Thanks so much for taking the time to meet and share your feedback on employee help experiences. The team appreciates your feedback so we can understand how to improve the overall experience in the future.",
-    "message": "Thanks for helping improve employee experiences Thanks so much for taking the time to meet and share your feedback on employee help experiences. The team appreciates your feedback so we can understand how to improve the overall experience in the future."
-  },
-  {
     "id": 43,
     "image": "043.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Jyoti Ahuja",
     "date": "2023-01-17",
     "themes": [
       "Community & Culture"
@@ -1169,7 +1022,6 @@ export const SPOTLIGHTS = [
     "image": "042.webp",
     "kind": "spotlight",
     "value": "Integrity Without Compromise",
-    "giver": "Anitha Palaniappan",
     "date": "2022-12-23",
     "themes": [
       "Recognition"
@@ -1186,7 +1038,6 @@ export const SPOTLIGHTS = [
     "image": "041.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Anshu Verma",
     "date": "2022-12-21",
     "themes": [
       "Community & Culture"
@@ -1203,7 +1054,6 @@ export const SPOTLIGHTS = [
     "image": "040.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Meghan Murphy",
     "date": "2022-12-08",
     "themes": [
       "Community & Culture",
@@ -1221,7 +1071,6 @@ export const SPOTLIGHTS = [
     "image": "039.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Rameez S",
     "date": "2022-11-29",
     "themes": [
       "Hiring & Leadership"
@@ -1238,7 +1087,6 @@ export const SPOTLIGHTS = [
     "image": "038.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Rajesh Uppalapati",
     "date": "2022-10-20",
     "themes": [
       "Speaking & Mentoring"
@@ -1255,7 +1103,6 @@ export const SPOTLIGHTS = [
     "image": "037.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Anitha Palaniappan",
     "date": "2022-09-19",
     "themes": [
       "Product Launches"
@@ -1272,7 +1119,6 @@ export const SPOTLIGHTS = [
     "image": "036.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Jyoti Ahuja",
     "date": "2022-09-15",
     "themes": [
       "Community & Culture",
@@ -1290,7 +1136,6 @@ export const SPOTLIGHTS = [
     "image": "035.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Anitha Palaniappan",
     "date": "2022-04-27",
     "themes": [
       "Product Launches",
@@ -1308,7 +1153,6 @@ export const SPOTLIGHTS = [
     "image": "034.webp",
     "kind": "spotlight",
     "value": "Courage",
-    "giver": "Anshuman Kumar",
     "date": "2022-03-08",
     "themes": [
       "Community & Culture",
@@ -1326,7 +1170,6 @@ export const SPOTLIGHTS = [
     "image": "033.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Jyoti Ahuja",
     "date": "2022-03-05",
     "themes": [
       "Hiring & Leadership"
@@ -1343,15 +1186,14 @@ export const SPOTLIGHTS = [
     "image": "032.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Jyoti Ahuja",
     "date": "2022-03-02",
     "themes": [
       "Hiring & Leadership"
     ],
-    "featured": false,
-    "title": "Hiring support",
+    "featured": true,
+    "title": "Hiring Assessor",
     "text": "Thank you so much for your time and efforts in helping us with the hiring drive last week. We sincerely appreciate the bar you raised while selecting your peers and the passion with which you participated in the drive. Understand that your time is precious and this was above and beyond so THANKS A L",
-    "headline": "Hiring support",
+    "headline": "Hiring Assessor",
     "excerpt": "Thank you so much for your time and efforts in helping us with the hiring drive last week. We sincerely appreciate the bar you raised while selecting your peers and the passion with which you participated in the drive.",
     "message": "Thank you so much for your time and efforts in helping us with the hiring drive last week. We sincerely appreciate the bar you raised while selecting your peers and the passion with which you participated in the drive. Understand that your time is precious and this was above and beyond so THANKS A LOT. Regards, Jyoti"
   },
@@ -1360,12 +1202,11 @@ export const SPOTLIGHTS = [
     "image": "031.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Anitha Palaniappan",
     "date": "2021-11-16",
     "themes": [
       "Product Launches"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Edit Recurring Series launch",
     "text": "Reeti, Congratulations on the successful GA launch of the Edit Recurring Series feature, which was one of the frequent asks from customers who use Recurring series feature. You showed tremendous courage to pick this project and take it to the finish line working independently. There was additional c",
     "headline": "Edit Recurring Series launch",
@@ -1377,7 +1218,6 @@ export const SPOTLIGHTS = [
     "image": "030.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Anitha Palaniappan",
     "date": "2021-09-09",
     "themes": [
       "Product Launches"
@@ -1394,7 +1234,6 @@ export const SPOTLIGHTS = [
     "image": "029.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Manish Kumar Singh",
     "date": "2021-09-03",
     "themes": [
       "Recognition"
@@ -1411,12 +1250,11 @@ export const SPOTLIGHTS = [
     "image": "028.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Kelly Vincent",
     "date": "2021-08-17",
     "themes": [
       "Product Launches"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Recurring Tasks launch",
     "text": "Thank you for driving the launch of recurring tasks for our customers. This has been a big ask from our customers time and again and brings additional value to the use of Custom tasks. Look forward to more such launches in the future that help mid-market customers collaborate even more.",
     "headline": "Recurring Tasks launch",
@@ -1428,7 +1266,6 @@ export const SPOTLIGHTS = [
     "image": "027.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Jyoti Ahuja",
     "date": "2021-08-03",
     "themes": [
       "Speaking & Mentoring"
@@ -1445,7 +1282,6 @@ export const SPOTLIGHTS = [
     "image": "026.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Mohan Kumar",
     "date": "2021-06-30",
     "themes": [
       "Speaking & Mentoring"
@@ -1462,7 +1298,6 @@ export const SPOTLIGHTS = [
     "image": "025.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Antonio Hernandez",
     "date": "2021-06-25",
     "themes": [
       "Product Launches"
@@ -1479,7 +1314,6 @@ export const SPOTLIGHTS = [
     "image": "024.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Saurabh Saxena",
     "date": "2021-06-11",
     "themes": [
       "Community & Culture",
@@ -1497,7 +1331,6 @@ export const SPOTLIGHTS = [
     "image": "023.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Saurabh Saxena",
     "date": "2021-06-09",
     "themes": [
       "Community & Culture",
@@ -1515,7 +1348,6 @@ export const SPOTLIGHTS = [
     "image": "022.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Sumanta Das",
     "date": "2021-05-18",
     "themes": [
       "Speaking & Mentoring"
@@ -1532,12 +1364,11 @@ export const SPOTLIGHTS = [
     "image": "021.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Kelly Vincent",
     "date": "2021-03-29",
     "themes": [
       "Product Launches"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Custom Workflows GA launch",
     "text": "Congratulations on GA launch of Custom Workflows! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customization helping them stay on top of their activities and collaborate effectively for quicker cash flows. This laun",
     "headline": "Custom Workflows GA launch",
@@ -1549,15 +1380,14 @@ export const SPOTLIGHTS = [
     "image": "020.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Jyoti Ahuja",
     "date": "2021-03-22",
     "themes": [
       "Product Launches"
     ],
-    "featured": false,
-    "title": "Heartiest congratulations on GA launch of Custom Workflows focussed on",
+    "featured": true,
+    "title": "GA launch of Custom Workflows",
     "text": "Heartiest congratulations on GA launch of Custom Workflows focussed on reminders! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customisation helping them stay on top of their activities and collaborate effectively f",
-    "headline": "Heartiest congratulations on GA launch of Custom Workflows focussed on",
+    "headline": "GA launch of Custom Workflows",
     "excerpt": "reminders! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customisation helping them stay on top of their activities and collaborate effectively…",
     "message": "reminders! As a result of your passion, hard work and team work, our customers are now able to set up reminders with so much flexibility and customisation helping them stay on top of their activities and collaborate effectively for quicker cash flows. THANK YOU - Jyoti"
   },
@@ -1566,15 +1396,14 @@ export const SPOTLIGHTS = [
     "image": "019.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Kelly Vincent",
     "date": "2020-12-21",
     "themes": [
       "Speaking & Mentoring"
     ],
-    "featured": false,
-    "title": "Hackathon demo",
+    "featured": true,
+    "title": "Global Engineering Days (GED) Hackathon demo",
     "text": "Customer service is not a department... it's an attitude. The passion and dedication that you exhibited while being involved in the global engineering days hackathon to solve for our customers truly demonstrates the same. You have been such an inspiration and kudos for solving one of the customer pa",
-    "headline": "Hackathon demo",
+    "headline": "Global Engineering Days (GED) Hackathon demo",
     "excerpt": "Customer service is not a department... it's an attitude. The passion and dedication that you exhibited while being involved in the global engineering days hackathon to solve for our customers truly demonstrates the same.",
     "message": "Customer service is not a department... it's an attitude. The passion and dedication that you exhibited while being involved in the global engineering days hackathon to solve for our customers truly demonstrates the same. You have been such an inspiration and kudos for solving one of the customer pain points in such a limited time during the GED week. There is no doubt that our customers will be truly delighted and benefitted with this being solved. -Kelly"
   },
@@ -1583,15 +1412,14 @@ export const SPOTLIGHTS = [
     "image": "018.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Nate Tippie",
     "date": "2020-10-01",
     "themes": [
       "Recognition"
     ],
-    "featured": false,
-    "title": "Consumer-grade work",
+    "featured": true,
+    "title": "Consumer-grade work (from Nate Tippie, Founder of Chronobooks and Ex-Product Manager, Intuit)",
     "text": "Reeti's work is \"consumer grade\" all the way through. Her PRs delight customers, but even her internal communications and presentations are are so professional and polished that they could exported externally at any time. Her work is masterful and I have much to learn from it!",
-    "headline": "Reeti's work is \"consumer grade\" all the way through.",
+    "headline": "Consumer-grade work (from Nate Tippie, Founder of Chronobooks and Ex-Product Manager, Intuit)",
     "excerpt": "Her PRs delight customers, but even her internal communications and presentations are are so professional and polished that they could exported externally at any time. Her work is masterful and I have much to learn from it!",
     "message": "customers, but even her internal communications and presentations are are so professional and polished that they could exported externally at any time. Her work is masterful and I have much to learn from it!"
   },
@@ -1600,12 +1428,11 @@ export const SPOTLIGHTS = [
     "image": "017.webp",
     "kind": "spotlight",
     "value": "Customer Obsession",
-    "giver": "Abhish Agarwal",
     "date": "2020-09-14",
     "themes": [
       "Speaking & Mentoring"
     ],
-    "featured": false,
+    "featured": true,
     "title": "Reeti as part of Batch and back up team has been an amazing…",
     "text": "Reeti as part of Batch and back up team has been an amazing team mate. She is always driven by customer obsession and really deliver awesome features. Recently she delivered Batch reclassification with little or no help. She did all end to end feature deliverables including identification of depende",
     "headline": "Reeti as part of Batch and back up team has been an amazing…",
@@ -1617,7 +1444,6 @@ export const SPOTLIGHTS = [
     "image": "016.webp",
     "kind": "spotlight",
     "value": "Stronger Together",
-    "giver": "Kajal Arunkumar",
     "date": "2020-09-03",
     "themes": [
       "Speaking & Mentoring"
@@ -1634,7 +1460,6 @@ export const SPOTLIGHTS = [
     "image": "015.webp",
     "kind": "spotlight",
     "value": "Deliver Awesome",
-    "giver": "Kelly Vincent",
     "date": "2020-08-29",
     "themes": [
       "Recognition"
@@ -1651,7 +1476,6 @@ export const SPOTLIGHTS = [
     "image": "014.webp",
     "kind": "spotlight",
     "value": "Be Passionate",
-    "giver": "Anil Sharma",
     "date": "2020-08-25",
     "themes": [
       "Community & Culture"
@@ -1668,7 +1492,6 @@ export const SPOTLIGHTS = [
     "image": "013.webp",
     "kind": "spotlight",
     "value": "Win Together",
-    "giver": "Kajal Arunkumar",
     "date": "2020-07-20",
     "themes": [
       "Community & Culture",
@@ -1686,7 +1509,6 @@ export const SPOTLIGHTS = [
     "image": "011.webp",
     "kind": "spotlight",
     "value": "Be Passionate",
-    "giver": "Govinda Sambamurthy",
     "date": "2020-05-20",
     "themes": [
       "Community & Culture"
@@ -1703,7 +1525,6 @@ export const SPOTLIGHTS = [
     "image": "012.webp",
     "kind": "spotlight",
     "value": "Deliver Awesome",
-    "giver": "Mandar Kale",
     "date": "2020-05-20",
     "themes": [
       "Recognition"
@@ -1720,7 +1541,6 @@ export const SPOTLIGHTS = [
     "image": "010.webp",
     "kind": "spotlight",
     "value": "Deliver Awesome",
-    "giver": "Mandar Kale",
     "date": "2020-04-24",
     "themes": [
       "Recognition"
@@ -1737,7 +1557,6 @@ export const SPOTLIGHTS = [
     "image": "009.webp",
     "kind": "spotlight",
     "value": "Be Passionate",
-    "giver": "Govinda Sambamurthy",
     "date": "2020-03-01",
     "themes": [
       "Community & Culture"
@@ -1754,7 +1573,6 @@ export const SPOTLIGHTS = [
     "image": "008.webp",
     "kind": "spotlight",
     "value": "Deliver Awesome",
-    "giver": "Monica Miyasato",
     "date": "2020-02-20",
     "themes": [
       "Product Launches"
@@ -1771,7 +1589,6 @@ export const SPOTLIGHTS = [
     "image": "007.webp",
     "kind": "spotlight",
     "value": "Be Passionate",
-    "giver": "Rocio Montes",
     "date": "2019-12-12",
     "themes": [
       "Community & Culture",
@@ -1782,14 +1599,13 @@ export const SPOTLIGHTS = [
     "text": "We put together Intuit's first ever Open Source Day. This is a HUGE milestone for our engineering community and will set an example for the rest of the Intuit offices around the world. Thank you so much for your time and effort to put this event together, It was a huge success. (Sorry for the delay",
     "headline": "Open Source Day",
     "excerpt": "We put together Intuit's first ever Open Source Day. This is a HUGE milestone for our engineering community and will set an example for the rest of the Intuit offices around the world.",
-    "message": "We put together Intuit's first ever Open Source Day. This is a HUGE milestone for our engineering community and will set an example for the rest of the Intuit offices around the world. Thank you so much for your time and effort to put this event together, It was a huge success. (Sorry for the delay in sending this recognition, we got some miscommunication on my team as to who was going to send the spotlights)"
+    "message": "We put together Intuit's first ever Open Source Day. This is a HUGE milestone for our engineering community and will set an example for the rest of the Intuit offices around the world. Thank you so much for your time and effort to put this event together, It was a huge success."
   },
   {
     "id": 5,
     "image": "005.webp",
     "kind": "spotlight",
     "value": "Be Passionate",
-    "giver": "Ted Drake",
     "date": "2019-11-08",
     "themes": [
       "Recognition"
@@ -1806,7 +1622,6 @@ export const SPOTLIGHTS = [
     "image": "006.webp",
     "kind": "spotlight",
     "value": "Win Together",
-    "giver": "Ted Drake",
     "date": "2019-11-08",
     "themes": [
       "Recognition"
@@ -1823,7 +1638,6 @@ export const SPOTLIGHTS = [
     "image": "004.webp",
     "kind": "spotlight",
     "value": "Be Passionate",
-    "giver": "Rocio Montes",
     "date": "2019-10-28",
     "themes": [
       "Speaking & Mentoring"
@@ -1840,24 +1654,22 @@ export const SPOTLIGHTS = [
     "image": "003.webp",
     "kind": "spotlight",
     "value": "Deliver Awesome",
-    "giver": "Govinda Sambamurthy",
     "date": "2019-09-20",
     "themes": [
       "Recognition"
     ],
     "featured": false,
     "title": "Product downgrade flows",
-    "text": "Hi Faiz, Prashant and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation. Adding additional blockers such as GSheets i",
+    "text": "Hi ██████, ███████ and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation. Adding additional blockers such as GSheets i",
     "headline": "Product downgrade flows",
-    "excerpt": "Hi Faiz, Prashant and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation.",
-    "message": "Hi Faiz, Prashant and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation. Adding additional blockers such as GSheets is so easy and modular in nature. Thank you for fixing one of the critical tech debts that we wanted to avoid in FY19Q4, within a quarter... Good job and looking forward to an \"encore\" Thanks Govinda"
+    "excerpt": "Hi ██████, ███████ and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation.",
+    "message": "Hi ██████, ███████ and Reeti, Thank you for driving the tech track of decomposing the soft blockers in the product downgrade flows so well. Thanks to your effort, we now have a clean separation of concerns and we've handled the these blockers in isolation. Adding additional blockers such as GSheets is so easy and modular in nature. Thank you for fixing one of the critical tech debts that we wanted to avoid in FY19Q4, within a quarter... Good job and looking forward to an \"encore\" Thanks Govinda"
   },
   {
     "id": 2,
     "image": "002.webp",
     "kind": "spotlight",
     "value": "Win Together",
-    "giver": "James Thomas",
     "date": "2018-07-25",
     "themes": [
       "Recognition"
@@ -1874,7 +1686,6 @@ export const SPOTLIGHTS = [
     "image": "001.webp",
     "kind": "spotlight",
     "value": "Deliver Awesome",
-    "giver": "Naina Agarwal",
     "date": "2018-07-04",
     "themes": [
       "Recognition"

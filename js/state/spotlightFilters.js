@@ -21,7 +21,7 @@ export function matchesFilters(item, f) {
   if (f.value !== SPOTLIGHT.ALL && item.value !== f.value) return false;
   const q = f.query.trim().toLowerCase();
   if (q) {
-    const haystack = [item.title, item.value, item.giver, item.text, ...item.themes].filter(Boolean).join(' ').toLowerCase();
+    const haystack = [item.title, item.value, item.text, ...item.themes].filter(Boolean).join(' ').toLowerCase();
     if (!haystack.includes(q)) return false;
   }
   return true;

@@ -4,8 +4,7 @@ export const INTUIT = Object.freeze({
   period: 'Jul 2019 \u2013 Present',
   duration: '7 yrs 5 mos',
   image: 'images/intuit-picture.jpeg',
-  summary: 'Building products for mid-market businesses, from full-stack product features to AI-native experiences and agents.',
-  path: Object.freeze(['Software Engineer 1', 'Software Engineer 2', 'Senior Software Engineer', 'Staff Software Engineer']),
+  summary: 'From building state-of-the-art product experiences and full-stack AI-native flows to pioneering core AI/ML and Agentic AI, I now build production AI systems that simplify financial complexity for mid-market businesses by pairing Data, AI and Human Intelligence.',
 });
 
 export const EXPERIENCE = Object.freeze([
@@ -30,7 +29,7 @@ export const EXPERIENCE = Object.freeze([
     id: 'senior-2025',
     role: 'Senior Software Engineer, AI/ML Builder',
     org: 'Intuit',
-    team: 'AI Sciences & AI Smart Products, later the Mid-Market AI Org',
+    team: 'Intuit AI Sciences & AI Smart Products Team, later the Mid-Market AI Org',
     period: 'May 2025 – Aug 2026',
     summary:
       'Part of the A2D (AI, Data & Analytics) org, which merged into a dedicated Mid-Market AI org combining breakthrough research with customer-driven, AI-native product development.',

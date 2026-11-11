@@ -20,6 +20,9 @@
 }
 
 @media (max-width: 820px) {
+  .milestone__row--top, .milestone__row--kudos { grid-template-columns: 1fr; }
+  .winner { grid-template-columns: 1fr; }
+  .winner__body { max-height: none; }
   .about__grid { grid-template-columns: 1fr; }
   .about__figure { position: static; max-width: 420px; margin-inline: auto; }
   .about-page { grid-template-columns: 1fr; }

@@ -84,7 +84,7 @@
 .honor-dialog__org { font-weight: 600; color: var(--c-accent-dark); }
 .honor-dialog__detail { color: var(--c-muted); line-height: 1.7; }
 
-/* Kudoboard: horizontal sub-section inside the 2024 group */
+/* (legacy) Kudoboard row */
 .kudos { margin: 0 0 28px; padding: 18px 18px 6px; border: 1px solid color-mix(in srgb, var(--c-accent) 35%, var(--c-border)); border-radius: 18px; background: linear-gradient(150deg, var(--c-tint), color-mix(in srgb, var(--c-accent) 8%, var(--c-tint))); }
 .kudos__title { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 14px; font: 800 1.2rem var(--font-sans); }
 .kudos__title svg { color: var(--c-accent-dark); }
@@ -92,3 +92,30 @@
 .kudos__row { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; padding: 2px 2px 12px; }
 .kudos .spot__media { height: 260px; }
 .kudos .spot__head { min-height: 96px; }
+
+/* Customer Obsession winners slide: its own highlighted row */
+.winner { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); overflow: hidden; border-radius: 20px; border: 1px solid color-mix(in srgb, var(--c-accent) 40%, var(--c-border)); background: var(--c-surface); box-shadow: var(--shadow); }
+.winner__media { position: relative; display: block; width: 100%; padding: 0; border: 0; background: var(--c-tint); cursor: zoom-in; }
+.winner__media img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.winner__media:hover .spot__zoom, .winner__media:focus-visible .spot__zoom { opacity: 1; }
+.winner__body { display: grid; align-content: start; gap: 10px; padding: 24px 28px; max-height: 620px; overflow: auto; }
+.winner__title { font: 800 1.35rem/1.3 var(--font-sans); }
+.winner__text { font-size: 1.02rem; line-height: 1.75; color: var(--c-text); }
+
+/* 5 Years of Tech Excellence section */
+.milestone__row { display: grid; gap: 20px; margin-bottom: 20px; }
+.milestone__row--top { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.milestone__row--kudos { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.milestone__card { display: grid; grid-template-rows: auto 1fr; margin: 0; overflow: hidden; border-radius: 18px; border: 1px solid var(--c-border); background: var(--c-surface); box-shadow: var(--shadow); }
+.milestone__shot { display: block; width: 100%; padding: 0; border: 0; background: linear-gradient(135deg, var(--c-tint), color-mix(in srgb, var(--c-accent) 10%, var(--c-tint))); cursor: zoom-in; }
+.milestone__row--top .milestone__shot { height: 360px; }
+.milestone__row--kudos .milestone__shot { height: 300px; }
+.milestone__shot img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.milestone__body { display: grid; align-content: start; gap: 8px; padding: 18px 22px 22px; }
+.milestone__body h3 { font: 800 1.2rem var(--font-sans); }
+.milestone__body p { color: var(--c-muted); line-height: 1.7; }
+.milestone__quote { font: 400 1.05rem/1.75 var(--font-serif); color: var(--c-text) !important; }
+.milestone__card--kudos figcaption { padding: 12px 18px 16px; font-weight: 700; color: var(--c-accent-dark); }
+
+/* Black box over a hidden name inside message text */
+.redacted { display: inline-block; vertical-align: -0.12em; min-width: 3.2em; height: 1.05em; border-radius: 2px; background: #222; }

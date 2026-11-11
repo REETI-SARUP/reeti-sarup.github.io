@@ -3,7 +3,8 @@ import { HONORS } from '../data/honors.js';
 import { SPOTLIGHTS as ALL_SPOTLIGHTS } from '../data/spotlights.js';
 
 /** Kudoboard notes live in their own sub-section below the Spotlights. */
-const SPOTLIGHTS = ALL_SPOTLIGHTS.filter((s) => s.kind !== 'kudoboard');
+const SPOTLIGHTS = ALL_SPOTLIGHTS.filter((s) => s.kind !== 'kudoboard' && s.kind !== 'winners');
+const WINNER = ALL_SPOTLIGHTS.find((s) => s.kind === 'winners');
 const KUDOS = ALL_SPOTLIGHTS.filter((s) => s.kind === 'kudoboard');
 import { applyFilters, DEFAULT_FILTERS, sanitizeFilters, yearFacets, themeFacets, valueFacets } from '../state/spotlightFilters.js';
 import { formatMonthYear, pluralize, yearOf } from '../utils/format.js';
@@ -38,7 +39,7 @@ function HonorCard(honor, onOpen) {
 
 export function TopHonors() {
   const dialog = createHonorDialog();
-  const top = HONORS.filter((x) => x.top);
+  const top = HONORS.filter((x) => x.top).sort((a, b) => b.year - a.year);
   const more = HONORS.filter((x) => !x.top);
   return Block({ id: 'top-awards', wide: true },
     h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.trophy, { size: 22 }), 'Top awards'),
@@ -65,10 +66,10 @@ function SpotlightCard(item, onOpen) {
 }
 
 export function TopSpotlights(lightbox) {
-  const featured = applyFilters(SPOTLIGHTS.filter((s) => s.featured), DEFAULT_FILTERS);
+  const featured = applyFilters(ALL_SPOTLIGHTS.filter((s) => s.featured && s.kind !== 'kudoboard'), DEFAULT_FILTERS);
   return Block({ id: 'top-spotlights', tone: 'tint', wide: true },
     h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.star, { size: 22 }), 'Top Spotlights'),
-    h('p', { class: 'section__lead reveal' }, 'Standout recognition from leaders and peers.'),
+    h('p', { class: 'section__lead reveal' }, 'Standout recognition from leaders and peers, newest first.'),
     h('div', { class: 'spot-grid spot-grid--top' }, featured.map((item, i) => SpotlightCard(item, (t) => lightbox.open(featured, i, t)))));
 }
 
@@ -106,7 +107,7 @@ export function SpotlightArchive(lightbox) {
   };
 
   function renderControls() {
-    const search = h('input', { class: 'filter__search', type: 'search', placeholder: 'Search by project, person or theme…', value: filters.query, 'aria-label': 'Search recognition' });
+    const search = h('input', { class: 'filter__search', type: 'search', placeholder: 'Search by project or theme…', value: filters.query, 'aria-label': 'Search recognition' });
     let timer;
     search.addEventListener('input', () => {
       clearTimeout(timer);
@@ -131,7 +132,7 @@ export function SpotlightArchive(lightbox) {
         groupGrid = h('div', { class: 'spot-grid' });
         archive.append(h('section', { class: 'year-group', 'aria-label': `${year} recognition` },
           h('h3', { class: 'year-group__title' }, String(year), h('small', {}, pluralize(count, 'recognition'))),
-          year === KUDOS_YEAR && KudoboardRow(lightbox, filters), groupGrid));
+          groupGrid));
       }
       const index = cursor;
       groupGrid.append(SpotlightCard(item, (t) => lightbox.open(results, index, t)));
@@ -165,21 +166,61 @@ export function SpotlightArchive(lightbox) {
     controls, summary, archive, sentinel);
 }
 
-const KUDOS_YEAR = 2024;
-
-/** Horizontal Kudoboard sub-section shown inside the 2024 group (the 5-year milestone, Aug 2024). */
-function KudoboardRow(lightbox, filters) {
-  const kudos = applyFilters(KUDOS, filters);
-  if (!kudos.length) return null;
-  return h('div', { class: 'kudos' },
-    h('h4', { class: 'kudos__title' }, icon(ICON_PATHS.people, { size: 20 }), 'Kudoboard: 5 years at Intuit',
-      h('small', {}, `Aug 2024 \u00b7 ${pluralize(kudos.length, 'note')}`)),
-    h('div', { class: 'kudos__row' }, kudos.map((item, i) => SpotlightCard(item, (t) => lightbox.open(kudos, i, t)))));
+/** Turn runs of \u2588 in a message into real black boxes, so hidden names look like a rectangle over the text. */
+function withRedactions(text) {
+  return text.split(/(\u2588+)/).map((part) => (/^\u2588+$/.test(part) ? h('span', { class: 'redacted', 'aria-label': 'name hidden' }, '\u00a0'.repeat(Math.max(4, part.length))) : part));
 }
 
-export function KudoboardSection(lightbox) {
-  return Block({ id: 'kudoboard', tone: 'tint', wide: true },
-    h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.people, { size: 22 }), 'Kudoboard: 5 years at Intuit'),
-    h('p', { class: 'section__lead reveal' }, 'Notes from colleagues celebrating my 5-year milestone, August 2024.'),
-    h('div', { class: 'spot-grid' }, KUDOS.map((item, i) => SpotlightCard(item, (t) => lightbox.open(KUDOS, i, t)))));
+/** The FY23 Q4 Customer Obsession winners slide, shown as its own highlighted row (image plus the full write-up). */
+export function WinnerRow(lightbox) {
+  if (!WINNER) return null;
+  const view = h('button', { class: 'winner__media', type: 'button', 'aria-label': 'Zoom the FY23 Q4 Customer Obsession winners slide' },
+    h('img', { src: cardSrc(WINNER), alt: 'FY23 Q4 Customer Obsession Winners slide', loading: 'lazy', decoding: 'async' }),
+    h('span', { class: 'spot__zoom' }, 'Click to zoom'));
+  view.addEventListener('click', () => lightbox.open([WINNER], 0, view));
+  return Block({ id: 'winner', tone: 'tint', wide: true },
+    h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.star, { size: 22 }), 'Customer Obsession Winner, FY23 Q4'),
+    h('article', { class: 'winner reveal' },
+      view,
+      h('div', { class: 'winner__body' },
+        h('div', { class: 'spot__tags' }, h('span', { class: 'chip chip--accent' }, 'Customer Obsession'), h('span', { class: 'chip chip--gold' }, 'FY23 Q4')),
+        h('h3', { class: 'winner__title' }, 'Recognized as a quarterly Customer Obsession winner'),
+        h('p', { class: 'winner__text' }, withRedactions(WINNER.message)))));
+}
+
+const CEO_MESSAGE = 'Congratulations! I\u2019m proud to celebrate your Intuit anniversary and recognize your accomplishments. I want to personally thank you for your commitment to powering prosperity around the world. I hope we continue to celebrate many more years and successes together at Intuit.';
+const MILESTONE_AWARD = 'images/awards/trophies/five-years.webp';
+const MILESTONE_SLIDE = ALL_SPOTLIGHTS.find((s) => s.kind === 'milestone');
+const KUDOS_PICKS = [
+  { id: 85, caption: 'The Kudoboard cover' },
+  { id: 111, caption: 'Notes from colleagues' },
+  { id: 112, caption: 'More notes from colleagues' },
+];
+
+/**
+ * "5 Years of Tech Excellence" section, after all Spotlights.
+ * Row 1: the award photo and the milestone message from the CEO. Row 2: the distinct Kudoboard screenshots.
+ */
+export function MilestoneSection(lightbox) {
+  const zoomable = (src, alt, items, index) => {
+    const btn = h('button', { class: 'milestone__shot', type: 'button', 'aria-label': `Zoom: ${alt}` }, h('img', { src, alt, loading: 'lazy', decoding: 'async' }));
+    btn.addEventListener('click', () => lightbox.open(items, index, btn));
+    return btn;
+  };
+  const award = [{ src: MILESTONE_AWARD, title: '5 Years of Excellence Award', caption: 'Intuit, 2019 to 2024' }];
+  const slide = MILESTONE_SLIDE ? [{ src: cardSrc(MILESTONE_SLIDE), title: '5 Year Milestone message from the CEO', caption: 'July 22, 2024' }] : [];
+  const kudos = KUDOS_PICKS.map((k) => ALL_SPOTLIGHTS.find((s) => s.id === k.id)).filter(Boolean)
+    .map((s, i) => ({ src: cardSrc(s), title: KUDOS_PICKS[i].caption, caption: 'Kudoboard' }));
+
+  return Block({ id: 'milestone-5y', tone: 'tint', wide: true },
+    h('h2', { class: 'subhead reveal' }, icon(ICON_PATHS.star, { size: 22 }), '5 Years of Tech Excellence Milestone at Intuit'),
+    h('div', { class: 'milestone__row milestone__row--top reveal' },
+      h('article', { class: 'milestone__card' },
+        zoomable(MILESTONE_AWARD, '5 Years of Excellence Award', award, 0),
+        h('div', { class: 'milestone__body' }, h('h3', {}, '5 Years of Excellence Award'), h('p', {}, 'Recognition for five years of tech excellence and contribution, 2019 to 2024.'))),
+      h('article', { class: 'milestone__card' },
+        slide.length ? zoomable(slide[0].src, 'Milestone message from the CEO', slide, 0) : null,
+        h('div', { class: 'milestone__body' }, h('h3', {}, 'Message from the CEO'), h('p', { class: 'milestone__quote' }, CEO_MESSAGE)))),
+    h('div', { class: 'milestone__row milestone__row--kudos reveal' },
+      kudos.map((k, i) => h('figure', { class: 'milestone__card milestone__card--kudos' }, zoomable(k.src, k.title, kudos, i), h('figcaption', {}, `Kudoboard: ${k.title}`)))));
 }

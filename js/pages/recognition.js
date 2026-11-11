@@ -1,5 +1,5 @@
 import { PageHero } from '../components/page.js';
-import { TopHonors, TopSpotlights, SpotlightArchive } from '../components/spotlights.js';
+import { TopHonors, TopSpotlights, SpotlightArchive, MilestoneSection } from '../components/spotlights.js';
 import { createLightbox } from '../components/lightbox.js';
 import { SPOTLIGHTS } from '../data/spotlights.js';
 
@@ -10,5 +10,6 @@ export function renderRecognition() {
     TopHonors(),
     TopSpotlights(lightbox),
     SpotlightArchive(lightbox),
+    MilestoneSection(lightbox),
   ];
 }
