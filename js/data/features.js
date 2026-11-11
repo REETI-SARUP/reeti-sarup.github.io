@@ -11,7 +11,7 @@ export const CAREERS_FEATURE = Object.freeze({
   images: [
     { src: 'images/linkedin/careers-feature.webp', alt: 'Meet the minds behind Intuit intelligence, Intuit Careers' },
     { src: 'images/linkedin/careers-meet-reeti.webp', alt: 'Meet Reeti, Intuit Careers profile' },
-    { src: 'images/linkedin/careers-ad.webp', alt: 'Intuit promoted post: Can technologists own financial intelligence?' },
+    { src: 'images/linkedin/careers-ad.webp', alt: 'Intuit promoted post: Can technologists own financial intelligence?', static: true },
   ],
 });
 

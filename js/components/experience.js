@@ -24,7 +24,7 @@ function RoleCard(role) {
       h('div', {}, h('h3', { class: 'role__title' }, role.role), h('p', { class: 'role__org' }, role.team)),
       h('span', { class: 'role__period' }, role.period, role.current && Chip('Current', 'chip--accent'))),
     h('p', { class: 'role__summary' }, role.summary),
-    Disclosure({ label: 'Key Highlights', defaultOpen: role.current },
+    Disclosure({ label: 'Key Highlights', defaultOpen: true },
       h('ul', { class: 'bullets' }, role.highlights.map((t) => h('li', {}, t))),
       role.tech.length > 0 && h('ul', { class: 'chips', role: 'list' }, role.tech.map((t) => h('li', {}, Chip(t))))));
 }

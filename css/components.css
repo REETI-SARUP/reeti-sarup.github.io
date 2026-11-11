@@ -194,6 +194,8 @@
 .feature-shots__item:not(:first-child) { height: 420px; background: var(--c-tint); }
 .feature-shots__item:not(:first-child) img { height: 100%; object-fit: contain; }
 .feature-shots__item { padding: 0; border: 0; border-radius: 14px; overflow: hidden; background: var(--c-surface); box-shadow: var(--shadow); cursor: zoom-in; }
+.feature-shots__item--static { cursor: default; justify-self: center; height: 300px !important; width: auto; }
+.feature-shots__item--static img { width: auto; height: 100%; }
 .feature-shots__item img { display: block; width: 100%; height: auto; }
 .feature-bio { max-width: 52em; margin-top: 24px; display: grid; gap: 12px; color: var(--c-muted); font-size: 1.05rem; line-height: 1.75; }
 
@@ -208,3 +210,5 @@
 .pub .card__title { color: var(--c-text); }
 .pub__date { font-size: 0.88rem; color: var(--c-muted); font-weight: 400; }
 .pub__authors { margin: 2px 0 8px; font-size: 0.95rem; font-weight: 400; color: var(--c-muted); }
+
+.edu__chips { display: flex; flex-wrap: wrap; gap: 8px; }

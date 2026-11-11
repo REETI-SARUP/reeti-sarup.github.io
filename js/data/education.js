@@ -38,9 +38,11 @@ export const EDUCATION = Object.freeze([
     degree: 'Senior Secondary (Class 12) and Secondary (Class 10)',
     period: 'Graduated 2015',
     grade: '96.6% in Class 12 · CGPA 10/10 in Class 10',
+    chips: ['Deputy Student Head Representative'],
     image: 'images/school-picture.jpeg',
     points: [
-      'Deputy Head Girl; Model United Nations Chairperson.',
+      'Deputy Head Girl.',
+      'Model United Nations Chairperson.',
       'CBSE Merit Certificate for being in the top 0.1% in English nationally.',
       '99% score in Computer Science with C++.',
     ],

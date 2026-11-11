@@ -18,7 +18,9 @@ export function createHonorDialog() {
       opener = trigger ?? null;
       const src = honor.full ?? honor.image;
       replaceChildren(body,
-        src
+        honor.gallery?.length
+          ? h('div', { class: 'honor-dialog__gallery' }, honor.gallery.map((g) => h('img', { class: 'honor-dialog__img', src: g, alt: honor.title })))
+        : src
           ? h('img', { class: 'honor-dialog__img', src, alt: honor.title })
           : h('div', { class: 'honor-dialog__tile', 'aria-hidden': 'true' }, icon(ICON_PATHS[honor.icon] ?? ICON_PATHS.star, { size: 84 })),
         h('div', { class: 'honor-dialog__text' },

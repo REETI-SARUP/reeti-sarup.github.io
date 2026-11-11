@@ -119,3 +119,6 @@
 
 /* Black box over a hidden name inside message text */
 .redacted { display: inline-block; vertical-align: -0.12em; min-width: 3.2em; height: 1.05em; border-radius: 2px; background: #222; }
+
+.honor-dialog__gallery { display: grid; gap: 8px; align-content: start; max-height: 80vh; overflow: auto; background: var(--c-tint); }
+.honor-dialog__gallery .honor-dialog__img { height: auto; max-height: none; }

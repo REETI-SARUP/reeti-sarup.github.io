@@ -35,6 +35,6 @@ export const RESEARCH_PROJECTS = Object.freeze([
     text: 'Time-series forecasting models and analysis of air quality data.', tech: ['Time Series', 'Forecasting'] },
   { id: 'startup-gauge', icon: 'trophy', tag: 'Smart India Hackathon 2018', title: 'Startup Gauge', org: '4th place, Protsahan Award', period: '2018',
     text: 'Web app that measures the impact of Indian startups (innovation, jobs, wealth creation); MEAN stack plus Python sentiment analysis.', tech: ['MEAN', 'Python', 'Sentiment Analysis'] },
-  { id: 'news-bias', icon: 'doc', tag: 'IGDTUW final-year project', title: 'Bias in Online News', org: 'Deep learning', period: '2018 \u2013 2019',
+  { id: 'news-bias', icon: 'doc', tag: 'IGDTUW final-year project', title: 'Deep Learning Application for Analyzing and Quantifying Potential Bias in Online News Articles', org: 'Deep learning', period: '2018 \u2013 2019',
     text: 'Analyzing and quantifying bias in news articles with a multi-classifier deep-learning LSTM model.', tech: ['LSTM', 'NLP'] },
 ]);

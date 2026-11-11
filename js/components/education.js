@@ -10,7 +10,7 @@ function EduCard(e) {
       h('p', { class: 'card__meta' }, e.period),
       h('h3', { class: 'card__title' }, e.school),
       h('p', { class: 'edu__degree' }, e.degree),
-      Chip(e.grade, 'chip--gold'),
+      h('div', { class: 'edu__chips' }, Chip(e.grade, 'chip--gold'), (e.chips ?? []).map((c) => Chip(c, 'chip--accent'))),
       h('ul', { class: 'bullets' }, e.points.map((p) => h('li', {}, p))),
       e.gallery && h('div', { class: 'edu__gallery' }, e.gallery.map((src) => h('img', { src, alt: 'Graduation photo', loading: 'lazy', decoding: 'async' })))));
 }
