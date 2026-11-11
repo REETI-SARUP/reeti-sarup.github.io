@@ -8,7 +8,7 @@ export const WEBINARS = Object.freeze([
     series: 'Intuit Tech Stories',
     date: 'July 3, 2025 · 9 PM IST',
     summary: 'How Intuit embeds AI into every layer of product development and developer experience: democratizing AI tools, accelerating engineering velocity and scaling smarter systems, from agentic systems to developer tooling and feedback loops.',
-    panel: 'With Sid Kumar (Principal AI Scientist), Uttam Ramamurthy (Principal Software Engineer, Builder) and host Radhika Kannan (Group Manager, TPM).',
+    panel: 'Panelists: Reeti Sarup, Sid Kumar (Principal AI Scientist) and Uttam Ramamurthy (Principal Software Engineer, Builder), with host Radhika Kannan (Group Manager, TPM).',
     images: ['images/linkedin/webinar-ai-first.webp', 'images/linkedin/webinar-ai-first-poster.webp'],
     links: [
       { label: 'Intuit India announcement', href: `${P}/engineering-ai-artificialintelligence-share-7341022329566613504-g0bs/` },
