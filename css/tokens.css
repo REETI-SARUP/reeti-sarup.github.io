@@ -1,0 +1,38 @@
+/* Design tokens: colors, type, spacing. Header gradient + teal accent carried over from the previous site. */
+:root {
+  --c-grad-a: #4e4376;
+  --c-grad-b: #2b5876;
+  --c-accent: #11abb0;
+  --c-accent-dark: #0c8589;
+  --c-gold: #b7791f;
+  --c-bg: #ffffff;
+  --c-tint: #f3f5f9;
+  --c-surface: #ffffff;
+  --c-text: #1f2430;
+  --c-muted: #596074;
+  --c-border: #e1e5ee;
+  --c-focus: #11abb0;
+
+  --font-sans: 'Open Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Libre Baskerville', Georgia, serif;
+
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(20, 28, 50, 0.05), 0 10px 28px -12px rgba(20, 28, 50, 0.18);
+  --container: 1120px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --nav-h: 56px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg: #11141d;
+    --c-tint: #171b27;
+    --c-surface: #1c2131;
+    --c-text: #eceff7;
+    --c-muted: #a3abc0;
+    --c-border: #2b3248;
+    --c-accent: #3cc7cb;
+    --c-gold: #e6b04c;
+    --shadow: 0 10px 28px -12px rgba(0, 0, 0, 0.6);
+  }
+}

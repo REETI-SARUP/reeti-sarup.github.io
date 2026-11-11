@@ -1,0 +1,11 @@
+{
+  "name": "reeti-sarup-site",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal portfolio: static, dependency-free ES-module site for GitHub Pages.",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test tests/"
+  }
+}
